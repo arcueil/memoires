@@ -50633,5 +50633,33 @@
    "stan:33138"
   ],
   "move_id": 1975
+ },
+ {
+  "action": "Compare the candidate problem's {geometry class, method family, dimension regime, budget} against the precedent's local frame before applying the precedent",
+  "discriminates": "precedent-applicable (frames match) vs over-transfer (frame mismatch)",
+  "expected_findings": "if frames match: precedent's outcome is informative, adopt with its recorded confidence; if any axis mismatches: precedent is weak evidence at best — revert to mechanism-level reasoning and lower confidence one tier",
+  "support": 1,
+  "n_threads": 1,
+  "situations": [
+   "An agent armed with field-note precedents over-transfers them across geometry/method boundaries at HIGH confidence (~25% of its errors): e.g. 'Laplace succeeded on eight-schools' is used to predict success on Neal's funnel; 'diag-IMM cleared a kappa=1000 Gaussian' is used to predict success on a stiff ODE posterior. In each case the precedent raises confidence when it should lower it."
+  ],
+  "leaves": [
+   "Correct action: before citing a precedent, explicitly check whether the geometry class, method family, dimension regime, and budget of the candidate match the precedent's local frame. If ANY axis mismatches, demote the precedent to weak evidence and revert to mechanism-level reasoning. Do not let a precedent raise confidence across a class boundary — it can only lower confidence below what mechanism reasoning gives.",
+   "Observed error pattern (arcueil 2026-07 experiment): 'Laplace succeeded on eight-schools' applied to Neal's funnel — eight-schools has mild hierarchical structure (J=8, bounded sigma); Neal's funnel has near-zero-sigma collapse geometry (kappa→0 limit). Frame mismatch on geometry class. 'diag-IMM cleared kappa=1000 Gaussian' applied to stiff ODE posterior — the Gaussian has analytically known curvature; the stiff ODE posterior has trajectory-dependent curvature the mass matrix cannot represent. Frame mismatch on method family and curvature type."
+  ],
+  "branches": [
+   {
+    "if_observe": "geometry class, method family, dimension regime, AND budget all match the precedent's local frame",
+    "then": "Precedent is informative: adopt it with its recorded confidence level"
+   },
+   {
+    "if_observe": "any axis mismatches (geometry class differs, or method family differs, or dimension regime is out of scope, or budget is incomparable)",
+    "then": "Precedent is weak evidence at best: revert to mechanism-level reasoning and lower confidence one tier relative to what mechanism reasoning gives; never let the precedent raise confidence"
+   }
+  ],
+  "sources": [
+   "first-party:arcueil-transfer-experiment-2026-07"
+  ],
+  "move_id": 1976
  }
 ]
