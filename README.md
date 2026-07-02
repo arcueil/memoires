@@ -2,7 +2,7 @@
 
 The published corpus. **Apex → claims → practical → moves**, depth measured from embeddings; recs rigorously validated (error-dense class swept); cross-checked against the human-curated **pymc-labs peer-L1** (`dist/pymc_L1/`, gap-fillers merged in).
 
-0. **[Super-axioms](SUPER_AXIOMS.md)** — 6 grand principles.
+0. **[Super-axioms](SUPER_AXIOMS.md)** — 7 grand principles.
 1. **[Claims spine](CLAIMS_SPINE.md)** — 82 mid-level principles (the *why*).
 2. **Practical layer** — bidirectional recs + attached moves (per-page below).
 3. **[pymc-labs peer-L1](pymc_L1/README.md)** — vetted external knowledge (techniques/API + contradictions audit).
@@ -29,4 +29,4 @@ The published corpus. **Apex → claims → practical → moves**, depth measure
 
 ---
 
-**Structure:** 6 super-axioms → **82 claims** → **639 recs** → moves. Quality: claims 98.7% faithful · recs error-dense class rigorously swept (3/82 residual, fixed) · moves ~39/40 sound. 446 granular claims retained on disk (never-delete). Gaps closed via pymc-L1 (see `GAPS.md`).
+**Structure:** 7 super-axioms → **82 claims** → **639 recs** → moves. Quality: claims 98.7% faithful · recs error-dense class rigorously swept (3/82 residual, fixed) · moves ~39/40 sound. 446 granular claims retained on disk (never-delete). Gaps closed via pymc-L1 (see `GAPS.md`).

@@ -22,7 +22,7 @@ Cross-comparing the human-curated `pymc-labs/python-analytics-skills` (treated a
 - **Decision/utility** — partly, via model-comparison decision rules (LOO/stacking/elpd_diff) in `dist/pymc_L1/`.
 - **Iterative model-building** — the `workflow` skill supplies Box's-loop as a claim (`dist/pymc_L1/CLAIMS.md`) + build-up ladders.
 - **Prior elicitation** — the `prior-elicitation` skill (SHELF, PreliZ, roulette, maxent) — directly fills this. See `dist/pymc_L1/`.
-Remaining thin: formal decision-theory/utility. The rest are now sourced (from a real curated external L1, not invented).
+Remaining thin at apex level: only formal decision-theory/utility — the iterative-model-building and prior-elicitation gaps are now promoted to a super-axiom (SA7). The rest are now sourced (from a real curated external L1, not invented).
 
 ## How to close them (without fabricating)
 Each gap closes only by adding **real sources** that discuss it, or by running **experiments** (the spike-slab pattern)
