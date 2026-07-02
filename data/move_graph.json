@@ -6739,7 +6739,7 @@
  },
  {
   "action": "Look at the joint posterior of only the real parameters with a pairs plot, dropping the high-dimensional latent/control clutter",
-  "discriminates": "funnel/curvature (continuous neck) vs multimodality (discrete separated blobs) vs banana correlation \u2014 the three give visually distinct pairs signatures",
+  "discriminates": "funnel/curvature (continuous neck) vs multimodality (discrete separated blobs) vs correlation (tilted ellipse) \u2014 the three give visually distinct pairs signatures",
   "expected_findings": "H2 funnel \u2192 a continuous narrowing neck. H3 multimodality \u2192 several discrete clusters, often one cluster per chain. H1 correlation \u2192 a single tilted ellipse (already weakened by the dense-metric failure).",
   "support": 1,
   "n_threads": 1,

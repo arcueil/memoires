@@ -19,9 +19,9 @@ record them here as an honest boundary and a roadmap for future sources / experi
 
 ## ✅ Update (2026-07-01): substantially addressed by the pymc-labs L1
 Cross-comparing the human-curated `pymc-labs/python-analytics-skills` (treated as a peer L1) filled these:
-- **Decision/utility** — partly, via model-comparison decision rules (LOO/stacking/elpd_diff) in `dist/pymc_L1/`.
-- **Iterative model-building** — the `workflow` skill supplies Box's-loop as a claim (`dist/pymc_L1/CLAIMS.md`) + build-up ladders.
-- **Prior elicitation** — the `prior-elicitation` skill (SHELF, PreliZ, roulette, maxent) — directly fills this. See `dist/pymc_L1/`.
+- **Decision/utility** — partly, via model-comparison decision rules (LOO/stacking/elpd_diff) in `pymc_L1/`.
+- **Iterative model-building** — the `workflow` skill supplies Box's-loop as a claim (`pymc_L1/CLAIMS.md`) + build-up ladders.
+- **Prior elicitation** — the `prior-elicitation` skill (SHELF, PreliZ, roulette, maxent) — directly fills this. See `pymc_L1/`.
 Remaining thin at apex level: only formal decision-theory/utility — the iterative-model-building and prior-elicitation gaps are now promoted to a super-axiom (SA7). The rest are now sourced (from a real curated external L1, not invented).
 
 ## How to close them (without fabricating)

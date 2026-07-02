@@ -82,8 +82,8 @@ a calibrated law — misdiagnoses the geometry.
 
 **Nuance.** *Tree-depth saturation without divergences and with normal E-FMI* = an elongated ridge
 whose correlation length exceeds 2^max_treedepth leapfrog steps — a non-identifiability or near-unit
-neighbor-correlation signal (ordinal ridge: R̂~2.3, n_eff~0.00073, ~97% saturation for *all* params;
-single-parameter wandering: R̂~1.95, n_eff~0.00075, ~87% for the one c[k]); raising max_treedepth
+neighbor-correlation signal (ordinal ridge: R̂~2.3, n_eff/iter~0.00073, ~97% saturation for *all* params;
+single-parameter wandering: R̂~1.95, n_eff/iter~0.00075, ~87% for the one c[k]); raising max_treedepth
 buys longer trajectories but never removes the ridge (fix the identifiability, or NCP a fine-grid
 Markov chain). Even a geometrically-correct sampler can need max_treedepth=20 to reach Cauchy tails —
 at default 10 the tail quantiles are *silently* biased downward with no warning. *E-FMI* detects only
@@ -164,7 +164,7 @@ escaped slopes) eliminates the divergences, saturation, and E-BFMI pathology at 
 prior instead over-shrinks relevant and under-concentrates irrelevant slopes (soft failure: E-BFMI
 0.028–0.058, R̂>1.1). For GPs, dense O(N³)/O(N²) makes exact HMC OOM beyond ~1000 points (replace with
 HSGP low-rank or a Matérn state-space form), and latent-field/σ funnels are removed by *analytically
-marginalizing* the field (`multi_normal_cholesky(0, K+σ²I)`), not by a zero-avoiding σ prior.
+marginalizing* the field (`multi_normal(0, K + σ²I) — or multi_normal_cholesky(0, L) with L = cholesky_decompose(K + σ²I)`), not by a zero-avoiding σ prior.
 
 **Conditions.** Gradient samplers; standard Gaussian/collinear observational model, M>N sparse
 regression, or dense-kernel latent GP; the marginalize/approximate routes carry their own

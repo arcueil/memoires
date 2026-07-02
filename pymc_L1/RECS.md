@@ -111,7 +111,7 @@ Rec: besides marginalization (DM1) and reparameterization (DM6), a discrete swit
 ### Prior predictive checking workflow + over-tight-prior link-function saturation
 *📐 portable*
 
-New rec (GAPS-flagged 'iterative workflow / prior substance' area): always run pm.sample_prior_predictive BEFORE fitting and confirm implied outcomes are plausible across the FULL predictor range, not just the training range. Specific failure it catches: a too-narrow slope prior + extrapolated X makes sigmoid(X@beta) hit exactly 0/1 -> log(0)=-inf in the likelihood on new data.
+New rec (GAPS-flagged 'iterative workflow / prior substance' area): always run pm.sample_prior_predictive BEFORE fitting and confirm implied outcomes are plausible across the FULL predictor range, not just the training range. Specific failure it catches: a too-wide (vague) slope prior + extrapolated X makes sigmoid(X@beta) hit exactly 0/1 -> log(0)=-inf in the likelihood on new data.
 
 ---
 ### Exponential-link overflow in Gamma/Beta models

@@ -174,7 +174,7 @@ the inverse **marginal** variance and putting a prior directly on it does **NOT*
 
 **✗ R1** · for an **ICAR / BYM / intrinsic-smoothing-spline** component (Q rank-deficient by design) →
 naively evaluating **log|Q(θ)|** in the log-density does **NOT** work.
-- why: rank-deficient Q has zero eigenvalues → log|Q| = −∞; the correct quantity is the generalized log-determinant τ^{((m−d)/2)}, with d = nullity = number of connected components and m = number of vertices; omitting it silently biases τ (no error thrown).
+- why: rank-deficient Q has zero eigenvalues → log|Q| = −∞; the correct quantity is the generalized-determinant factor τ^{(m−d)/2} (i.e. ((m−d)/2)·log τ in the log-density), with d = nullity (ICAR graph Laplacian: the number of connected components; higher-order intrinsic smoothers: the polynomial null-space dimension, e.g. d=2 for a cubic/RW2 spline) and m = number of vertices; omitting it silently biases τ (no error thrown).
 - conditions: ICAR/BYM/intrinsic splines only; d must be known & fixed at construction; not for positive-definite Q (LMEs, AR(p) with |ρ|<1).
 - tier: 🟢 · source: dansblog:lme
 - efficacy: {divergences: pending · min_ess: pending · ess_per_sec: pending · rmse: pending · coverage: pending}

@@ -1,6 +1,6 @@
 # Bayesian catalog — the guide (3-layer, data-driven) · ✅ ADOPTED 2026-07-01
 
-The published corpus. **Apex → claims → practical → moves**, depth measured from embeddings; recs rigorously validated (error-dense class swept); cross-checked against the human-curated **pymc-labs peer-L1** (`dist/pymc_L1/`, gap-fillers merged in).
+The published corpus. **Apex → claims → practical → moves**, depth measured from embeddings; recs rigorously validated (error-dense class swept); cross-checked against the human-curated **pymc-labs peer-L1** (`pymc_L1/`, gap-fillers merged in).
 
 0. **[Super-axioms](SUPER_AXIOMS.md)** — 7 grand principles.
 1. **[Claims spine](CLAIMS_SPINE.md)** — 82 mid-level principles (the *why*).

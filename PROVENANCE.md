@@ -59,8 +59,7 @@ Scripts: `build-target-all-classes`, `build-target-crosscutting`.
 ## 7 · External cross-check (pymc-labs peer L1)
 Cross-compared against the human-curated
 [`pymc-labs/python-analytics-skills`](https://github.com/pymc-labs/python-analytics-skills)
-(MIT-licensed; treated as an already-distilled peer L1): **152 findings — 62 new · 75 enriches ·
-7 contradicts.** Of the 7 contradictions, **5 resolved in this catalog's favor** (the external
+(MIT-licensed; treated as an already-distilled peer L1): **152 findings — 62 new · 75 enriches · 7 contradicts · 8 already-covered.** Of the 7 contradictions, **5 resolved in this catalog's favor** (the external
 check validated the theory spine); 2 were reconciled (standard loo `elpd_diff` gate adopted; the
 pragmatic divergence-tolerance threshold recorded alongside the strict stance). **+10 claims and
 +25 recs** merged in, faithfully transcribed and attributed (`pymc_L1/`), closing previously
@@ -71,8 +70,14 @@ flagged coverage gaps (iterative model-building, prior elicitation, several mode
 Adopted 2026-07-01: **6 super-axioms → 82 claims → 639 recs → 1,976 moves** + the pymc-L1 peer
 layer. The 446 granular claims are retained in the local archive (nothing produced is deleted).
 Post-adoption hardening (this repo's commit history is the authoritative trail from here):
-apex refresh after the merge, and an adversarial 50-entry sample review across all shipped assets
-with double independent verification.
+- **Apex refresh (2026-07-02):** the 4 dangling subsumes references removed, all entries
+  page-qualified, the 10 merged pymc-labs claims folded in, and **SA7** (iterative practice +
+  priors-from-substance) added — the apex is now **7 super-axioms ↔ 82 claims, a verified
+  bijection**.
+- **Adversarial release review (2026-07-02):** 50 entries sampled across every asset class, every
+  flag double-verified — 10 confirmed defects (5 major, incl. two directional errors and a Stan
+  API misuse), **all fixed**; the apex sampled clean. Full table:
+  `audits/ADVERSARIAL_REVIEW.md`.
 
 ## Known limitations
 - `GAPS.md` — remaining thin areas (formal decision theory / utility).

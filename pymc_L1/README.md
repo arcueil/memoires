@@ -1,8 +1,7 @@
 # pymc-labs skills — incorporated as a peer L1 layer
 
 Source: `github.com/pymc-labs/python-analytics-skills` (human-curated Claude skills for PyMC modeling) — treated as a
-**peer L1** (already-distilled expert knowledge), not raw source. Cross-compared against our catalog (152 findings:
-62 new · 75 enriches · 7 contradicts). **Complementary strengths:** pymc-L1 is stronger on the constructive/API/default
+**peer L1** (already-distilled expert knowledge), not raw source. Cross-compared against our catalog (152 findings: 62 new · 75 enriches · 7 contradicts · 8 already-covered). **Complementary strengths:** pymc-L1 is stronger on the constructive/API/default
 side (prior menus, thresholds, tooling, elicitation); our catalog is deeper on geometry/theory/failure-modes
 (5 of 7 contradicts resolved in our favor). Everything here is attributed to pymc-labs and tagged 📐 portable (mergeable
 as claims/recs) vs 🔧 PyMC-specific (the technique/library layer).

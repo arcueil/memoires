@@ -167,7 +167,7 @@ function isolating a strongly-correlated direction inherits that correlation. Tw
 compound: (1) *ringing* — under strong positive autocorrelation the Geyer pair-sum cutoff fires too
 early (spurious negative pair sums), excluding large long-lag autocorrelations, so trust breaks down
 below λ̂=ESŜ/N < 1/10000; (2) *sub-threshold bias* — below 0.001 effective samples per transition the
-classical integrated-autocorrelation-time estimator is itself biased upward. Negative autocorrelation
+classical integrated-autocorrelation-time estimator is itself biased downward (the finite chain misses the long-lag tail, so n_eff is correspondingly overestimated). Negative autocorrelation
 (antithetic chains) can push ESS>N — genuine super-efficiency (ESS=7600 from N=3800 for the identity
 function) — but it is expectand-specific, vanishing for symmetric expectands (ESS=3662<N for the
 square) and demanding regularization to avoid drastic overestimates. Some inefficiency is

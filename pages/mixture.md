@@ -48,7 +48,7 @@ rotation of the others, so restricting to one loses nothing for permutation-inva
 *set* of component means, not "which component is index 1"). Asymmetric priors, by contrast, are a
 data-regime gamble: the mixture likelihood becomes highly informative as N grows, and its K! symmetry
 then swamps even a strong finite prior — at N=1000 chains still lock into the reversed mode with
-priors centered a full 4 SD from the true means, while at N=100 the same priors succeed. So the
+priors centered 2.5 prior-SDs from the true means (|4−2.75|/0.5), while at N=100 the same priors succeed. So the
 boundary between success and failure is a threshold in N, not a property of the prior alone; ordering
 is the safe default when a scalar parameter and permutation-invariant estimand are available.
 
