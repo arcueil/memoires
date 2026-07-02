@@ -38,3 +38,10 @@ and evidence-graded. Never skip the review gates.*
 - Single forum thread → ⚪ candidate (searchable tail) until corroborated.
 - First-party experiment (`process/experiments/`) → fills `efficacy` slots verbatim; an
   experiment only grounds the *exact* model/setup it ran (no propagation to cousins).
+
+## Editorial policy: contested thresholds (maintainer gate, 2026-07-02)
+Where the community splits between a strict and a pragmatic standard (elpd_diff bars, divergence
+tolerance, R̂ cutoffs): **the catalog's default is the strict stance; the looser common practice is
+noted alongside, with a citation.** Pattern: "no divergences" → "strict default; tens of scattered
+divergences can be acceptable *with evidence* they are numerical (cite)." Never present the loose
+bar as the recommendation; never hide that practitioners use it.

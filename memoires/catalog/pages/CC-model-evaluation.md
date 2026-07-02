@@ -798,7 +798,7 @@ moment-matching / reloo (exact refit) / K-fold works.
 **✗ G8** · when **`elpd_diff` exceeds several `se_diff` but is tiny in absolute terms** → declaring a *[→ entry](../recs/CC-model-evaluation/G8.md)*
 winner does **NOT** work.
 - why: the SE-ratio rule is necessary but not sufficient — a tiny absolute elpd_diff is negligible even at ratio 5 (canonical `elpd_diff=−0.5, se_diff=0.1` is "insignificant due to the small numbers"); the SE is also optimistic at small n or under misspecification.
-- conditions: with large n, good PP checks, all k̂<0.7, apply the standard loo dual gate — a difference is meaningful only if **|elpd_diff| > 4 AND |elpd_diff/se_diff| > 2** (Vehtari et al. convention); the absolute-size gate (not a bespoke ~4–5× ratio) is the operative point here.
+- conditions: with large n, good PP checks, all k̂<0.7. **Catalog default: the stricter ~4–5× SE bar** (the SE is optimistic; lenience compounds). In practice many go looser — the standard dual gate |elpd_diff| > 4 AND |elpd_diff/se_diff| > 2 (Vehtari's loo convention; pymc-labs) — acceptable with eyes open; the absolute-size gate is non-negotiable either way.
 - tier: 🟡 · source: mc-stan:1628, mc-stan:16300, mc-stan:3417
 - efficacy: {divergences: pending · min_ess: pending · ess_per_sec: pending · rmse: pending · coverage: pending}
 - moves: "Read elpd_diff against its SE and reason about the direction of PSIS-LOO bias"
