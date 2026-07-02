@@ -167,21 +167,6 @@ covariates) is an instance where this likelihood distinction had not been made e
 
 ---
 
----
-
-### C7 · Inference and decision are separate stages — turning a solved posterior into an action requires an explicit loss/cost function, never a fixed threshold ⚪
-*[→ full entry](../claims/measurement-error-missing/C7.md)*
-
-**Statement.** A solved inference (a posterior over the unknown) is not itself a decision; acting on it requires extra-Bayesian structure the fit cannot supply — an explicit loss/cost model that weighs each action's consequences against the posterior. Substituting a fixed percentile or threshold rule short-circuits this by hard-coding an implicit, arbitrary utility, hiding the cost tradeoff that should actually drive the decision.
-
-**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (I2); see the recs below for the concrete instances and conditions.
-
-**Conditions.** As per the governed recs.
-
-**Tier.** ⚪ (new claim; generalizes 1 recs; NOT yet in the human-review packet).
-
-**Sources.** (inherited from governed recs)
-
 ## Practical — what works / what doesn't (comprehensive, bidirectional)
 
 *27 recs (14 ✓ / 12 ✗, plus 1 bidirectional). `efficacy` is the benchmark-shaped slot

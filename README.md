@@ -76,6 +76,7 @@ grounds (↓), clickable sources, and related entries across the catalog. Every 
 - **[Priors & identifiability](memoires/catalog/pages/CC-priors-identifiability.md)**
 - **[Model evaluation](memoires/catalog/pages/CC-model-evaluation.md)**
 - **[Convergence & Monte-Carlo reliability diagnostics](memoires/catalog/pages/CC-convergence-diagnostics.md)**
+- **[Decision theory](memoires/catalog/pages/CC-decision-theory.md)** *(seeded — thin by honest design)*
 
 ## By model class *(a navigation tag, not the only axis)*
 

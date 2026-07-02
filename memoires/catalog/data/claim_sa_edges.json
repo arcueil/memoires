@@ -84,6 +84,6 @@
  "regression/C7": "SA1",
  "CC-priors-identifiability/C10": "SA7",
  "time-series-state-space/C7": "SA1",
- "measurement-error-missing/C7": "SA1",
- "CC-geometry-sampling/C9": "SA6"
+ "CC-geometry-sampling/C9": "SA6",
+ "CC-decision-theory/C1": "SA1"
 }

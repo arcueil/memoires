@@ -20,6 +20,11 @@
 - **[C7](claims/CC-convergence-diagnostics/C7.md) · Approximation-based inference (IS, VI, perturbed MCMC) carries its own reliability diagnostics** 🟢
   <br>When the estimator is not exact MCMC, the reliability question changes shape: importance sampling needs *typical-set overlap* (finite ratio variance is necessary but nowhere near sufficient); VI's ELBO is a noisy objective whose convergence is not mean convergence; and "approximate MCMC" splits into three qualitatively distinct regimes wi
 
+## Cross-cutting: Decision theory (seeded — thin by honest design)
+
+- **[C1](claims/CC-decision-theory/C1.md) · Inference and decision are separate stages — turning a solved posterior into an action requires an explicit loss/cost function, never a fixed threshold** ⚪
+  <br>A solved inference (a posterior over the unknown) is not itself a decision; acting on it requires extra-Bayesian structure the fit cannot supply — an explicit loss/cost model that weighs each action's consequences against the posterior. Substituting a fixed percentile or threshold rule short-circuits this by hard-coding an implicit, arbit
+
 ## Cross-cutting: Posterior geometry & gradient-based sampling (HMC/NUTS)
 
 - **[C1](claims/CC-geometry-sampling/C1.md) · Geometry belongs to the *model*, not the sampler — knobs and hardware mitigate cost, only re-specification cures, and the failure is silent bias** 🟢
@@ -134,8 +139,6 @@
   <br>Whether imputing a missing value helps depends on how that variable enters the model: a missing *covariate* figures in two relationships (predictor of the outcome and response of its own submodel) so imputing it is legitimate, whereas imputing a missing *response* and re-fitting double-counts the data; and conditioning on a *noisy* observ
 - **[C6](claims/measurement-error-missing/C6.md) · Censoring and truncation are distinct likelihood treatments — censoring integrates the tail mass at the bound (a CDF term, N fixed); truncation renormalizes the density by P(in-bounds) (N varies); picking the wrong one biases parameters** 🟢
   <br>Censoring and truncation are two different measurement processes with two different likelihoods, not interchangeable labels. Under **censoring** the out-of-bound values ARE in the dataset — recorded at the bound — so the likelihood integrates the tail mass at the bound (a CDF term) and the sample size is fixed. Under **truncation** the ou
-- **[C7](claims/measurement-error-missing/C7.md) · Inference and decision are separate stages — turning a solved posterior into an action requires an explicit loss/cost function, never a fixed threshold** ⚪
-  <br>A solved inference (a posterior over the unknown) is not itself a decision; acting on it requires extra-Bayesian structure the fit cannot supply — an explicit loss/cost model that weighs each action's consequences against the posterior. Substituting a fixed percentile or threshold rule short-circuits this by hard-coding an implicit, arbit
 
 ## Mixture models (finite mixtures, label switching, zero-inflation)
 
@@ -216,5 +219,5 @@
   <br>Time-series inference goes wrong when the conditioning structure of the recursion is mishandled in two recurring ways: conditioning the AR recursion on the first observation as if it were *exogenous* biases the autoregressive coefficient (a Bayesian Nickell bias), and treating the cheap online filter recursion as if it also updated the *h
 - **[C6](claims/time-series-state-space/C6.md) · A structural time series decomposes additively into interpretable latent components (trend / seasonal / noise), each with its own state-noise scale, fit jointly** 🟢
   <br>A structural time series (the BSTS/STS paradigm) decomposes additively into interpretable latent components — a level/trend term (a random walk, or a local-linear-trend where the level's drift is itself a random-walk slope), a seasonal term, and observation noise — each carrying its own state-noise scale and all fit jointly.
-- **[C7](claims/time-series-state-space/C7.md) · Time-varying volatility is a first-class modeling target — give the conditional variance its own dynamics, don't assume a constant scale** 🟢
-  <br>When a returns-like series exhibits conditional heteroskedasticity (volatility clustering — large moves followed by large moves), the load-bearing modeling choice lives in the second moment: let the conditional variance follow its own deterministic recursion driven by past squared shocks and past variance (canonically GARCH(1,1): σ²_t = ω
+- **[C7](claims/time-series-state-space/C7.md) · Time-varying volatility is a first-class modeling target — give the conditional variance its own dynamics, don't assume a constant scale** 🟡
+  <br>When a returns-like series exhibits conditional heteroskedasticity (volatility clustering — large moves followed by large moves), the load-bearing modeling choice lives in the second moment: give the conditional variance its own dynamics rather than assuming a constant observation scale. Two constructions embody **different generative com
