@@ -86,3 +86,9 @@ Post-adoption hardening (this repo's commit history is the authoritative trail f
   one-off experiment integration (`experiments/` holds the first: spike-slab vs horseshoe).
 - The catalog reflects its sources' emphases (computation-heavy); the model-class organization is
   a navigation aid, orthogonal to the corpus's natural computation-themed clustering.
+
+- **Human gate (2026-07-02):** the maintainer signed off the reviewed spine via a 19-item quiz
+  (explore+exploit). 19/19 adjudicated; the established explore-slice passed clean (panel
+  calibrated); the new/newest layers produced 4 corrections + 3 editorial policies, incl. the
+  maintainer authoring the SV-vs-GARCH distinction directly into the catalog. Full record:
+  `audits/HUMAN_GATE.md`. Corpus at sign-off: 7 super-axioms → 87 claims → 640 recs. **Clear to publish.**

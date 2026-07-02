@@ -8,7 +8,7 @@
 - [x] Repo restructure: `memoires/` package · `process/` build story · `data/` provenance.
 - [x] Merge `pymc_L1/` techniques/enrichments/contradictions into the per-entry graph (96 placed, 5 honest unplaced).
 - [x] 27 unassigned recs resolved → 10 re-routed + 6 new claims (0 forced gaps); render made idempotent.
-- [ ] Maintainer human-gate review (explore/exploit packet) — the last gate.
+- [x] Maintainer human-gate review (2026-07-02, 19-item quiz): signed off; 4 corrections + 3 policies (audits/HUMAN_GATE.md).
 - [ ] pymc-labs attribution courtesy ping; then publish (push, PyPI name, release notes).
 
 ## M2 — semantic search & the L2 index

@@ -45,3 +45,10 @@ tolerance, R̂ cutoffs): **the catalog's default is the strict stance; the loose
 noted alongside, with a citation.** Pattern: "no divergences" → "strict default; tens of scattered
 divergences can be acceptable *with evidence* they are numerical (cite)." Never present the loose
 bar as the recommendation; never hide that practitioners use it.
+
+## Efficacy-slot discipline: machine-dependent metrics need a baseline (maintainer gate, 2026-07-02)
+`ess_per_sec` and any wall-time metric are hardware/implementation-dependent and are **meaningless as
+bare numbers**. Always present them **relative to a baseline model or inference run on the same
+hardware in the same experiment** (e.g. "584 ESS/sec vs the standard non-centered baseline's 288 on
+the same run"). A benchmark result that can't cite its baseline does not go in an efficacy slot.
+Machine-independent metrics (divergences, coverage, RMSE, ESS itself) stand alone.

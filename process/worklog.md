@@ -81,3 +81,11 @@ pages/. Recovered from git (d6320f9) into `catalog/data/fold_sections.json`; ren
 re-applies the sidecar every render. **Lesson (workbook law #9 extended): derived files must
 never receive direct edits — all enrichment goes through sidecar data the generator owns.**
 Validator gained no coverage here; consider a content-invariant check (fold-section count).
+
+## Human gate closed (2026-07-02)
+Maintainer sign-off via a 19-item explore+exploit quiz (audits/HUMAN_GATE.md). The gate earned its
+keep: 4 would-have-shipped corrections (a confounded-pair error propagated to a claim but not fixed
+there; a GARCH claim missing the stochastic-volatility conditioning the maintainer then authored; an
+elpd_diff entry internally inconsistent with its own contradiction record; a bare machine-dependent
+ESS/sec). 3 new editorial policies (contested-threshold strict-default, efficacy-baseline discipline,
+derived-files-are-generator-owned). Corpus: 7 SA -> 87 claims -> 640 recs. Clear to publish.
