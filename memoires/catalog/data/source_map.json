@@ -305,5 +305,6 @@
  "dansblog:sparse7": "https://dansblog.netlify.app/posts/2022-11-27-sparse7/sparse7.html",
  "dansblog:that-psis-proof": "https://dansblog.netlify.app/posts/2022-06-03-that-psis-proof/that-psis-proof.html",
  "dansblog:why-wont-you-cheat": "https://dansblog.netlify.app/posts/2021-12-09-why-wont-you-cheat-with-me-repost/why-wont-you-cheat-with-me-repost.html",
- "dansblog:wrong-mcmc": "https://dansblog.netlify.app/posts/2022-11-23-wrong-mcmc/wrong-mcmc.html"
+ "dansblog:wrong-mcmc": "https://dansblog.netlify.app/posts/2022-11-23-wrong-mcmc/wrong-mcmc.html",
+ "mc-stan:22752": "https://discourse.mc-stan.org/t/acceptance-ratio-in-nuts/22752"
 }

@@ -1955,5 +1955,9 @@
  ],
  "measurement-error-missing/I2": [
   "CC-decision-theory/C1"
+ ],
+ "CC-geometry-sampling/ST8": [
+  "CC-geometry-sampling/C7",
+  "CC-geometry-sampling/C6"
  ]
 }
