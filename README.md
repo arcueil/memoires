@@ -1,5 +1,7 @@
 # Mémoires
 
+[![CI](https://github.com/arcueil/memoires/actions/workflows/ci.yml/badge.svg)](https://github.com/arcueil/memoires/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/memoires)](https://pypi.org/project/memoires/)
+
 *The [Arcueil](https://github.com/arcueil) catalog of Bayesian craft — curated, evidence-graded,
 contradiction-aware. Named for the* Mémoires de la Société d'Arcueil*, and read by
 [jaynes-robot](https://github.com/arcueil/jaynes-robot). License: CC BY 4.0.*

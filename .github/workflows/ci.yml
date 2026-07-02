@@ -1,0 +1,43 @@
+name: CI
+
+# Keep the catalog's invariants true on every change: the evidence graph must have
+# zero broken links, the CLI must work from a clean checkout, and the wheel must ship
+# the catalog + vector index. Lexical (zero-dependency) path only — the [semantic] extra
+# pulls a ~500MB model, tested separately.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      - name: Evidence-graph link validation (0 broken, 0 bare source ids)
+        run: uv run --no-project python process/pipeline/validate_links.py memoires/catalog
+
+      - name: CLI smoke (lexical, zero-dep)
+        run: |
+          uv run python -m memoires.cli stats
+          uv run python -m memoires.cli search divergences hierarchical -k 3
+          uv run python -m memoires.cli show hierarchical-multilevel/C2
+          uv run python -m memoires.cli graph hierarchical-multilevel/P4
+
+      - name: Build wheel + assert catalog and vector index ship inside
+        run: |
+          uv build
+          uv run --no-project python - <<'PY'
+          import glob, zipfile
+          names = zipfile.ZipFile(glob.glob("dist/*.whl")[0]).namelist()
+          md = [n for n in names if n.endswith(".md")]
+          assert len(md) > 700, f"catalog missing from wheel: only {len(md)} md files"
+          assert any(n.endswith("entry_vectors.npz") for n in names), "semantic index missing from wheel"
+          print(f"wheel ok: {len(md)} catalog files + vector index")
+          PY

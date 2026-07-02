@@ -1,0 +1,51 @@
+name: Publish to PyPI
+
+# Auto-publish on a GitHub Release, via PyPI Trusted Publishing (OIDC) — NO token stored.
+# One-time setup on PyPI (pypi.org → project 'memoires' → Settings → Publishing → Add a
+# trusted publisher):  owner=arcueil · repository=memoires · workflow=publish.yml
+# Then: create a release (`gh release create v0.2.0 --generate-notes`) and it ships itself.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:        # manual fallback (Actions tab → Run workflow)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Build sdist + wheel
+        run: uv build
+      - name: Sanity — version matches the release tag
+        if: github.event_name == 'release'
+        run: |
+          uv run --no-project python - <<'PY'
+          import glob, os, re
+          tag = os.environ["TAG"].lstrip("v")
+          whl = glob.glob("dist/*.whl")[0]
+          ver = re.search(r"memoires-([^-]+)-", whl).group(1)
+          assert ver == tag, f"wheel version {ver} != release tag {tag}"
+          print(f"version ok: {ver}")
+          PY
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write        # the ONLY credential — OIDC, minted per-run, no stored secret
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
