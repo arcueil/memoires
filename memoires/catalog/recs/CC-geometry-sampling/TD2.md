@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.89`
+- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.88`
 - [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.83`
 - [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.81`
-- [✗ latent-factor E5 · for a **strongly-correlated latent posterior** where NUTS saturates ma](../../recs/latent-factor/E5.md) `0.81`
+- [✗ CC-priors-identifiability S12 · when **the global ridge is already broken** (Gaussian prior on the aff](../../recs/CC-priors-identifiability/S12.md) `0.81`

@@ -18,7 +18,7 @@ seasonal dummies** work.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ regression HZ1 · for **count / semicontinuous data with excess zeros** → choosing betwe](../../recs/regression/HZ1.md) `0.78`
-- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.78`
+- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.77`
+- [✓ regression HZ1 · for **count / semicontinuous data with excess zeros** → choosing betwe](../../recs/regression/HZ1.md) `0.77`
 - [✓ ode-dynamical M5 · for **suppressing spurious period-alias modes without changing the mod](../../recs/ode-dynamical/M5.md) `0.77`
-- [✗ spatial-areal Z4 · for **choosing soft vs hard** sum-to-zero → assuming one is **universa](../../recs/spatial-areal/Z4.md) `0.76`
+- [✗ regression SM2 · for **reproducing structural features** (e.g. the zero spike) of a **h](../../recs/regression/SM2.md) `0.76`

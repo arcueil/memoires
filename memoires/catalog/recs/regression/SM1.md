@@ -19,7 +19,7 @@ as if it were the predictive distribution does **NOT** work (too narrow).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.86`
+- [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.87`
+- [✗ CC-model-evaluation F3 · when computing **predictive RMSE / intervals** → differencing data aga](../../recs/CC-model-evaluation/F3.md) `0.86`
+- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.85`
 - [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.85`
-- [✗ CC-model-evaluation F3 · when computing **predictive RMSE / intervals** → differencing data aga](../../recs/CC-model-evaluation/F3.md) `0.84`
-- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.84`

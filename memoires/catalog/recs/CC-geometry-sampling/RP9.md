@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation E1 · when **choosing the likelihood family by matching the data histogram's](../../recs/CC-model-evaluation/E1.md) `0.78`
-- [✗ gaussian-process G2 · for a **high-dimensional GP prior** → the **centered parameterization*](../../recs/gaussian-process/G2.md) `0.78`
-- [✗ spatial-areal M1 · for **optimizing a constrained-parameter spatial model** → conflating ](../../recs/spatial-areal/M1.md) `0.78`
-- [✓ CC-model-evaluation I4 · when **designing a method-comparison benchmark** → **including an auth](../../recs/CC-model-evaluation/I4.md) `0.77`
+- [✗ CC-model-evaluation E1 · when **choosing the likelihood family by matching the data histogram's](../../recs/CC-model-evaluation/E1.md) `0.81`
+- [✓ CC-model-evaluation I4 · when **designing a method-comparison benchmark** → **including an auth](../../recs/CC-model-evaluation/I4.md) `0.81`
+- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.80`
+- [✗ spatial-areal M1 · for **optimizing a constrained-parameter spatial model** → conflating ](../../recs/spatial-areal/M1.md) `0.80`

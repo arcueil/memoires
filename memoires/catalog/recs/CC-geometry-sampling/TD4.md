@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.79`
-- [✗ latent-factor E5 · for a **strongly-correlated latent posterior** where NUTS saturates ma](../../recs/latent-factor/E5.md) `0.78`
-- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.78`
-- [✓ regression QR1 · for **regressing a chosen quantile tau** (0.5 = median, 0.9 = 90th pct](../../recs/regression/QR1.md) `0.77`
+- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.79`
+- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.78`
+- [✗ CC-priors-identifiability N2 · when **you use a diffuse-but-proper prior** (Normal(0,1000), U(−1000,1](../../recs/CC-priors-identifiability/N2.md) `0.78`
+- [✓ time-series-state-space T3 · for **scattered (non-clustered) divergences** → running the **hard-mod](../../recs/time-series-state-space/T3.md) `0.78`

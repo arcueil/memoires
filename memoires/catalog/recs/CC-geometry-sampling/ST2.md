@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓/✗ time-series-state-space D5 · for the forward recursion of a **short sequence with not-too-small pro](../../recs/time-series-state-space/D5.md) `0.81`
-- [✗ ode-dynamical P1 · for a **positive parameter near a boundary** (e.g. drag k with `lower=](../../recs/ode-dynamical/P1.md) `0.80`
-- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.80`
-- [✓ CC-priors-identifiability E7 · when **you are deciding whether a shrink-to-zero (PC) prior is appropr](../../recs/CC-priors-identifiability/E7.md) `0.79`
+- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.81`
+- [✗ CC-convergence-diagnostics I2 · when you check only that the IS ratio has finite variance → does **NOT](../../recs/CC-convergence-diagnostics/I2.md) `0.81`
+- [✗ CC-convergence-diagnostics A4 · when the expectand has undefined mean or infinite variance → a Monte-C](../../recs/CC-convergence-diagnostics/A4.md) `0.81`
+- [✗ ode-dynamical P1 · for a **positive parameter near a boundary** (e.g. drag k with `lower=](../../recs/ode-dynamical/P1.md) `0.81`
 
 
 ## Enrichment (pymc-labs)

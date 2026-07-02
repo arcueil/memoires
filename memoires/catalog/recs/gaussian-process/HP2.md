@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.82`
-- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.81`
-- [✓ hierarchical-multilevel B2 · for a hierarchical **scale parameter** → **weakly-informative bounded ](../../recs/hierarchical-multilevel/B2.md) `0.81`
-- [✗ regression PR2 · for a regression fit through a **link/transform** (logit, log, log-σ, ](../../recs/regression/PR2.md) `0.81`
+- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.84`
+- [✗ CC-priors-identifiability G1 · when **you estimate an EQ-kernel length scale ρ by maximum marginal li](../../recs/CC-priors-identifiability/G1.md) `0.83`
+- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.83`
+- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.83`

@@ -22,6 +22,6 @@ to a **logit-normal controlling location and spread on the unconstrained logit s
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓ hierarchical-multilevel B8 · for an intended **bimodal beta prior** → re-express it as a **Mixture ](../../recs/hierarchical-multilevel/B8.md) `0.84`
-- [✓ measurement-error-missing J2 · for the **misclassification-row simplex under HMC** → reparameterize t](../../recs/measurement-error-missing/J2.md) `0.81`
-- [✓ measurement-error-missing K4 · for a mixture measurement model with **label-switching / prior-induced](../../recs/measurement-error-missing/K4.md) `0.80`
-- [✓/✗ regression SM9 · for **comparing a broad-prior Bayesian logistic fit to classical MLE**](../../recs/regression/SM9.md) `0.80`
+- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.81`
+- [✓ regression LS1 · for an **outcome that is a proportion k/n** → model the **underlying c](../../recs/regression/LS1.md) `0.81`
+- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.81`

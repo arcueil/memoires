@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.89`
-- [✓ time-series-state-space F1 · for a **frozen (fixed-hyperparameter) linear-Gaussian state-space mode](../../recs/time-series-state-space/F1.md) `0.84`
-- [✗ CC-priors-identifiability P6 · when **you drop the prior term on subsequent online / streaming update](../../recs/CC-priors-identifiability/P6.md) `0.80`
-- [✗ hierarchical-multilevel B1 · for a hierarchical model with **few obs/group** → **vague/uniform prio](../../recs/hierarchical-multilevel/B1.md) `0.78`
+- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.88`
+- [✓ time-series-state-space F1 · for a **frozen (fixed-hyperparameter) linear-Gaussian state-space mode](../../recs/time-series-state-space/F1.md) `0.83`
+- [✗ gaussian-process HP6 · for **GP hyperparameter identifiability** → reading only the **margina](../../recs/gaussian-process/HP6.md) `0.80`
+- [✗ CC-priors-identifiability P6 · when **you drop the prior term on subsequent online / streaming update](../../recs/CC-priors-identifiability/P6.md) `0.79`

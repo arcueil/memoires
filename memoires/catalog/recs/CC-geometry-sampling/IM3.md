@@ -19,4 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ gaussian-process S8 · for **sparse Cholesky in JAX** → relying on **dynamically-shaped outpu](../../recs/gaussian-process/S8.md) `0.77`
+- [✗ gaussian-process HP11 · for a **GP under cross-validation or sequential data collection** → th](../../recs/gaussian-process/HP11.md) `0.75`
 - [✗ CC-model-evaluation I6 · when a **sparse-matrix class lazily caches its Cholesky via a mutable ](../../recs/CC-model-evaluation/I6.md) `0.75`
+- [✓ CC-convergence-diagnostics I3 · when using IS → deploy it to **refine an already-good approximation** ](../../recs/CC-convergence-diagnostics/I3.md) `0.74`

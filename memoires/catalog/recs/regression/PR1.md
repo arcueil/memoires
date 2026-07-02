@@ -19,7 +19,7 @@ U(−1000,1000)) do **NOT** work as "non-informative" (they push mass to extreme
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability N1 · when **you use a flat / improper prior "to be non-informative"** → doe](../../recs/CC-priors-identifiability/N1.md) `0.87`
 - [✗ CC-priors-identifiability N2 · when **you use a diffuse-but-proper prior** (Normal(0,1000), U(−1000,1](../../recs/CC-priors-identifiability/N2.md) `0.87`
-- [CC-priors-identifiability C3 · "Non-informative" priors are a myth; the weakly-informative alternativ](../../claims/CC-priors-identifiability/C3.md) `0.86`
-- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.84`
+- [✗ CC-priors-identifiability N1 · when **you use a flat / improper prior "to be non-informative"** → doe](../../recs/CC-priors-identifiability/N1.md) `0.87`
+- [CC-priors-identifiability C3 · "Non-informative" priors are a myth; the weakly-informative alternativ](../../claims/CC-priors-identifiability/C3.md) `0.85`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.83`

@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-convergence-diagnostics F1 · when NaN R̂/n_eff fires on a stored constant (fixed boundary state) → ](../../recs/CC-convergence-diagnostics/F1.md) `0.78`
+- [✗ CC-convergence-diagnostics F1 · when NaN R̂/n_eff fires on a stored constant (fixed boundary state) → ](../../recs/CC-convergence-diagnostics/F1.md) `0.79`
+- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.77`
+- [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.76`
 - [✗ CC-convergence-diagnostics B6 · when you "discard the bad chains and keep the good ones" (burn-in fram](../../recs/CC-convergence-diagnostics/B6.md) `0.76`
-- [✗ CC-model-evaluation E7 · when you **impute a missing RESPONSE and re-fit** on the imputed value](../../recs/CC-model-evaluation/E7.md) `0.75`
-- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.75`
 
 
 ## Enrichment (pymc-labs)

@@ -20,6 +20,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓ hierarchical-multilevel C5 · for a **grouped/repeated-measures contrast** (A/B test with per-day da](../../recs/hierarchical-multilevel/C5.md) `0.85`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.82`
-- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.81`
-- [✗ spatial-areal V1 · for a **spatial model with a GP/covariance term plus an independent no](../../recs/spatial-areal/V1.md) `0.81`
+- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.83`
+- [✗ spatial-areal V1 · for a **spatial model with a GP/covariance term plus an independent no](../../recs/spatial-areal/V1.md) `0.82`
+- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.82`

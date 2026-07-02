@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.87`
-- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.82`
-- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.82`
-- [✓ ode-dynamical R8 · for **testing whether a ridge is data-limited vs structural** → **add ](../../recs/ode-dynamical/R8.md) `0.81`
+- [✓ ode-dynamical R8 · for **testing whether a ridge is data-limited vs structural** → **add ](../../recs/ode-dynamical/R8.md) `0.83`
+- [✗ mixture D2 · for a **degenerate mixture** → the **standard HMC diagnostics** (diver](../../recs/mixture/D2.md) `0.83`
+- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.83`

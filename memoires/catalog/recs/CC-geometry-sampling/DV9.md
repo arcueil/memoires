@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ hierarchical-multilevel E3 · for a **high-curvature pinch (CP funnel)** on a finite run → relying o](../../recs/hierarchical-multilevel/E3.md) `0.86`
-- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.80`
-- [✗ CC-convergence-diagnostics A1 · when a chain is stationary/irreducible/aperiodic and you take that as ](../../recs/CC-convergence-diagnostics/A1.md) `0.80`
-- [✗ CC-convergence-diagnostics D3 · when you thin a periodic chain by a stride that is a multiple of its p](../../recs/CC-convergence-diagnostics/D3.md) `0.78`
+- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.81`
+- [✗ CC-convergence-diagnostics D1 · when you thin a well-mixing chain to "improve" ESS → does **NOT** work](../../recs/CC-convergence-diagnostics/D1.md) `0.80`
+- [✗ CC-convergence-diagnostics D3 · when you thin a periodic chain by a stride that is a multiple of its p](../../recs/CC-convergence-diagnostics/D3.md) `0.80`

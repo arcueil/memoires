@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.77`
-- [✗ gaussian-process S7 · for **gradient-based hyperparameter inference through the partial inve](../../recs/gaussian-process/S7.md) `0.77`
-- [✗ regression SM1 · for **uncertainty in a predicted outcome** → using **`posterior_epred`](../../recs/regression/SM1.md) `0.76`
-- [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.75`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.80`
+- [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.80`
+- [✓/✗ regression U5 · for the **σ posterior in sparse regression** → reading σ as a **diagno](../../recs/regression/U5.md) `0.79`
+- [✓ ode-dynamical S1 · for a Bayesian model with an **ODE-solve likelihood** → **sample under](../../recs/ode-dynamical/S1.md) `0.79`
 
 
 ## Enrichment (pymc-labs)

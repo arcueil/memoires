@@ -21,6 +21,6 @@ artifact).
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-model-evaluation B2 · when a **conditional retrodictive quantile plot shows curvature** and ](../../recs/CC-model-evaluation/B2.md) `0.95`
-- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.82`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.83`
 - [✗ CC-model-evaluation F6 · when summarizing a **nonlinear function f(θ)** (covariance→correlation](../../recs/CC-model-evaluation/F6.md) `0.82`
 - [✗ CC-model-evaluation E6 · when a **covariate exhibits spatial autocorrelation** → trusting its *](../../recs/CC-model-evaluation/E6.md) `0.81`

@@ -22,7 +22,7 @@ do-calculus as approximations) and CF2 (decoupling when there is no confounder).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.80`
-- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.80`
-- [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.80`
-- [✗ hierarchical-multilevel D6 · for **multiple correlated random effects** → an "estimate-then-fix-to-](../../recs/hierarchical-multilevel/D6.md) `0.80`
+- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.82`
+- [✓ latent-factor B2 · for such an **additive-component** model → adding **structure that tie](../../recs/latent-factor/B2.md) `0.81`
+- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.81`
+- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.80`

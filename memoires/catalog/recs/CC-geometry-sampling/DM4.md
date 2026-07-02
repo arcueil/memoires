@@ -20,6 +20,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓ ode-dynamical M2 · for **genuine multimodality** → **characterize each mode with posterio](../../recs/ode-dynamical/M2.md) `0.84`
-- [✗ ode-dynamical M1 · for **unexpected multimodality** in a dynamical-model posterior → trea](../../recs/ode-dynamical/M1.md) `0.84`
-- [✓ CC-model-evaluation A7 · when a **shared parameter is constrained by two independent sources / ](../../recs/CC-model-evaluation/A7.md) `0.83`
-- [✗ CC-convergence-diagnostics F6 · when a subset of parameters shows R̂>1.1 under a two-component (inner_](../../recs/CC-convergence-diagnostics/F6.md) `0.82`
+- [✓ CC-model-evaluation A7 · when a **shared parameter is constrained by two independent sources / ](../../recs/CC-model-evaluation/A7.md) `0.84`
+- [✗ ode-dynamical M1 · for **unexpected multimodality** in a dynamical-model posterior → trea](../../recs/ode-dynamical/M1.md) `0.83`
+- [✓ time-series-state-space M2 · for the same multimodal frequency posterior → considering **non-gradie](../../recs/time-series-state-space/M2.md) `0.83`

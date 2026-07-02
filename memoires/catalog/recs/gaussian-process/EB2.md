@@ -19,7 +19,7 @@ DOMAIN EXPERTISE** (not against the observed data) works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✗ CC-priors-identifiability X4 · when **you reason about a spline / GAM smooth via its coefficients or ](../../recs/CC-priors-identifiability/X4.md) `0.85`
 - [✗ ode-dynamical Q3 · for **validating a prior** → checking **prior-predictive consequences ](../../recs/ode-dynamical/Q3.md) `0.85`
-- [✓ regression VS2 · for **selecting a smaller predictor set** → fit one good **reference m](../../recs/regression/VS2.md) `0.82`
-- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.82`
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.81`
+- [✓ regression VS2 · for **selecting a smaller predictor set** → fit one good **reference m](../../recs/regression/VS2.md) `0.83`
+- [✗ CC-priors-identifiability X5 · when **a power-scaling / prior-sensitivity diagnostic flags the fixed ](../../recs/CC-priors-identifiability/X5.md) `0.83`

@@ -19,7 +19,7 @@ variable selection** does **NOT** work.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.93`
-- [✗ spatial-areal A1 · for a **regression/GLM on spatially-indexed data where a covariate is ](../../recs/spatial-areal/A1.md) `0.81`
-- [✗ regression GP3 · for **spatially-autocorrelated regression covariates** → ignoring cova](../../recs/regression/GP3.md) `0.81`
-- [✗ CC-priors-identifiability X3 · when **you place a prior on a GMRF / CAR precision τ as if it were an ](../../recs/CC-priors-identifiability/X3.md) `0.80`
+- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.91`
+- [✗ regression GP3 · for **spatially-autocorrelated regression covariates** → ignoring cova](../../recs/regression/GP3.md) `0.83`
+- [✗ spatial-areal B1 · for **BKMR** (recognized as GP regression with an ARD kernel) with a *](../../recs/spatial-areal/B1.md) `0.83`
+- [✓ sparse-shrinkage V4 · for **genuine covariate removal in a hierarchical model** → **handling](../../recs/sparse-shrinkage/V4.md) `0.82`

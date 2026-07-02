@@ -19,7 +19,7 @@ terms that improve LOO/CV does **NOT** work (overfits the CV estimate).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage V1 · for **selecting a smaller predictor set** → **scoring candidate submod](../../recs/sparse-shrinkage/V1.md) `0.98`
-- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.93`
-- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.85`
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.82`
+- [✗ sparse-shrinkage V1 · for **selecting a smaller predictor set** → **scoring candidate submod](../../recs/sparse-shrinkage/V1.md) `0.96`
+- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.92`
+- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.86`
+- [✗ CC-model-evaluation F5 · when **extrapolating a regression** → reading the auto-widening **"bow](../../recs/CC-model-evaluation/F5.md) `0.82`

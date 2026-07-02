@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage P3 · for a **sparse regression** → the **Laplace prior (Bayesian LASSO)** d](../../recs/sparse-shrinkage/P3.md) `0.89`
-- [✓ sparse-shrinkage P6 · for **continuous shrinkage when full sparsity is NOT required** → the ](../../recs/sparse-shrinkage/P6.md) `0.85`
-- [sparse-shrinkage C1 · Bayesian sparsity is posterior concentration, not selection — so it al](../../claims/sparse-shrinkage/C1.md) `0.82`
-- [✓ regression U4 · for **M>N sparse regression** → a **correctly-specified sparse prior**](../../recs/regression/U4.md) `0.79`
+- [✗ sparse-shrinkage P3 · for a **sparse regression** → the **Laplace prior (Bayesian LASSO)** d](../../recs/sparse-shrinkage/P3.md) `0.87`
+- [✓ sparse-shrinkage P6 · for **continuous shrinkage when full sparsity is NOT required** → the ](../../recs/sparse-shrinkage/P6.md) `0.86`
+- [sparse-shrinkage C1 · Bayesian sparsity is posterior concentration, not selection — so it al](../../claims/sparse-shrinkage/C1.md) `0.83`
+- [✗ gaussian-process SP1 · for a **Bayesian penalized-spline / GAM smooth** → reasoning about glo](../../recs/gaussian-process/SP1.md) `0.80`

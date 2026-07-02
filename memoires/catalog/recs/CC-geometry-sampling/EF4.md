@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.82`
 - [✓ regression U9 · for the **underdetermined-regression E-BFMI failure** → a **more infor](../../recs/regression/U9.md) `0.81`
-- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.80`
-- [✗ CC-model-evaluation A1 · when **HMC diagnostics are clean** (0 divergences, R̂≈1, adequate ESS,](../../recs/CC-model-evaluation/A1.md) `0.78`
-- [✗/✓ regression U8 · for the **underdetermined-regression funnel** → raising **max_treedept](../../recs/regression/U8.md) `0.78`
+- [✗ CC-convergence-diagnostics C3 · when fewer than 0.001 effective samples per transition → trusting repo](../../recs/CC-convergence-diagnostics/C3.md) `0.80`
+- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.80`

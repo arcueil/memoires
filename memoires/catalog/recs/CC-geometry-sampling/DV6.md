@@ -20,6 +20,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ sparse-shrinkage D2 · for a **sparsity funnel** → reading a **near-zero divergence count fro](../../recs/sparse-shrinkage/D2.md) `0.86`
-- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.83`
-- [✗ gaussian-process E3 · for a **geometric GP pathology** → cranking **adapt_delta / target_acc](../../recs/gaussian-process/E3.md) `0.83`
-- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.82`
+- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.84`
+- [✗ gaussian-process E3 · for a **geometric GP pathology** → cranking **adapt_delta / target_acc](../../recs/gaussian-process/E3.md) `0.84`
+- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.83`

@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.87`
-- [✗ gaussian-process HP5 · for **GP (σ, ℓ)** in a fixed-domain low-n setting → a **reference prio](../../recs/gaussian-process/HP5.md) `0.83`
-- [✓ regression GP1 · for a **latent-Gaussian (GP) regression with divergences at small σ** ](../../recs/regression/GP1.md) `0.82`
-- [✗ gaussian-process G2 · for a **high-dimensional GP prior** → the **centered parameterization*](../../recs/gaussian-process/G2.md) `0.81`
+- [✗ gaussian-process HP5 · for **GP (σ, ℓ)** in a fixed-domain low-n setting → a **reference prio](../../recs/gaussian-process/HP5.md) `0.84`
+- [✓ gaussian-process E2 · for **locating *where* a divergence occurred** → reporting the traject](../../recs/gaussian-process/E2.md) `0.83`
+- [✓ CC-priors-identifiability G4 · when **ρ drifts to ∞ or the GP interpolates** → recognize these as **t](../../recs/CC-priors-identifiability/G4.md) `0.83`

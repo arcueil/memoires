@@ -19,7 +19,7 @@ binomial / beta-binomial (logit link, nonlinear mean on p) rather than the propo
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel H2 · for **per-observation-RE** models → **integrate out the random effect*](../../recs/hierarchical-multilevel/H2.md) `0.82`
-- [✓/✗ hierarchical-multilevel F8 · for **marginalizing a sum of independent binomial** latent counts agai](../../recs/hierarchical-multilevel/F8.md) `0.82`
-- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.81`
-- [✓/✗ mixture Z4 · for **marginalizing a sum of independent binomial latent counts agains](../../recs/mixture/Z4.md) `0.81`
+- [✓ hierarchical-multilevel H2 · for **per-observation-RE** models → **integrate out the random effect*](../../recs/hierarchical-multilevel/H2.md) `0.84`
+- [✓ CC-model-evaluation G5 · when you have **per-observation REs** → **integrating out the RE** (co](../../recs/CC-model-evaluation/G5.md) `0.83`
+- [✓/✗ mixture Z4 · for **marginalizing a sum of independent binomial latent counts agains](../../recs/mixture/Z4.md) `0.82`
+- [✓ CC-model-evaluation E9 · when you want **some observations to count more than others** → **mult](../../recs/CC-model-evaluation/E9.md) `0.82`

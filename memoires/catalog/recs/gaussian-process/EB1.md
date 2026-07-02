@@ -19,7 +19,7 @@ tuning** does **NOT** work.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.94`
-- [✗ CC-model-evaluation H1 · when computing a **Bayes factor on an estimation-prior fit** (e.g. rst](../../recs/CC-model-evaluation/H1.md) `0.84`
-- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.82`
-- [✗ spatial-areal T3 · for choosing a **prior scale in a scale-mixture / structured spatial m](../../recs/spatial-areal/T3.md) `0.82`
+- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.92`
+- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.83`
+- [✗ ode-dynamical Q5 · for **iterative model building** → treating **post-hoc model selection](../../recs/ode-dynamical/Q5.md) `0.83`
+- [✗ CC-model-evaluation H1 · when computing a **Bayes factor on an estimation-prior fit** (e.g. rst](../../recs/CC-model-evaluation/H1.md) `0.83`

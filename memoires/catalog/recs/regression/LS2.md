@@ -20,6 +20,6 @@ correlation** (brms `set_rescor(TRUE)`) does **NOT** work.
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-priors-identifiability K3 · when **you fix a random-effect correlation to zero** (brms `||`, lkj-a](../../recs/CC-priors-identifiability/K3.md) `0.84`
-- [✗ measurement-error-missing L1 · for a **custom count likelihood in brms/Stan on large-count data** → t](../../recs/measurement-error-missing/L1.md) `0.81`
-- [✗ hierarchical-multilevel G1 · for a **GLMM with a non-identity link** (logistic/Poisson/ordinal) → r](../../recs/hierarchical-multilevel/G1.md) `0.81`
-- [✗ hierarchical-multilevel D6 · for **multiple correlated random effects** → an "estimate-then-fix-to-](../../recs/hierarchical-multilevel/D6.md) `0.80`
+- [✗ measurement-error-missing L1 · for a **custom count likelihood in brms/Stan on large-count data** → t](../../recs/measurement-error-missing/L1.md) `0.82`
+- [✗ latent-factor C1 · for **correlated multi-category count/compositional** data → **indepen](../../recs/latent-factor/C1.md) `0.80`
+- [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.80`

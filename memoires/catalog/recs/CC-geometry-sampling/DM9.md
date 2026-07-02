@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.82`
+- [✓/✗ CC-priors-identifiability E2 · when **the likelihood is numerically sensitive** (ODE solver, GP kerne](../../recs/CC-priors-identifiability/E2.md) `0.82`
 - [✓ hierarchical-multilevel K3 · for a hierarchical model whose **latents are conditionally independent](../../recs/hierarchical-multilevel/K3.md) `0.82`
-- [✗ mixture I1 · for a **Gaussian-mixture / quadratic-form pseudo-likelihood in HMC** →](../../recs/mixture/I1.md) `0.81`
-- [✗ measurement-error-missing H1 · for a model with **missing/latent DISCRETE values under HMC** → accumu](../../recs/measurement-error-missing/H1.md) `0.81`
-- [✓/✗ CC-priors-identifiability E2 · when **the likelihood is numerically sensitive** (ODE solver, GP kerne](../../recs/CC-priors-identifiability/E2.md) `0.80`
+- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.82`

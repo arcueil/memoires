@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ regression GP1 · for a **latent-Gaussian (GP) regression with divergences at small σ** ](../../recs/regression/GP1.md) `0.95`
-- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.94`
-- [✓ gaussian-process G1 · for a **latent-GP field** with fixed hyperparameters and a relatively ](../../recs/gaussian-process/G1.md) `0.85`
+- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.95`
+- [✓ regression GP1 · for a **latent-Gaussian (GP) regression with divergences at small σ** ](../../recs/regression/GP1.md) `0.94`
+- [✓ gaussian-process G1 · for a **latent-GP field** with fixed hyperparameters and a relatively ](../../recs/gaussian-process/G1.md) `0.86`
 - [✓ latent-factor D2 · for a **conjugate latent-Gaussian** model → **analytic marginalization](../../recs/latent-factor/D2.md) `0.85`

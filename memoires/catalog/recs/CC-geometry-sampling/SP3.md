@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ sparse-shrinkage P1 · for a **non-identified sparse regression (M > N)** → the **Finnish / r](../../recs/sparse-shrinkage/P1.md) `0.91`
+- [✓ sparse-shrinkage P1 · for a **non-identified sparse regression (M > N)** → the **Finnish / r](../../recs/sparse-shrinkage/P1.md) `0.89`
 - [✗ sparse-shrinkage P2 · for a **non-identified sparse regression (M > N)** → the **classic hor](../../recs/sparse-shrinkage/P2.md) `0.86`
 - [✓ sparse-shrinkage G4 · for a **Finnish horseshoe under HMC** → **non-centering β *and* τ (τ r](../../recs/sparse-shrinkage/G4.md) `0.85`
-- [✓ sparse-shrinkage S1 · for a **horseshoe / Finnish horseshoe** → setting **tau_0 = (m_0/(M − ](../../recs/sparse-shrinkage/S1.md) `0.80`
+- [✓ CC-priors-identifiability W3 · when **the M>N regression is genuinely sparse** → a **Finnish horsesho](../../recs/CC-priors-identifiability/W3.md) `0.82`

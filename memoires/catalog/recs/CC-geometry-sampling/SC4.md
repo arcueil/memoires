@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ spatial-areal Z3 · for the same effects → a **hard sum-to-zero** via an exact linear map ](../../recs/spatial-areal/Z3.md) `0.77`
-- [✓ ode-dynamical P2 · for an ODE model with **parameters on wildly different scales** → **ma](../../recs/ode-dynamical/P2.md) `0.75`
-- [✓ ode-dynamical Q4 · for **eliciting a prior on an awkwardly-scaled ODE parameter** → elici](../../recs/ode-dynamical/Q4.md) `0.75`
-- [✓ ode-dynamical R7 · for **exposing hidden parameter combinations** → **re-derive the ODE/f](../../recs/ode-dynamical/R7.md) `0.75`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.78`
+- [✗ CC-priors-identifiability N6 · when **you try to calibrate an unbounded scale parameter by frequentis](../../recs/CC-priors-identifiability/N6.md) `0.77`
+- [✓ ode-dynamical Q4 · for **eliciting a prior on an awkwardly-scaled ODE parameter** → elici](../../recs/ode-dynamical/Q4.md) `0.77`
+- [✓ ode-dynamical R7 · for **exposing hidden parameter combinations** → **re-derive the ODE/f](../../recs/ode-dynamical/R7.md) `0.77`

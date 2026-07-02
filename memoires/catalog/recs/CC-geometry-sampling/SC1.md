@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage W5 · for a **large sparse/hierarchical fit that stalls or runs pathological](../../recs/sparse-shrinkage/W5.md) `0.95`
-- [✗ hierarchical-multilevel K1 · for a hierarchical MCMC fit that **stalls or runs pathologically slowl](../../recs/hierarchical-multilevel/K1.md) `0.94`
-- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.84`
-- [✓ hierarchical-multilevel E6 · for a **slow/pathological** hierarchical fit → treating slowness as a ](../../recs/hierarchical-multilevel/E6.md) `0.82`
+- [✗ sparse-shrinkage W5 · for a **large sparse/hierarchical fit that stalls or runs pathological](../../recs/sparse-shrinkage/W5.md) `0.94`
+- [✗ hierarchical-multilevel K1 · for a hierarchical MCMC fit that **stalls or runs pathologically slowl](../../recs/hierarchical-multilevel/K1.md) `0.93`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.86`
+- [✓ measurement-error-missing K3 · for such a fit → **diagnose the geometry first** — pairs/scatter of (μ](../../recs/measurement-error-missing/K3.md) `0.82`

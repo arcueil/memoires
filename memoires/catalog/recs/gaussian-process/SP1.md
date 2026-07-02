@@ -20,6 +20,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-priors-identifiability X4 · when **you reason about a spline / GAM smooth via its coefficients or ](../../recs/CC-priors-identifiability/X4.md) `0.92`
-- [✗ regression SM8 · for **assessing whether a coefficient is non-negligible** → a **point-](../../recs/regression/SM8.md) `0.81`
-- [✗ CC-model-evaluation H1 · when computing a **Bayes factor on an estimation-prior fit** (e.g. rst](../../recs/CC-model-evaluation/H1.md) `0.80`
-- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.80`
+- [✗ regression SM8 · for **assessing whether a coefficient is non-negligible** → a **point-](../../recs/regression/SM8.md) `0.83`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.81`
+- [✓ CC-model-evaluation H3 · when **assessing whether an effect is non-negligible** → a **direction](../../recs/CC-model-evaluation/H3.md) `0.81`

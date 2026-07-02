@@ -19,7 +19,7 @@ a **structured GP prior over the stratum index** recovers √n-consistency.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel L1 · for **population-mean estimation under high-stratum covariate-dependen](../../recs/hierarchical-multilevel/L1.md) `0.91`
-- [✗ measurement-error-missing A3 · for population-mean estimation under **covariate-dependent sampling wh](../../recs/measurement-error-missing/A3.md) `0.85`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.85`
-- [✓ measurement-error-missing A4 · for that covariate-dependent-sampling problem → **modeling the randomi](../../recs/measurement-error-missing/A4.md) `0.84`
+- [✗ hierarchical-multilevel L1 · for **population-mean estimation under high-stratum covariate-dependen](../../recs/hierarchical-multilevel/L1.md) `0.89`
+- [✗ measurement-error-missing A3 · for population-mean estimation under **covariate-dependent sampling wh](../../recs/measurement-error-missing/A3.md) `0.86`
+- [✓ measurement-error-missing A4 · for that covariate-dependent-sampling problem → **modeling the randomi](../../recs/measurement-error-missing/A4.md) `0.85`
+- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.84`

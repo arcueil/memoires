@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ ode-dynamical S5 · for an ODE fit whose **warmup is dominated by solver precision** → **t](../../recs/ode-dynamical/S5.md) `0.80`
 - [✓ sparse-shrinkage W3 · for **HMC/NUTS with windowed warmup and multiple chains** → **adaptive](../../recs/sparse-shrinkage/W3.md) `0.80`
+- [sparse-shrinkage C5 · Build sparse models by nested expansion under valid warmup — fix geome](../../claims/sparse-shrinkage/C5.md) `0.80`
 - [✓ gaussian-process W1 · for **multi-chain HMC/NUTS with windowed warmup** → **adaptive warmup ](../../recs/gaussian-process/W1.md) `0.79`
-- [✓ ode-dynamical S5 · for an ODE fit whose **warmup is dominated by solver precision** → **t](../../recs/ode-dynamical/S5.md) `0.79`
-- [sparse-shrinkage C5 · Build sparse models by nested expansion under valid warmup — fix geome](../../claims/sparse-shrinkage/C5.md) `0.78`
 
 
 ## Technique (pymc-labs)

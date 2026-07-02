@@ -20,7 +20,7 @@ prior.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-geometry-sampling GP3 · when a **latent-Gaussian/GP regression shows divergences concentrated ](../../recs/CC-geometry-sampling/GP3.md) `0.95`
-- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.92`
+- [✓ CC-geometry-sampling GP3 · when a **latent-Gaussian/GP regression shows divergences concentrated ](../../recs/CC-geometry-sampling/GP3.md) `0.94`
+- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.94`
 - [✓ latent-factor D2 · for a **conjugate latent-Gaussian** model → **analytic marginalization](../../recs/latent-factor/D2.md) `0.85`
-- [✓ gaussian-process S4 · for a **sparse-precision latent-Gaussian model** → **parameterizing vi](../../recs/gaussian-process/S4.md) `0.84`
+- [✓ gaussian-process S4 · for a **sparse-precision latent-Gaussian model** → **parameterizing vi](../../recs/gaussian-process/S4.md) `0.85`

@@ -19,7 +19,7 @@ a **GP or shared RE on the group-level intercept** works (sharpens the effect).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel C5 · for a **grouped/repeated-measures contrast** (A/B test with per-day da](../../recs/hierarchical-multilevel/C5.md) `0.97`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.79`
-- [✗ spatial-areal D1 · for regressing a **pairwise dissimilarity response with spatial priors](../../recs/spatial-areal/D1.md) `0.79`
-- [✗ regression SM7 · for **comparing Bayesian R² across likelihoods** → treating it as comp](../../recs/regression/SM7.md) `0.79`
+- [✓ hierarchical-multilevel C5 · for a **grouped/repeated-measures contrast** (A/B test with per-day da](../../recs/hierarchical-multilevel/C5.md) `0.94`
+- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.80`
+- [✗ regression SM7 · for **comparing Bayesian R² across likelihoods** → treating it as comp](../../recs/regression/SM7.md) `0.80`
+- [✓ hierarchical-multilevel F4 · for **pre/post** repeated measures → modeling **both timepoints as the](../../recs/hierarchical-multilevel/F4.md) `0.79`

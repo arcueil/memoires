@@ -19,9 +19,9 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-model-evaluation A1 · when **HMC diagnostics are clean** (0 divergences, R̂≈1, adequate ESS,](../../recs/CC-model-evaluation/A1.md) `0.80`
-- [✓ CC-model-evaluation F8 · when you **marginalized a discrete latent z** out for HMC → recovering](../../recs/CC-model-evaluation/F8.md) `0.78`
-- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.78`
-- [✓ CC-model-evaluation H3 · when **assessing whether an effect is non-negligible** → a **direction](../../recs/CC-model-evaluation/H3.md) `0.77`
+- [✓ CC-model-evaluation H3 · when **assessing whether an effect is non-negligible** → a **direction](../../recs/CC-model-evaluation/H3.md) `0.80`
+- [✓ CC-model-evaluation F2 · when generating a posterior predictive → **drawing through the observa](../../recs/CC-model-evaluation/F2.md) `0.80`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.80`
 
 
 ## Technique (pymc-labs)

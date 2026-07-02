@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.81`
-- [✗ CC-priors-identifiability N4 · when **you use a Beta with a shape parameter < 1** (e.g. Beta(0.5,0.5)](../../recs/CC-priors-identifiability/N4.md) `0.80`
-- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.80`
+- [✓ CC-priors-identifiability EL3 · when **you have verbal domain knowledge and need to turn it into a dis](../../recs/CC-priors-identifiability/EL3.md) `0.82`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.81`
+- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.81`
 - [✓ gaussian-process S4 · for a **sparse-precision latent-Gaussian model** → **parameterizing vi](../../recs/gaussian-process/S4.md) `0.80`

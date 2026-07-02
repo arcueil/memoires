@@ -20,6 +20,6 @@ work (it can invert the sign of the causal estimate).
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.84`
-- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.80`
-- [✗ latent-factor A2 · for a factor model → constraining **ONE loading's sign positive** does](../../recs/latent-factor/A2.md) `0.80`
-- [✗ hierarchical-multilevel D6 · for **multiple correlated random effects** → an "estimate-then-fix-to-](../../recs/hierarchical-multilevel/D6.md) `0.79`
+- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.81`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.81`
+- [✗ CC-model-evaluation F15 · when inferring a **difference between two conditions from overlap of t](../../recs/CC-model-evaluation/F15.md) `0.80`

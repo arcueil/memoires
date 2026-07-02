@@ -19,7 +19,7 @@ knowledge about proportional changes works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.81`
-- [✓ CC-model-evaluation E9 · when you want **some observations to count more than others** → **mult](../../recs/CC-model-evaluation/E9.md) `0.80`
-- [✓ measurement-error-missing L2 · for such large-count overflow → **re-express the count likelihood on R](../../recs/measurement-error-missing/L2.md) `0.79`
-- [✓ spatial-areal T2 · for the same model → **elicit the prior on the marginal SD** (τ^{-1/2}](../../recs/spatial-areal/T2.md) `0.79`
+- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.83`
+- [✓ CC-model-evaluation E9 · when you want **some observations to count more than others** → **mult](../../recs/CC-model-evaluation/E9.md) `0.81`
+- [✗ hierarchical-multilevel C3 · for a **partial-pooling model** → reading a positive **residuals-vs-fi](../../recs/hierarchical-multilevel/C3.md) `0.81`
+- [✓ CC-model-evaluation F9 · when computing **marginal effects from random-slope / correlated-RE mo](../../recs/CC-model-evaluation/F9.md) `0.81`

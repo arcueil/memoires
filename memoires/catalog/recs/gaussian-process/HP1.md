@@ -19,7 +19,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.86`
+- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.87`
 - [CC-priors-identifiability C5 · Scaling a prior to the experimental design is principled, not cheating](../../claims/CC-priors-identifiability/C5.md) `0.86`
-- [✓ ode-dynamical Q4 · for **eliciting a prior on an awkwardly-scaled ODE parameter** → elici](../../recs/ode-dynamical/Q4.md) `0.82`
-- [✓ CC-geometry-sampling RP8 · when a **Cauchy/half-Cauchy prior in the prior-dominated regime** forc](../../recs/CC-geometry-sampling/RP8.md) `0.81`
+- [✓ CC-geometry-sampling RP8 · when a **Cauchy/half-Cauchy prior in the prior-dominated regime** forc](../../recs/CC-geometry-sampling/RP8.md) `0.83`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.83`

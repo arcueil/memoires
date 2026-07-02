@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ ode-dynamical Q2 · for **supplying that scale legitimately** → draw it from **prior exper](../../recs/ode-dynamical/Q2.md) `0.74`
-- [✗ CC-convergence-diagnostics B2 · when you run a single chain on a multimodal/mixture target → per-chain](../../recs/CC-convergence-diagnostics/B2.md) `0.73`
-- [✓ CC-model-evaluation G15 · when **comparing candidate models by predictive fit** → running **`az.](../../recs/CC-model-evaluation/G15.md) `0.73`
-- [✗ CC-convergence-diagnostics A1 · when a chain is stationary/irreducible/aperiodic and you take that as ](../../recs/CC-convergence-diagnostics/A1.md) `0.73`
+- [✓ ode-dynamical Q4 · for **eliciting a prior on an awkwardly-scaled ODE parameter** → elici](../../recs/ode-dynamical/Q4.md) `0.80`
+- [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.79`
+- [✓ ode-dynamical Q2 · for **supplying that scale legitimately** → draw it from **prior exper](../../recs/ode-dynamical/Q2.md) `0.78`
+- [✓ hierarchical-multilevel P10 · for a **discretized SDE** fit as a hierarchical chain of latent states](../../recs/hierarchical-multilevel/P10.md) `0.78`

@@ -19,7 +19,7 @@ covariate model** works (the decoupling theorem: η factorizes from γ).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.87`
+- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.86`
 - [✓ latent-factor D2 · for a **conjugate latent-Gaussian** model → **analytic marginalization](../../recs/latent-factor/D2.md) `0.82`
+- [✓ sparse-shrinkage V4 · for **genuine covariate removal in a hierarchical model** → **handling](../../recs/sparse-shrinkage/V4.md) `0.82`
 - [✓/✗ latent-factor D3 · for a latent-Gaussian model → **NCP** works (and is necessary) when th](../../recs/latent-factor/D3.md) `0.82`
-- [✗ CC-priors-identifiability P3 · when **you assume randomization alone suppresses confounding** → does ](../../recs/CC-priors-identifiability/P3.md) `0.82`

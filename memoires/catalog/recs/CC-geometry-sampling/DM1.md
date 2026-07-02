@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [mixture C5 · Where the mixture lives dictates how you treat it — marginalize the as](../../claims/mixture/C5.md) `0.89`
-- [✓ mixture M1 · for a mixture under **HMC/NUTS** → **marginalize the discrete assignme](../../recs/mixture/M1.md) `0.88`
-- [✓ measurement-error-missing H2 · for a **missing discrete covariate** → **marginalize it out** (conditi](../../recs/measurement-error-missing/H2.md) `0.84`
-- [✓/✗ measurement-error-missing F1 · for a **bivariate (or joint) model where one component can go missing*](../../recs/measurement-error-missing/F1.md) `0.83`
+- [✓ mixture M1 · for a mixture under **HMC/NUTS** → **marginalize the discrete assignme](../../recs/mixture/M1.md) `0.87`
+- [✓ CC-model-evaluation F8 · when you **marginalized a discrete latent z** out for HMC → recovering](../../recs/CC-model-evaluation/F8.md) `0.84`
+- [✓ mixture M3 · for a **marginalized model** → recover z **post-hoc as the data-condit](../../recs/mixture/M3.md) `0.84`

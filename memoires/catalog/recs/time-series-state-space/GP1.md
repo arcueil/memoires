@@ -17,7 +17,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ gaussian-process E4 · for **prior-improbable posteriors on GP terms** → reading them as a **](../../recs/gaussian-process/E4.md) `0.83`
 - [✗ gaussian-process HP4 · for **EQ GP hyperparameters** → **maximum marginal likelihood (MML) wi](../../recs/gaussian-process/HP4.md) `0.83`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.82`
-- [✗ gaussian-process EB1 · for **setting a GP prior scale from a pre-fit to the same data** → **e](../../recs/gaussian-process/EB1.md) `0.82`
+- [✗ gaussian-process HP11 · for a **GP under cross-validation or sequential data collection** → th](../../recs/gaussian-process/HP11.md) `0.82`
+- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.82`
+- [✗ gaussian-process E4 · for **prior-improbable posteriors on GP terms** → reading them as a **](../../recs/gaussian-process/E4.md) `0.82`

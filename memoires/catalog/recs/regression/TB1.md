@@ -22,7 +22,7 @@ artifact of one process, not a separate zero-generating process (contrast HZ1's 
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ measurement-error-missing M1 · for **limited/corner outcomes piled at a bound** (expenditure, hours w](../../recs/measurement-error-missing/M1.md) `0.95`
-- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.81`
-- [✗ mixture M4 · for **benchmarking a marginalized/enumerated sampler against a discret](../../recs/mixture/M4.md) `0.80`
-- [✓/✗ hierarchical-multilevel F8 · for **marginalizing a sum of independent binomial** latent counts agai](../../recs/hierarchical-multilevel/F8.md) `0.79`
+- [✓ measurement-error-missing M1 · for **limited/corner outcomes piled at a bound** (expenditure, hours w](../../recs/measurement-error-missing/M1.md) `0.96`
+- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.83`
+- [✗ mixture M4 · for **benchmarking a marginalized/enumerated sampler against a discret](../../recs/mixture/M4.md) `0.81`
+- [✓/✗ mixture Z4 · for **marginalizing a sum of independent binomial latent counts agains](../../recs/mixture/Z4.md) `0.80`

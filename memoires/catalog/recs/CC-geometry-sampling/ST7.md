@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-priors-identifiability W8 · when **the likelihood cannot inform some directions** → elicit only **](../../recs/CC-priors-identifiability/W8.md) `0.80`
-- [✓ CC-model-evaluation D1 · when asking **"is my model good enough?"** → judging **relevant (goal-](../../recs/CC-model-evaluation/D1.md) `0.79`
-- [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.79`
-- [✓/✗ measurement-error-missing F1 · for a **bivariate (or joint) model where one component can go missing*](../../recs/measurement-error-missing/F1.md) `0.78`
+- [✓ CC-priors-identifiability W8 · when **the likelihood cannot inform some directions** → elicit only **](../../recs/CC-priors-identifiability/W8.md) `0.81`
+- [✓ CC-model-evaluation D1 · when asking **"is my model good enough?"** → judging **relevant (goal-](../../recs/CC-model-evaluation/D1.md) `0.80`
+- [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.80`
+- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.80`

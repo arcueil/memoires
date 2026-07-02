@@ -18,9 +18,9 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel E6 · for a **slow/pathological** hierarchical fit → treating slowness as a ](../../recs/hierarchical-multilevel/E6.md) `0.88`
-- [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.87`
-- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.83`
+- [✓ hierarchical-multilevel E6 · for a **slow/pathological** hierarchical fit → treating slowness as a ](../../recs/hierarchical-multilevel/E6.md) `0.86`
+- [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.86`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.85`
 - [✗ sparse-shrinkage W5 · for a **large sparse/hierarchical fit that stalls or runs pathological](../../recs/sparse-shrinkage/W5.md) `0.83`
 
 

@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ gaussian-process HP1 · for an **EQ / Matérn GP length scale** where the design is length-scal](../../recs/gaussian-process/HP1.md) `0.83`
 - [✓ regression PR5 · for a **high-dimensional scale-mixture (local-global) prior** → calibr](../../recs/regression/PR5.md) `0.83`
-- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.81`
-- [✓ gaussian-process HP1 · for an **EQ / Matérn GP length scale** where the design is length-scal](../../recs/gaussian-process/HP1.md) `0.81`
-- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.81`
+- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.83`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.83`

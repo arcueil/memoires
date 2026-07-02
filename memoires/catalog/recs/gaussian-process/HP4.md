@@ -19,7 +19,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.85`
+- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.86`
+- [✗ CC-priors-identifiability G1 · when **you estimate an EQ-kernel length scale ρ by maximum marginal li](../../recs/CC-priors-identifiability/G1.md) `0.83`
 - [✓ time-series-state-space GP1 · for a **nonparametric time-series model** → a **GP prior over time wit](../../recs/time-series-state-space/GP1.md) `0.83`
-- [✗ CC-priors-identifiability G1 · when **you estimate an EQ-kernel length scale ρ by maximum marginal li](../../recs/CC-priors-identifiability/G1.md) `0.82`
-- [✗ hierarchical-multilevel B1 · for a hierarchical model with **few obs/group** → **vague/uniform prio](../../recs/hierarchical-multilevel/B1.md) `0.80`
+- [✓ CC-geometry-sampling GP2 · when a **GP is too large** → replacing it with a low-rank basis-functi](../../recs/CC-geometry-sampling/GP2.md) `0.81`

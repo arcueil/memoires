@@ -20,7 +20,7 @@ gaps to the **decision rule / scoring**.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.84`
+- [✗ CC-model-evaluation F15 · when inferring a **difference between two conditions from overlap of t](../../recs/CC-model-evaluation/F15.md) `0.84`
 - [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.83`
-- [✗ CC-model-evaluation F15 · when inferring a **difference between two conditions from overlap of t](../../recs/CC-model-evaluation/F15.md) `0.82`
-- [✗ gaussian-process EB1 · for **setting a GP prior scale from a pre-fit to the same data** → **e](../../recs/gaussian-process/EB1.md) `0.82`
+- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.83`
+- [✗ CC-model-evaluation F3 · when computing **predictive RMSE / intervals** → differencing data aga](../../recs/CC-model-evaluation/F3.md) `0.83`

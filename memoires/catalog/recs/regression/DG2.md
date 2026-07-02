@@ -20,7 +20,7 @@ arch/dome → missing functional dependence).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel E5 · for **per-unit posterior-predictive residuals plotted across a covaria](../../recs/hierarchical-multilevel/E5.md) `0.98`
+- [✓ hierarchical-multilevel E5 · for **per-unit posterior-predictive residuals plotted across a covaria](../../recs/hierarchical-multilevel/E5.md) `0.97`
 - [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.84`
 - [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.82`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.81`
+- [✓ measurement-error-missing A4 · for that covariate-dependent-sampling problem → **modeling the randomi](../../recs/measurement-error-missing/A4.md) `0.82`

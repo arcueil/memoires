@@ -20,7 +20,7 @@ summarizing** works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.97`
-- [✓ CC-model-evaluation F9 · when computing **marginal effects from random-slope / correlated-RE mo](../../recs/CC-model-evaluation/F9.md) `0.93`
-- [✓ hierarchical-multilevel I2 · for **MRP** with a strong predictor known only in the sample → **inclu](../../recs/hierarchical-multilevel/I2.md) `0.83`
-- [✓ hierarchical-multilevel E5 · for **per-unit posterior-predictive residuals plotted across a covaria](../../recs/hierarchical-multilevel/E5.md) `0.83`
+- [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.98`
+- [✓ CC-model-evaluation F9 · when computing **marginal effects from random-slope / correlated-RE mo](../../recs/CC-model-evaluation/F9.md) `0.92`
+- [✓ hierarchical-multilevel H2 · for **per-observation-RE** models → **integrate out the random effect*](../../recs/hierarchical-multilevel/H2.md) `0.85`
+- [✓ hierarchical-multilevel I2 · for **MRP** with a strong predictor known only in the sample → **inclu](../../recs/hierarchical-multilevel/I2.md) `0.85`

@@ -15,3 +15,13 @@
 - both positions (why stan#2836 was reverted): nhuurre — reverted "simply because the devs couldn't agree if it had been tested adequately" plus a release deadline; "no concrete problems were known." betanalpha — that is "not the full story," a developer-*governance* breakdown, stressing "no problems were ever suggested, let alone demonstrated" — the change was theory-motivated and empirically verified. Both agree no technical defect was ever shown; they differ on the completeness/framing of the reversal.
 - follow-up & related discussion (in the corpus): the less-conservative target **was** implemented, tested, and reverted — [mc-stan:9532](https://discourse.mc-stan.org/t/request-for-volunteers-to-test-adaptation-tweak/9532) (betanalpha, "Request for Volunteers to Test Adaptation Tweak"; the thread ends with the maintainers reverting stan#2836). An **alternative** gradient-based metric + step-size adaptation (Adrian Seyboldt / covadapt, as used in nuts-rs / nutpie) is discussed as significantly faster — [mc-stan:32259](https://discourse.mc-stan.org/t/comparing-stans-adaptation-phase-to-that-of-nuts-rs/32259). Background: what the acceptance statistic `accept_stat__` is vs `adapt_delta` — [mc-stan:9931](https://discourse.mc-stan.org/t/confused-about-accept-stat-and-delta/9931); dual-averaging step-size restart quirks — [mc-stan:5995](https://discourse.mc-stan.org/t/issue-with-dual-averaging/5995).
 - moves: "Reproduce with a minimal discontinuous target (`x ~ std_normal(); target += (x[1]>0) ? 0 : -10`) and watch the adapted step size collapse during warmup" · "Read a warmup step-size collapse as a possible model-structure (discontinuity) signal — scan the log-density for hard branches / `reject()` / jumps before blaming `adapt_delta`"
+
+
+## Related across the catalog
+
+*Similar challenges in other model classes / computation areas (embedding neighbors):*
+
+- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.81`
+- [✗ gaussian-process W3 · for a model with **structural non-identifiability between chains** (fa](../../recs/gaussian-process/W3.md) `0.81`
+- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.80`
+- [✓ CC-convergence-diagnostics G1 · when running multiple chains with windowed warmup → feed **between-cha](../../recs/CC-convergence-diagnostics/G1.md) `0.80`

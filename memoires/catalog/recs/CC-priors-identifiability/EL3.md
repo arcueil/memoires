@@ -24,7 +24,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-geometry-sampling DM1 · when a model has **discrete component-assignment variables z** → margi](../../recs/CC-geometry-sampling/DM1.md) `0.80`
-- [✓ ode-dynamical Q2 · for **supplying that scale legitimately** → draw it from **prior exper](../../recs/ode-dynamical/Q2.md) `0.78`
-- [✗ CC-geometry-sampling DM7 · when a distribution's **support boundary depends on the parameters** (](../../recs/CC-geometry-sampling/DM7.md) `0.78`
-- [✗ CC-model-evaluation F13 · when interpreting **latent / penalized / transformed parameters from t](../../recs/CC-model-evaluation/F13.md) `0.77`
+- [✗ CC-geometry-sampling DM7 · when a distribution's **support boundary depends on the parameters** (](../../recs/CC-geometry-sampling/DM7.md) `0.82`
+- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.81`
+- [✓ CC-geometry-sampling DM1 · when a model has **discrete component-assignment variables z** → margi](../../recs/CC-geometry-sampling/DM1.md) `0.81`
+- [✓ CC-model-evaluation F16 · when a **strong predictor's population joint distribution is unknown**](../../recs/CC-model-evaluation/F16.md) `0.81`

@@ -22,7 +22,7 @@ the *implicit*-mixture route.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ measurement-error-missing N1 · for **outliers you want to downweight without explicitly flagging them](../../recs/measurement-error-missing/N1.md) `0.88`
+- [✓ measurement-error-missing N1 · for **outliers you want to downweight without explicitly flagging them](../../recs/measurement-error-missing/N1.md) `0.89`
+- [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.83`
 - [✓ ode-dynamical S1 · for a Bayesian model with an **ODE-solve likelihood** → **sample under](../../recs/ode-dynamical/S1.md) `0.83`
-- [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.82`
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.82`
+- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.82`
