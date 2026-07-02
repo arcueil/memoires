@@ -66,7 +66,7 @@ non-centered reparameterization (NCP) for joint HMC/NUTS; for the conjugate Gaus
 analytic marginalization of u is *strictly stronger* than NCP: it removes the funnel from the
 sampler's state space entirely instead of merely reshaping it.
 
-**Nuance.** Marginalization and NCP are not equivalent even when both are available — NCP reshapes the
+**Nuance.** This is *analytic conjugate-Gaussian* marginalization of a continuous latent field — distinct from the discrete-mixture marginalization (log-sum-exp over assignments) of the mixture page; the two share only the word. Marginalization and NCP are not equivalent even when both are available — NCP reshapes the
 funnel, marginalization removes it. Conjugacy makes full marginalization exact and cheap (the cost is
 a sparse linear solve at each θ), making NCP an unnecessary fallback for this class. For non-Gaussian
 likelihoods marginalization is only approximate and NCP may be competitive or necessary; and after

@@ -144,8 +144,7 @@ prior only *softens*, and downstream quantities (ICC, R², marginal effects, "si
 definition- and scale-dependent — there is no single right number.
 
 **Nuance.** A global intercept plus zero-mean group effects is location non-identified: a constant
-shifts freely between them, so they trade off and the group-level scale inflates. The natural fix is
-the non-centered exchangeable form α_k ~ N(μ, σ) with a *separate* intercept — *not* a hard
+shifts freely between them, so they trade off and the group-level scale inflates. The natural fix is the non-centered exchangeable form α_k ~ N(0, σ) about a *separate* intercept (a free μ *together with* a separate intercept is itself the confounded pair — maintainer gate 2026-07-02, aligning the claim with the corrected rec D2) — *not* a hard
 sum-to-zero constraint, which is not a neutral reparameterization: it changes the generative model
 (pins the population mean to the sample average, breaks conditional independence / infinite
 exchangeability). Residual decompositions θ_l = θ + δ_l are mathematically arbitrary — neither piece
