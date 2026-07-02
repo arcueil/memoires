@@ -26,6 +26,8 @@ smap = json.load(open(M / 'data/source_map.json'))
 sa_of = json.load(open(M / 'data/claim_sa_edges.json'))          # "page/Cn" -> "SAk"
 rec_claims = json.load(open(M / 'data/rec_claim_edges.json'))    # "page/id" -> ["page/Cn", ...]
 related = json.load(open(M / 'data/related_edges.json'))         # "kind:page/id" -> [[key, sim], ...]
+_fp = M / 'data/fold_sections.json'                              # sidecar: sections folded into
+folds = json.load(open(_fp)) if _fp.exists() else {}             # entries (pymc-labs etc.); re-applied each render
 
 SID = r'(mc-stan:\d+|pymc:\d+|pyro:\d+|betanalpha:[a-z_0-9]+|dansblog:[a-z0-9_-]+|pymc-labs:[a-z0-9-]+)'
 MARK = r'([✓✗⚪](?:/[✓✗])?)'
@@ -109,6 +111,8 @@ for ck, c in claims.items():
                 out.append(f'- [{r["dir"]} {rid}](../../recs/{rpg}/{rid}.md) — {r["head"][:110]}')
         out.append('')
     out.append(related_block(f'claim:{ck}', titles))
+    if f'claim:{ck}' in folds:
+        out.append('\n' + folds[f'claim:{ck}'] + '\n')
     p = M / 'claims' / pg / f'{cid}.md'
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text('\n'.join(out).rstrip() + '\n')
@@ -132,6 +136,8 @@ for rk, r in recs.items():
                 '(see data/unassigned_recs.json).*', '']
     out += [f'**{r["dir"]} {rid}** {linkify(r["body"])}', '']
     out.append(related_block(f'rec:{rk}', titles))
+    if f'rec:{rk}' in folds:
+        out.append('\n' + folds[f'rec:{rk}'] + '\n')
     p = M / 'recs' / pg / f'{rid}.md'
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text('\n'.join(out).rstrip() + '\n')

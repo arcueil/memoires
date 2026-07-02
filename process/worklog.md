@@ -73,3 +73,11 @@ publish (repos exist locally with remotes set, nothing pushed).
   page patch. Verified idempotent by checksum. Lesson: a generator that writes into its own
   inputs must strip its prior output first.
 
+
+## Regression caught by the human-gate packet assembly (2026-07-02)
+Building JP's gate quiz revealed the re-render had **clobbered all 96 pymc fold-in sections** —
+the fold step wrote into *derived* files (claims/recs), which the next render regenerated from
+pages/. Recovered from git (d6320f9) into `catalog/data/fold_sections.json`; renderer now
+re-applies the sidecar every render. **Lesson (workbook law #9 extended): derived files must
+never receive direct edits — all enrichment goes through sidecar data the generator owns.**
+Validator gained no coverage here; consider a content-invariant check (fold-section count).

@@ -21,3 +21,9 @@
 - [✗ gaussian-process P1 · for an **exact/latent GP predicting at new inputs X\*** → the **generi](../../recs/gaussian-process/P1.md) `0.75`
 - [✗ latent-factor D1 · for a **latent-Gaussian** model → **joint HMC/NUTS on (u,θ)** without ](../../recs/latent-factor/D1.md) `0.75`
 - [✓ sparse-shrinkage W3 · for **HMC/NUTS with windowed warmup and multiple chains** → **adaptive](../../recs/sparse-shrinkage/W3.md) `0.74`
+
+
+## Technique (pymc-labs)
+
+**PyMC NUTS backend selection menu (nutpie / numpyro / pymc)** — nutpie (Rust, PyMC6 default, best mass-matrix adaptation, ~2-5x faster than pure-Python NUTS, CPU) / numpyro (JAX, GPU, `nuts={'chain_method':'vectorized'}` runs all chains as one batched program) / pymc (pure-Python fallback, needed for compound steps). Frame per C1: backend choice moves cost-per-gradient by a constant factor, never ESS-per-gradient (geometry is backend-invariant). Note nutpie supports scan/AR/GARCH11/HSGP/Mixture/DensityDist, so 'complex model' is not a reason to downgrade backend.
+*Source: [pymc-labs:inference](https://github.com/pymc-labs/python-analytics-skills)*

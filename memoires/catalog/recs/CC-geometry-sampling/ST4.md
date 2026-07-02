@@ -22,3 +22,12 @@
 - [✓ gaussian-process W1 · for **multi-chain HMC/NUTS with windowed warmup** → **adaptive warmup ](../../recs/gaussian-process/W1.md) `0.79`
 - [✓ ode-dynamical S5 · for an ODE fit whose **warmup is dominated by solver precision** → **t](../../recs/ode-dynamical/S5.md) `0.79`
 - [sparse-shrinkage C5 · Build sparse models by nested expansion under valid warmup — fix geome](../../claims/sparse-shrinkage/C5.md) `0.78`
+
+
+## Technique (pymc-labs)
+
+**DADVI — deterministic ADVI (fixed MC sample set removes ELBO gradient noise)** — 'Deterministic ADVI fixes the Monte-Carlo sample set used to estimate the ELBO so the gradient is deterministic, removing MC gradient noise -> faster, more stable VI convergence than stochastic ADVI.' Portable method (Giordano et al.); PyMC entry point `pymc_extras.fit(method='dadvi')`.
+*Source: [pymc-labs:pymc-extras](https://github.com/pymc-labs/python-analytics-skills)*
+
+**Pathfinder mechanism (quasi-Newton / L-BFGS-path VI, multi-path)** — The mechanism behind ST4/ST5's Pathfinder: 'Pathfinder traces the L-BFGS optimization path from a random init toward the mode, fits a Gaussian at each iterate, and (multi-path: `num_paths`) importance-resamples across the best-ELBO iterates. This is why it is seconds-fast and lands a point in the typical-set bulk — the exact property ST4 relies on.' `maxcor` = L-BFGS history.
+*Source: [pymc-labs:inference](https://github.com/pymc-labs/python-analytics-skills)*

@@ -22,3 +22,10 @@
 - [✗ ode-dynamical P1 · for a **positive parameter near a boundary** (e.g. drag k with `lower=](../../recs/ode-dynamical/P1.md) `0.80`
 - [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.80`
 - [✓ CC-priors-identifiability E7 · when **you are deciding whether a shrink-to-zero (PC) prior is appropr](../../recs/CC-priors-identifiability/E7.md) `0.79`
+
+
+## Enrichment (pymc-labs)
+
+**Proactive gradient-finiteness check for a custom logp** (🔧 PyMC-specific) — Enriches C7/ST2 ('finite logp != finite gradient') with a proactive check: before sampling a custom distribution, compile pytensor.grad(logp, x) and assert np.isfinite over a grid of test points. Turns the ST2 run-time 'Gradient at initial value not finite' failure into a pre-flight test that localizes non-differentiable seams (switch/abs/boundary) in hand-written densities.
+
+*Source: pymc-labs (human-curated).*
