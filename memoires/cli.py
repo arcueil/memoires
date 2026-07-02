@@ -29,6 +29,24 @@ from . import CATALOG, __version__
 MARK = re.compile(r"^# ([✓✗⚪](?:/[✓✗])?\s+)?")
 
 
+def _log(event: dict):
+    """Append a usage event (opt-in via MEMOIRES_LOG, or default local file). Local-only, best-effort.
+    Turns real use into evidence — what got asked, what was opened — for evaluation + jaynes-robot."""
+    import os
+    path = os.environ.get("MEMOIRES_LOG")
+    if path == "off":
+        return
+    p = Path(path) if path else Path.home() / ".memoires" / "usage.jsonl"
+    try:
+        import datetime
+        p.parent.mkdir(parents=True, exist_ok=True)
+        event["ts"] = datetime.datetime.now().isoformat(timespec="seconds")
+        with open(p, "a", encoding="utf-8") as f:
+            f.write(json.dumps(event, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
+
+
 def _entries():
     for kind, d in (("claim", "claims"), ("rec", "recs")):
         root = CATALOG / d
@@ -149,6 +167,7 @@ def cmd_search(args):
         print("no matches — try broader terms" + ("" if sem else " (or install [semantic])"))
         return
     order = [r for r, *_ in picked]
+    _log({"cmd": "search", "query": query, "mode": mode, "results": order})
     for ref, kind, p, t in picked:
         title = t.splitlines()[0].lstrip("# ").strip()
         src = re.search(r"\]\((https?://[^)]+)\)", t)
@@ -173,11 +192,13 @@ def _resolve(ref: str):
 
 def cmd_show(args):
     p, _ = _resolve(args.ref)
+    _log({"cmd": "show", "ref": args.ref})
     print(p.read_text(encoding="utf-8"))
 
 
 def cmd_graph(args):
     p, kind = _resolve(args.ref)
+    _log({"cmd": "graph", "ref": args.ref})
     page, eid = p.parent.name, p.stem
     key = f"{page}/{eid}"
     data = CATALOG / "data"
@@ -208,6 +229,12 @@ def cmd_stats(_):
     print(f"  resolvable sources: {len(smap)} (forums, case studies, pymc-labs)")
 
 
+def cmd_feedback(args):
+    """Log whether a consulted entry actually helped — the live-test signal for evaluation + jaynes-robot."""
+    _log({"cmd": "feedback", "ref": args.ref, "helpful": args.helpful, "note": " ".join(args.note or [])})
+    print(f"logged: {args.ref} helpful={args.helpful}")
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(
         prog="memoires",
@@ -233,6 +260,11 @@ def main(argv=None):
     s.set_defaults(fn=cmd_graph)
     s = sub.add_parser("stats", help="catalog statistics")
     s.set_defaults(fn=cmd_stats)
+    s = sub.add_parser("feedback", help="log whether an entry helped (the live-test signal)")
+    s.add_argument("ref")
+    s.add_argument("--helpful", choices=["yes", "partly", "no"], required=True)
+    s.add_argument("--note", nargs="*")
+    s.set_defaults(fn=cmd_feedback)
     args = ap.parse_args(argv)
     args.fn(args)
 

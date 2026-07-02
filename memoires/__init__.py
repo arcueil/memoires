@@ -5,6 +5,6 @@ package under ``memoires/catalog``; the CLI is a local search engine over it.
 """
 from pathlib import Path
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 CATALOG = Path(__file__).parent / "catalog"
