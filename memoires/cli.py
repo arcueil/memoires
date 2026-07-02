@@ -132,16 +132,24 @@ def cmd_search(args):
     else:
         order = fts
         mode = "lexical"
-    order = order[:args.k]
-    if not order:
-        print("no matches — try broader terms" + ("" if sem else " (or install [semantic])"))
-        return
+    excl = set(getattr(args, "exclude_source", None) or [])
+    picked = []
     for ref in order:
         try:
             p, kind = _resolve(ref)
         except SystemExit:
             continue
-        t = p.read_text(encoding="utf-8")
+        body = p.read_text(encoding="utf-8")
+        if excl and any(s in body for s in excl):   # contamination guard: skip entries citing an excluded source
+            continue
+        picked.append((ref, kind, p, body))
+        if len(picked) >= args.k:
+            break
+    if not picked:
+        print("no matches — try broader terms" + ("" if sem else " (or install [semantic])"))
+        return
+    order = [r for r, *_ in picked]
+    for ref, kind, p, t in picked:
         title = t.splitlines()[0].lstrip("# ").strip()
         src = re.search(r"\]\((https?://[^)]+)\)", t)
         print(f"\n◆ [{kind}] {title[:100]}")
@@ -214,6 +222,8 @@ def main(argv=None):
     g = s.add_mutually_exclusive_group()
     g.add_argument("--semantic", "-s", action="store_true", help="pure semantic (needs [semantic] extra)")
     g.add_argument("--lexical", "-l", action="store_true", help="force lexical FTS5 only")
+    s.add_argument("--exclude-source", action="append", metavar="ID",
+                   help="drop entries citing this source id (repeatable; for leak-free evaluation)")
     s.set_defaults(fn=cmd_search)
     s = sub.add_parser("show", help="print one entry (page/id)")
     s.add_argument("ref")
