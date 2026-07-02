@@ -22,3 +22,15 @@
 - [✗ hierarchical-multilevel P9 · for an **underdetermined / rank-deficient Gaussian regression** → NCP ](../../recs/hierarchical-multilevel/P9.md) `0.75`
 - [✓ CC-priors-identifiability E8 · when **you need a starting weakly-informative prior and want a constru](../../recs/CC-priors-identifiability/E8.md) `0.75`
 - [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.75`
+
+## Enrichment (pymc-labs)
+
+**'Initial evaluation at starting point failed' / -inf logp — cause taxonomy, debug APIs, and a corrective to ST1** (🔧 PyMC-specific) — Enrich ST1. (a) Add PyMC debug APIs it lacks: `model.point_logps()` / `model.debug()` to pinpoint which RV is -inf. (b) Corrective nuance / mild contradiction: ST1's headline 'forcing a new starting point does NOT work' overstates — pymc splits four causes, two of which ARE start-fixable: jitter pushing a valid param outside a constraint (fix: `init='adapt_diag'`, no jitter) and bad default initvals (fix: `initvals=...`); only data-outside-support and constant-response are truly structural. Scope ST1's 'new start won't help' to the structural sub-case (its own `conditions` already imply this).
+
+*Source: pymc-labs (human-curated).*
+
+
+## Technique (pymc-labs)
+
+**'Initial evaluation failed / -inf logp': distinguish structural support-violation from jitter noise; debug API** — ST1 says 'a new start won't fix it' — but that is the STRUCTURAL case only. Cause-2: default jitter+adapt_diag can push an otherwise-valid constrained param outside support -> here a start DOES fix it (init='adapt_diag' to drop jitter, set initvals=, or init='advi+adapt_diag'). Debug with model.point_logps() and model.debug(). Guards ST1 from over-application.
+*Source: [pymc-labs:troubleshooting](https://github.com/pymc-labs/python-analytics-skills)*

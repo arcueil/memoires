@@ -57,7 +57,6 @@ pymc-labs `python-analytics-skills` treated as a human-curated peer L1: 152 find
   `data/` (gitignored raw + per-source provenance).
 
 ## Where we are / what's next
-See `process/roadmap.md`. Still open on M1: fold `memoires/catalog/pymc_L1/` techniques/
-enrichments/contradictions into the per-entry graph (the "merge peer-L1" minor);
+See `process/roadmap.md`. M1 fold done (2026-07-02): 68 techniques → 54 entries, 21 enrichments → 35, 7 contradiction records → 8 (5 unplaced, documented in pymc_L1/UNPLACED.md). Still open:
 maintainer human-gate review (deliberately last); pymc-labs attribution courtesy ping;
 publish (repos exist locally with remotes set, nothing pushed).

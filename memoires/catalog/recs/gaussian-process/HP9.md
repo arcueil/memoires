@@ -23,3 +23,9 @@
 - [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.84`
 - [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.83`
 - [✓ ode-dynamical Q2 · for **supplying that scale legitimately** → draw it from **prior exper](../../recs/ode-dynamical/Q2.md) `0.82`
+
+
+## Contradiction record
+
+**pymc-labs says:** (unconditionally) 'concentrate the IG prior between the shortest and longest pairwise distances in the data', beta = max_dist/2. · **this catalog says:** deriving ρ-prior bounds from the observed covariate span is principled ONLY when the design was itself length-scale-motivated (HP9); for an observational study it is circular / overfits the prior to the initial data (HP10). · **adjudication:** our catalog is the more careful of the two — an external-expert file that skips the designed-vs-observational distinction we hold (Betancourt); their guidance omits that caveat.
+*The catalog is contradiction-aware by design: both positions stay visible.*

@@ -12,8 +12,15 @@ as claims/recs) vs 🔧 PyMC-specific (the technique/library layer).
 - `ENRICHMENTS.md` — nuance/moves to graft onto existing entries
 - `CONTRADICTIONS.md` — the 7 disagreements, adjudicated (external expert check on us)
 
+## Folded into the graph
+- CONTRADICTIONS.md: 7 items → 8 entries (0 unplaced)
+
 ## Source resolution + license
 `pymc-labs:<topic>` short-ids used across the catalog pages resolve to skills in
 [pymc-labs/python-analytics-skills](https://github.com/pymc-labs/python-analytics-skills)
 (e.g. `pymc-labs:prior-elicitation` → `skills/prior-elicitation/`). That repo is **MIT-licensed**
 (per its README); content derived here is attributed accordingly.
+
+## Folded into the graph
+- ENRICHMENTS.md: 21 items → 35 entries (1 unplaced)
+- TECHNIQUES.md: 68 items → 54 entries (4 unplaced)

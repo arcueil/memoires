@@ -6,7 +6,7 @@
 - [x] `memoires` package + CLI: FTS5 search (`search`), entry view (`show`), edges (`graph`),
       `stats`. Zero-dependency core.
 - [x] Repo restructure: `memoires/` package · `process/` build story · `data/` provenance.
-- [ ] Merge `pymc_L1/` techniques/enrichments/contradictions into the per-entry graph.
+- [x] Merge `pymc_L1/` techniques/enrichments/contradictions into the per-entry graph (96 placed, 5 honest unplaced).
 - [ ] 27 unassigned recs → either new claims or documented gaps.
 - [ ] Maintainer human-gate review (explore/exploit packet) — the last gate.
 - [ ] pymc-labs attribution courtesy ping; then publish (push, PyPI name, release notes).

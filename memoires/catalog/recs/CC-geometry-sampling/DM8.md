@@ -22,3 +22,9 @@
 - [✗ CC-model-evaluation F13 · when interpreting **latent / penalized / transformed parameters from t](../../recs/CC-model-evaluation/F13.md) `0.76`
 - [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.75`
 - [✗ measurement-error-missing L1 · for a **custom count likelihood in brms/Stan on large-count data** → t](../../recs/measurement-error-missing/L1.md) `0.75`
+
+
+## Technique (pymc-labs)
+
+**Python if/else is traced once at graph-build time** — A Python if/else on a random variable is evaluated ONCE at model construction, not per-draw. Use pt.switch(cond,a,b), pytensor.ifelse.ifelse for branching, or pytensor.scan for iterative/loop logic that depends on RVs. Analogous to DM8 (*_rng banned in model block) but a distinct trap.
+*Source: [pymc-labs:pymc-modeling](https://github.com/pymc-labs/python-analytics-skills)*
