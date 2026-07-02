@@ -82,9 +82,8 @@
  "CC-priors-identifiability/C8": "SA7",
  "CC-priors-identifiability/C9": "SA7",
  "regression/C7": "SA1",
- "spatial-areal/C6": "SA1",
- "hierarchical-multilevel/C6": "SA6",
  "CC-priors-identifiability/C10": "SA7",
  "time-series-state-space/C7": "SA1",
- "measurement-error-missing/C7": "SA1"
+ "measurement-error-missing/C7": "SA1",
+ "CC-geometry-sampling/C9": "SA6"
 }

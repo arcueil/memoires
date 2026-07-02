@@ -163,20 +163,30 @@ for f in pages:
     f.write_text(t)
 
 sp = M / 'CLAIMS_SPINE.md'
-t = sp.read_text()
-if '](claims/' not in t:
-    tit2pg = {v: k for k, v in page_title.items()}
-    cur = None
-    out = []
-    for line in t.splitlines():
-        h = re.match(r'^## (.+)$', line)
-        if h:
-            cur = tit2pg.get(h.group(1))
-        if cur and re.match(r'^- \*\*C\d+ · ', line):
-            line = re.sub(r'^- \*\*(C\d+)',
-                          lambda m: f'- **[{m.group(1)}](claims/{cur}/{m.group(1)}.md)', line, count=1)
-        out.append(line)
-    sp.write_text('\n'.join(out) + '\n')
+n_claims = len(claims)
+lines = ["# The claims spine — mid-level abstract principles (the reviewable *why*)", "",
+         f"*{n_claims} mid-level principles (generator-owned; regenerated every render). "
+         "Apex above: [SUPER_AXIOMS.md](SUPER_AXIOMS.md). 🟢 established · 🟡 supported · ⚪ candidate.*", ""]
+for f in pages:
+    pg = f.stem
+    lines += ["", f"## {page_title[pg]}", ""]
+    for ck, c in claims.items():
+        if ck.split('/')[0] != pg:
+            continue
+        cid = ck.split('/')[1]
+        st = re.search(r'\*\*Statement\.\*\*\s*(.+?)(?:\n\n|\n\*\*)', c['body'], re.S)
+        lines.append(f"- **[{cid}](claims/{pg}/{cid}.md) · {c['title']} {c['glyph']}**".rstrip('* ').rstrip() + '**'
+                     if False else f"- **[{cid}](claims/{pg}/{cid}.md) · {c['title']}** {c['glyph']}")
+        if st:
+            lines.append(f"  <br>{re.sub(r'\s+', ' ', st.group(1)).strip()[:340]}")
+sp.write_text('\n'.join(lines) + '\n')
 
-print(f'rendered {len(claims)} claims + {len(recs)} recs; patched SUPER_AXIOMS, '
-      f'{len(pages)} pages, spine')
+# orphan cleanup: entry files not derivable from pages are stale — remove
+for d, keys in (('claims', claims), ('recs', recs)):
+    for f in (M / d).rglob('*.md'):
+        if f'{f.parent.name}/{f.stem}' not in keys:
+            f.unlink()
+            print(f'  removed orphan {f.relative_to(M)}')
+
+print(f'rendered {len(claims)} claims + {len(recs)} recs; regenerated spine; patched SUPER_AXIOMS, '
+      f'{len(pages)} pages')

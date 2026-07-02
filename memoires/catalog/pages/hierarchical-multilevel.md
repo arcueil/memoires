@@ -172,21 +172,6 @@ mc-stan:24172 · mc-stan:16457
 
 ---
 
----
-
-### C6 · Minibatch VI must rescale every subsampled term by N/b, or the ELBO is biased 🟡
-*[→ full entry](../claims/hierarchical-multilevel/C6.md)*
-
-**Statement.** In stochastic/minibatch variational inference, subsampling b of N datapoints under-counts each per-datapoint log-probability term — the likelihood AND any per-datapoint local latents (e.g. hierarchical group-level effects) — so the subsampled ELBO is an unbiased estimator of the full-data ELBO only if each such term is rescaled by N/b (or the PPL's plate/subsample machinery, which scales automatically). Omitting the correction — treating VI like frequentist minibatched SGD — leaves the fixed-size prior competing against a fractional likelihood, silently biasing the objective and the posterior.
-
-**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (J1, J2); see the recs below for the concrete instances and conditions.
-
-**Conditions.** As per the governed recs.
-
-**Tier.** 🟡 (new claim; generalizes 2 recs; NOT yet in the human-review packet).
-
-**Sources.** pyro:3041 · pyro:895 · pyro:8826
-
 ## Practical — what works / what doesn't (comprehensive, bidirectional)
 
 *62 recs (31 ✓ / 31 ✗, plus 2 bidirectional). `efficacy` is the benchmark-shaped slot

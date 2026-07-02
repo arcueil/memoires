@@ -1933,19 +1933,19 @@
   "regression/C7"
  ],
  "spatial-areal/G1": [
-  "spatial-areal/C6"
+  "regression/C7"
  ],
  "spatial-areal/I1": [
-  "spatial-areal/C6"
+  "regression/C7"
  ],
  "spatial-areal/D1": [
-  "spatial-areal/C6"
+  "regression/C7"
  ],
  "hierarchical-multilevel/J1": [
-  "hierarchical-multilevel/C6"
+  "CC-geometry-sampling/C9"
  ],
  "hierarchical-multilevel/J2": [
-  "hierarchical-multilevel/C6"
+  "CC-geometry-sampling/C9"
  ],
  "CC-priors-identifiability/EL1": [
   "CC-priors-identifiability/C10"

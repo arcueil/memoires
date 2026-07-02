@@ -300,6 +300,21 @@ structure (mean-field vs full-rank).
 
 **Sources.** pymc-labs:python-analytics-skills
 
+---
+
+### C9 · Minibatch VI must rescale every subsampled term by N/b, or the ELBO is biased 🟡
+*[→ full entry](../claims/CC-geometry-sampling/C9.md)*
+
+**Statement.** In stochastic/minibatch variational inference, subsampling b of N datapoints under-counts each per-datapoint log-probability term — the likelihood AND any per-datapoint local latents (e.g. hierarchical group-level effects) — so the subsampled ELBO is an unbiased estimator of the full-data ELBO only if each such term is rescaled by N/b (or the PPL's plate/subsample machinery, which scales automatically). Omitting the correction — treating VI like frequentist minibatched SGD — leaves the fixed-size prior competing against a fractional likelihood, silently biasing the objective and the posterior.
+
+**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on the hierarchical-multilevel page (J1, J2, governed cross-page); see the recs below for the concrete instances and conditions.
+
+**Conditions.** As per the governed recs.
+
+**Tier.** 🟡 (maintainer-gated 2026-07-02: approved; moved from hierarchical-multilevel — an inference-method nuance, not a multilevel-model property).
+
+**Sources.** pyro:3041 · pyro:895 · pyro:8826
+
 ## Practical — what works / what doesn't (comprehensive, SITUATION-indexed)
 
 *81 recs (34 ✓ / 46 ✗, plus 1 bidirectional). These are indexed by DIAGNOSTIC SITUATION/SYMPTOM, not

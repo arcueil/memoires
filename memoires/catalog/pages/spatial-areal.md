@@ -120,21 +120,6 @@ more covariates exhibit spatial autocorrelation.
 
 ---
 
----
-
-### C6 · Spatial structure is a substantive commitment derived from the data's generative process, not its surface label 🟡
-*[→ full entry](../claims/spatial-areal/C6.md)*
-
-**Statement.** The structural scaffolding of a spatial or relational model — the likelihood's generative form, the adjacency graph, and the response's inherent dependency structure — must be derived from and audited against the physical/generative process that produced the data (an aggregated point process, the real geography, the relational constraints of the response), never read off its surface label. A model matched to the surface form (additive site intercepts for a pairwise-dissimilarity response, un-pinned ICAR nodes for aggregated counts, an unaudited adjacency graph) silently encodes the wrong structure, and no within-model fit check reveals the mismatch.
-
-**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (G1, I1, D1); see the recs below for the concrete instances and conditions.
-
-**Conditions.** As per the governed recs.
-
-**Tier.** 🟡 (new claim; generalizes 3 recs; NOT yet in the human-review packet).
-
-**Sources.** (inherited from governed recs)
-
 ## Practical — what works / what doesn't (comprehensive, bidirectional)
 
 *26 recs (8 ✓ / 18 ✗). `efficacy` is the benchmark-shaped slot `{divergences, min_ess, ess_per_sec,

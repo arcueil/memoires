@@ -210,7 +210,7 @@ kernel/basis choice, in contrast to the GP/spline entries on this page).
 
 **Statement.** The likelihood family, link, and joint/dependence construction are substantive structural commitments dictated by how the data are generated — ordered latent thresholds, a count denominator, a censoring bound, a zero-generating gate vs a mixture, heavy-tailed contamination, a support-respecting link, a tractable joint for correlated margins — never the outcome's surface appearance or a default. Choosing by surface label (the word 'ordered', a raw proportion, a spike at zero, 'correlated outcomes', an identity link) misrepresents the process and biases or breaks inference.
 
-**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (PR4, O1, O4, LS1, LS2, HZ1, TB1, O5, RB1); see the recs below for the concrete instances and conditions.
+**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (PR4, O1, O4, LS1, LS2, HZ1, TB1, O5, RB1). **The spatial/relational case is the same principle one level up** (merged here at the maintainer gate): the adjacency graph, the likelihood's generative form, and the response's dependency structure must be derived from the physical process — an aggregated point process, the real geography, relational constraints — not surface form; no within-model fit check reveals the mismatch (governs the spatial-areal recs G1, I1, D1 cross-page).
 
 **Conditions.** As per the governed recs.
 
