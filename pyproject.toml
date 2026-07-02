@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "memoires"
-version = "0.1.0.dev0"
+version = "0.1.0"
 description = "The Arcueil catalog of Bayesian craft — searchable, evidence-graded, contradiction-aware. Instead of googling practical Bayesian modeling, search here."
 readme = "README.md"
 requires-python = ">=3.10"
