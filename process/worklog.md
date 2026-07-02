@@ -89,3 +89,10 @@ there; a GARCH claim missing the stochastic-volatility conditioning the maintain
 elpd_diff entry internally inconsistent with its own contradiction record; a bare machine-dependent
 ESS/sec). 3 new editorial policies (contested-threshold strict-default, efficacy-baseline discipline,
 derived-files-are-generator-owned). Corpus: 7 SA -> 87 claims -> 640 recs. Clear to publish.
+
+## Calibration finding — cluster, not thread (2026-07-02)
+The final gate test (mc-stan:22752, the maintainer's own 2020 NUTS thread) surfaced a coverage miss
+AND a deeper lesson: the borderline single thread's real answer lives in a cluster (mc-stan:9532
+the tweak-test-and-revert, 32259 the nuts-rs/covadapt alternative, 9931, 5995). Fixed by enriching
+ST8 with a follow-up-source trail; recorded as Workbook Law 11 (distill the conversation; ingestion
+should cluster threads before distilling; M2 L2 index should link sibling SOURCES not just entries).

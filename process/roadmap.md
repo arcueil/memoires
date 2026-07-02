@@ -14,6 +14,7 @@
 ## M2 — semantic search & the L2 index
 - [ ] `memoires[semantic]`: embedding search over entries (precomputed vectors shipped;
       query embedded on the fly; hybrid re-rank over FTS5 candidates).
+- [ ] **Thread-cluster ingestion** (calibration law 11): cluster sibling source threads before distilling; entries carry a follow-up-source trail (ST8 is the prototype).
 - [ ] L2 embedding index over *full entry bodies + sources* (not just headlines) — the
       "better than forum search" promise at full strength.
 - [ ] Query→symptom routing: map free-text symptoms onto the cross-cutting pages' situation

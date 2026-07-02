@@ -306,5 +306,10 @@
  "dansblog:that-psis-proof": "https://dansblog.netlify.app/posts/2022-06-03-that-psis-proof/that-psis-proof.html",
  "dansblog:why-wont-you-cheat": "https://dansblog.netlify.app/posts/2021-12-09-why-wont-you-cheat-with-me-repost/why-wont-you-cheat-with-me-repost.html",
  "dansblog:wrong-mcmc": "https://dansblog.netlify.app/posts/2022-11-23-wrong-mcmc/wrong-mcmc.html",
- "mc-stan:22752": "https://discourse.mc-stan.org/t/acceptance-ratio-in-nuts/22752"
+ "mc-stan:22752": "https://discourse.mc-stan.org/t/acceptance-ratio-in-nuts/22752",
+ "mc-stan:9532": "https://discourse.mc-stan.org/t/request-for-volunteers-to-test-adaptation-tweak/9532",
+ "mc-stan:32259": "https://discourse.mc-stan.org/t/comparing-stans-adaptation-phase-to-that-of-nuts-rs/32259",
+ "mc-stan:9931": "https://discourse.mc-stan.org/t/confused-about-accept-stat-and-delta/9931",
+ "mc-stan:5995": "https://discourse.mc-stan.org/t/issue-with-dual-averaging/5995",
+ "mc-stan:8383": "https://discourse.mc-stan.org/t/hmc-jittered-vs-nuts-on-1000-dimensional-standard-normal/8383"
 }
