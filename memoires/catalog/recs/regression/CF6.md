@@ -1,0 +1,25 @@
+# ✗ CF6 · for **controlled-vs-uncontrolled** experiments → treating a **stochastic covariate as a fixed design covariate** does **
+
+[Regression models (linear / GLM / GP / ordinal)](../../pages/regression.md)
+
+**Why this holds — the governing claim:**
+
+- ↑ [regression C1 · Regression is a narrow special case of variate–covariate modeling — confounding ](../../claims/regression/C1.md)
+
+**✗ CF6**  · for **controlled-vs-uncontrolled** experiments → treating a **stochastic covariate as a
+fixed design covariate** does **NOT** work for intervention conclusions.
+- why: the two models can be mathematically equivalent as conditional models for y|x, but only the controlled model supports causal intervention; the uncontrolled one requires modeling π(x|θ) explicitly.
+- conditions: causal/counterfactual claims; smaller practical difference in pure-predictive settings.
+- tier: 🟢 · source: [betanalpha:generative_modeling](https://betanalpha.github.io/assets/case_studies/generative_modeling.html)
+- efficacy: {divergences: pending · min_ess: pending · ess_per_sec: pending · rmse: pending · coverage: pending}
+- moves: "Answer the interpretation question, then pivot to whether the estimate is trustworthy given the design" · "Reframe the estimand"
+
+
+## Related across the catalog
+
+*Similar challenges in other model classes / computation areas (embedding neighbors):*
+
+- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.87`
+- [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.81`
+- [✓ gaussian-process HP9 · for a **designed study** whose sampling was motivated by length-scale ](../../recs/gaussian-process/HP9.md) `0.79`
+- [✗ measurement-error-missing A1 · for a randomized/designed experiment with **dropout, censoring, or non](../../recs/measurement-error-missing/A1.md) `0.79`

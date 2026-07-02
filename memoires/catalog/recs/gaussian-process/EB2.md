@@ -1,0 +1,25 @@
+# ✓ EB2 · for **checking a GP/spline prior** → running a **prior-predictive check against implicit DOMAIN EXPERTISE** (not against
+
+[Gaussian processes & latent-Gaussian models](../../pages/gaussian-process.md)
+
+**Why this holds — the governing claim:**
+
+- ↑ [gaussian-process C1 · GP covariance hyperparameters are only weakly (often *partially*) identified — t](../../claims/gaussian-process/C1.md)
+
+**✓ EB2**  · for **checking a GP/spline prior** → running a **prior-predictive check against implicit
+DOMAIN EXPERTISE** (not against the observed data) works.
+- why: prior predictive checks compare the induced consequences to what you know a priori; checking them against the observed data conflates the prior with the likelihood and disentangles measurement-scale (units) from parameter-magnitude (domain belief).
+- conditions: any GP/spline prior specification; elicit on whatever scale is intuitive, then rescale.
+- tier: ⚪ candidate (single-witness moves) · source: (move-only)
+- efficacy: {divergences: pending · min_ess: pending · ess_per_sec: pending · rmse: pending · coverage: pending}
+- moves: "Correct the semantics of prior predictive checks: check consequences against IMPLICIT DOMAIN EXPERTISE, not against the observed data" · "Disentangle measurement-scale (units) from parameter-magnitude (domain belief)"
+
+
+## Related across the catalog
+
+*Similar challenges in other model classes / computation areas (embedding neighbors):*
+
+- [✗ ode-dynamical Q3 · for **validating a prior** → checking **prior-predictive consequences ](../../recs/ode-dynamical/Q3.md) `0.85`
+- [✓ regression VS2 · for **selecting a smaller predictor set** → fit one good **reference m](../../recs/regression/VS2.md) `0.82`
+- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.82`
+- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.81`

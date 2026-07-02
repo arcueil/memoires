@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "memoires"
+version = "0.1.0.dev0"
+description = "The Arcueil catalog of Bayesian craft — searchable, evidence-graded, contradiction-aware. Instead of googling practical Bayesian modeling, search here."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }   # code; catalog content is CC BY 4.0 (see README)
+authors = [{ name = "Junpeng Lao", email = "junpenglao@gmail.com" }]
+keywords = ["bayesian", "mcmc", "stan", "pymc", "diagnostics", "knowledge-base"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/arcueil/memoires"
+Organization = "https://github.com/arcueil"
+
+[project.scripts]
+memoires = "memoires.cli:main"
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3", "numpy"]   # embedding search (M2); FTS5 core has zero deps
+
+[tool.hatch.build.targets.wheel]
+packages = ["memoires"]
