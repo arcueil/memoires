@@ -203,6 +203,21 @@ kernel/basis choice, in contrast to the GP/spline entries on this page).
 
 ---
 
+---
+
+### C7 · Match the observation model to the data's generative structure, not its surface label 🟢
+*[→ full entry](../claims/regression/C7.md)*
+
+**Statement.** The likelihood family, link, and joint/dependence construction are substantive structural commitments dictated by how the data are generated — ordered latent thresholds, a count denominator, a censoring bound, a zero-generating gate vs a mixture, heavy-tailed contamination, a support-respecting link, a tractable joint for correlated margins — never the outcome's surface appearance or a default. Choosing by surface label (the word 'ordered', a raw proportion, a spike at zero, 'correlated outcomes', an identity link) misrepresents the process and biases or breaks inference.
+
+**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (PR4, O1, O4, LS1, LS2, HZ1, TB1, O5, RB1); see the recs below for the concrete instances and conditions.
+
+**Conditions.** As per the governed recs.
+
+**Tier.** 🟢 (new claim; generalizes 9 recs; NOT yet in the human-review packet).
+
+**Sources.** mc-stan:30046 · mc-stan:10728 · mc-stan:10656 · betanalpha:ordinal_regression · pymc-labs:specialized-likelihoods · mc-stan:6508 · mc-stan:19843 · mc-stan:17241
+
 ## Practical — what works / what doesn't (comprehensive, bidirectional)
 
 *59 recs (17 ✓ / 37 ✗ / 5 bidirectional), 133 move-attachments. `efficacy` is the benchmark-shaped slot

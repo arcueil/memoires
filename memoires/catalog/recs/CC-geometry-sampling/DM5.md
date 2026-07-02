@@ -22,9 +22,3 @@
 - [✗ spatial-areal C1 · for **divergences caused by a hard clip on a constrained parameter** →](../../recs/spatial-areal/C1.md) `0.79`
 - [✓ ode-dynamical P3 · for **constraint specification** → **separate hard (physical, e.g. pos](../../recs/ode-dynamical/P3.md) `0.78`
 - [✗ CC-convergence-diagnostics I1 · when you rely on absolute continuity (support containment) for IS vali](../../recs/CC-convergence-diagnostics/I1.md) `0.77`
-
-
-## Contradiction record
-
-**pymc-labs says:** (§Truncation via Potential) implement truncation to [a,b] as `pm.Potential('trunc', pt.switch((x>=a)&(x<=b), 0, -np.inf))`, cautioning ONLY about 'improper posteriors'. · **this catalog says (DM5):** `target += -inf` is a gradient-free cliff → non-conserved Hamiltonian → all-divergent transitions, R̂≫1, tiny ESS under HMC/NUTS; the fix is a smooth bijection to unconstrained space (DM6) or `pm.Truncated`. · **adjudication:** since PyMC's DEFAULT sampler is NUTS, their idiom reproduces our anti-pattern and their doc omits the divergence caveat — the '-inf Potential truncation' pattern is safe only for non-gradient samplers (or params that never approach the wall in warmup); under NUTS use `pm.Truncated` / interval transform.
-*The catalog is contradiction-aware by design: both positions stay visible.*

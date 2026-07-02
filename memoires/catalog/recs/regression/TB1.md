@@ -2,7 +2,9 @@
 
 [Regression models (linear / GLM / GP / ordinal)](../../pages/regression.md)
 
-*No governing claim in the current spine — an honest gap signal (see data/unassigned_recs.json).*
+**Why this holds — the governing claim:**
+
+- ↑ [regression C7 · Match the observation model to the data's generative structure, not its surface ](../../claims/regression/C7.md)
 
 **✓ TB1**  · for a **limited / corner outcome piled at a bound** (expenditure, hours worked, demand
 censored at 0) → **Tobit** (a Normal likelihood wrapped in censoring at the bound) works; an ordinary

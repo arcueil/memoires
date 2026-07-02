@@ -2,7 +2,9 @@
 
 [Regression models (linear / GLM / GP / ordinal)](../../pages/regression.md)
 
-*No governing claim in the current spine — an honest gap signal (see data/unassigned_recs.json).*
+**Why this holds — the governing claim:**
+
+- ↑ [regression C7 · Match the observation model to the data's generative structure, not its surface ](../../claims/regression/C7.md)
 
 **✗ PR4**  · for a **positive-support GLM** (Gamma, Weibull, inverse-Gaussian) → an **identity link**
 does **NOT** work (initialization rejected).

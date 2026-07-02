@@ -297,6 +297,21 @@ divergences concentrated near prior boundaries, or low ESS localized to one para
 
 **Sources.** pymc-labs:convergence-diagnostics
 
+---
+
+### C10 · Prior sourcing is a strategy-selection problem — route the elicitation method by epistemic state (expert access x scale precision) 🟢
+*[→ full entry](../claims/CC-priors-identifiability/C10.md)*
+
+**Statement.** There is no single correct way to source a prior from substance; choosing the elicitation *strategy* is itself a modeling decision, routed by the practitioner's epistemic state — whether a domain expert is available and how precisely the scale/quantiles can be stated. Each regime has a matched method (precise expert quantiles -> structured elicitation SHELF/roulette/quartile; expert-but-imprecise -> maxent/constrained priors; no expert but rough scale -> weakly-informative scale/tail engineering; no scale knowledge -> prior-predictive iteration), and the strategy must be selected *before* the technical calibration of C3/C4/C8 is applied.
+
+**Nuance.** A mid-level principle consolidated (2026-07-02) from the practical recs it governs on this page (EL1); see the recs below for the concrete instances and conditions.
+
+**Conditions.** As per the governed recs.
+
+**Tier.** 🟢 (new claim; generalizes 1 recs; NOT yet in the human-review packet).
+
+**Sources.** (inherited from governed recs)
+
 ## Practical — what works / what doesn't (comprehensive, SITUATION-indexed)
 
 *55 recs (37 ✗ / 13 ✓ / 5 bidirectional), indexed by the diagnostic situation or symptom you arrive

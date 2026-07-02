@@ -23,9 +23,3 @@
 - [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.84`
 - [gaussian-process C5 · A GP is non-parametric — prediction and structural decomposition requi](../../claims/gaussian-process/C5.md) `0.84`
 - [✗ gaussian-process HP10 · for an **observational (non-designed) GP** → **retrofitting the ρ prio](../../recs/gaussian-process/HP10.md) `0.82`
-
-
-## Technique (pymc-labs)
-
-**pymc_bart API details: split_prior and out-of-sample set_data** — Bias which features are split on via `split_prior` (length-n_features weight vector; None = uniform). Out-of-sample prediction requires `pmb.set_data({'mu': X_new})` inside the model context before `sample_posterior_predictive` — a fitted BART is not a callable function, exactly the 'a fitted GP is not a callable, out-of-sample requires explicit conditioning' caveat.
-*Source: [pymc-labs:bart](https://github.com/pymc-labs/python-analytics-skills)*

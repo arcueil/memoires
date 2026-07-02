@@ -22,9 +22,3 @@
 - [✗ mixture O1 · for **overlapping components** (separation < ~1–2 σ) → the **ordering ](../../recs/mixture/O1.md) `0.81`
 - [mixture C3 · The two fixes divide by exactness — ordering constraints are provably ](../../claims/mixture/C3.md) `0.81`
 - [✓ ode-dynamical P3 · for **constraint specification** → **separate hard (physical, e.g. pos](../../recs/ode-dynamical/P3.md) `0.80`
-
-
-## Technique (pymc-labs)
-
-**Manual change-of-variables Jacobian via pm.Potential** — The PyMC how for the constrained-parameter Jacobian move: when hand-rolling a transform (e.g. sigma = pt.exp(log_sigma) as a Deterministic), the change-of-variables term is NOT auto-added — insert pm.Potential('jac', log_sigma) (log|d sigma/d log_sigma| = log_sigma). Built-in transformed distributions add this automatically; only manual Deterministic transforms need the explicit Potential.
-*Source: [pymc-labs:custom-models](https://github.com/pymc-labs/python-analytics-skills)*

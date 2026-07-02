@@ -2,7 +2,9 @@
 
 [Cross-cutting: priors, identifiability & degeneracy](../../pages/CC-priors-identifiability.md)
 
-*No governing claim in the current spine — an honest gap signal (see data/unassigned_recs.json).*
+**Why this holds — the governing claim:**
+
+- ↑ [CC-priors-identifiability C10 · Prior sourcing is a strategy-selection problem — route the elicitation method by](../../claims/CC-priors-identifiability/C10.md)
 
 **✓ EL1**  · when **you must choose HOW to source a prior (which elicitation strategy)** → route by **expert access + scale knowledge**.
 - decision tree:

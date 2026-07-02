@@ -22,9 +22,3 @@
 - [✓ hierarchical-multilevel P3 · for a normal hierarchical model with **strong per-group data** → **cen](../../recs/hierarchical-multilevel/P3.md) `0.87`
 - [✓ hierarchical-multilevel P5 · for **unbalanced** hierarchical data (mixed per-group sample sizes) → ](../../recs/hierarchical-multilevel/P5.md) `0.87`
 - [✗ hierarchical-multilevel P2 · for a normal hierarchical model with **strong/dense per-group data** →](../../recs/hierarchical-multilevel/P2.md) `0.86`
-
-## Enrichment (pymc-labs)
-
-**CP-vs-NCP numeric rule of thumb (~20 obs/group)** (📐 portable) — Add threshold to RP1/RP2/RP3: non-center levels averaging < ~20 observations per group; center levels with many obs per group (likelihood 'pins' the parameter). Our recs give the sparse/dense direction but no numeric cutoff.
-
-*Source: pymc-labs (human-curated).*

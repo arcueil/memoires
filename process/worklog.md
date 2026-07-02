@@ -60,3 +60,16 @@ pymc-labs `python-analytics-skills` treated as a human-curated peer L1: 152 find
 See `process/roadmap.md`. M1 fold done (2026-07-02): 68 techniques → 54 entries, 21 enrichments → 35, 7 contradiction records → 8 (5 unplaced, documented in pymc_L1/UNPLACED.md). Still open:
 maintainer human-gate review (deliberately last); pymc-labs attribution courtesy ping;
 publish (repos exist locally with remotes set, nothing pushed).
+
+## Unassigned-rec resolution + graph fixes (2026-07-02)
+- 27 unassigned recs → 10 re-routed to existing (often cross-page) claims + **6 new mid-level
+  claims** (0 forced gaps). Corpus now 88 claims. New claims are NOT yet in the human-review
+  packet (flagged in their Tier line).
+- Standout: the pymc-merged `I2` rec sourced our last apex gap — a decision-theory/utility
+  claim (inference ≠ decision; needs an explicit loss) now exists (⚪, SA1); GAPS.md updated.
+- **Renderer idempotency bug found + fixed:** the first render injected `[→ entry]` permalinks
+  INTO pages/, which a second render re-extracted as entry-body text at the wrong relative depth
+  (753 broken links). Fix: `PERMA` strip before body extraction + strip-then-reinject on the
+  page patch. Verified idempotent by checksum. Lesson: a generator that writes into its own
+  inputs must strip its prior output first.
+

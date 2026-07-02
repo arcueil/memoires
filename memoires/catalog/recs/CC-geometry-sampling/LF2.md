@@ -22,9 +22,3 @@
 - [✓ regression Q2 · for a **near-collinear (identified) linear predictor** → **centering t](../../recs/regression/Q2.md) `0.87`
 - [✓ measurement-error-missing K2 · for that diverging mixture/latent fit → **non-center the components** ](../../recs/measurement-error-missing/K2.md) `0.81`
 - [✗ regression U10 · for **exact collinearity** (N<M+1, or perfectly correlated components ](../../recs/regression/U10.md) `0.80`
-
-
-## Technique (pymc-labs)
-
-**Multicollinearity detection thresholds (condition number, VIF) + prediction-vs-interpretation nuance** — PRE-fit collinearity detection to add to the QR story — np.linalg.cond(X) > ~30, or VIF > 5-10, flags multicollinearity before the ridge appears. Decision nuance: if prediction (not coefficient interpretation) is the goal, collinearity may be harmless — don't interpret individual coefficients. The catalog has the geometry (ridge/QR) but not the detection thresholds.
-*Source: [pymc-labs:regression](https://github.com/pymc-labs/python-analytics-skills)*

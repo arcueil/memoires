@@ -2,7 +2,9 @@
 
 [Regression models (linear / GLM / GP / ordinal)](../../pages/regression.md)
 
-*No governing claim in the current spine — an honest gap signal (see data/unassigned_recs.json).*
+**Why this holds — the governing claim:**
+
+- ↑ [regression C7 · Match the observation model to the data's generative structure, not its surface ](../../claims/regression/C7.md)
 
 **✗ LS2**  · for **two outcomes with unequal counts / non-Gaussian families** → a **residual
 correlation** (brms `set_rescor(TRUE)`) does **NOT** work.

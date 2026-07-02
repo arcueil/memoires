@@ -22,9 +22,3 @@
 - [✗ CC-convergence-diagnostics B6 · when you "discard the bad chains and keep the good ones" (burn-in fram](../../recs/CC-convergence-diagnostics/B6.md) `0.76`
 - [✗ CC-model-evaluation E7 · when you **impute a missing RESPONSE and re-fit** on the imputed value](../../recs/CC-model-evaluation/E7.md) `0.75`
 - [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.75`
-
-## Enrichment (pymc-labs)
-
-**'Mass matrix contains zeros on diagonal' -> standardize predictors / weakly-informative prior for curvature** (📐 portable) — New rec enriching ST3: zero mass-matrix diagonal = a param's logp gradient is numerically 0 via (a) predictors on wildly different scales -> large-scale gradient underflows -> standardize ALL predictors to unit scale; (b) flat likelihood (empty group / no data) -> replace diffuse prior (Uniform(0,100)) with a weakly-informative one (HalfNormal(1)) to supply soft curvature. Our RP10 only covers dense-metric rescaling, not the standardize/weak-prior fixes.
-
-*Source: pymc-labs (human-curated).*

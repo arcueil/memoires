@@ -22,9 +22,3 @@
 - [✗ sparse-shrinkage D2 · for a **sparsity funnel** → reading a **near-zero divergence count fro](../../recs/sparse-shrinkage/D2.md) `0.83`
 - [✓ ode-dynamical S6 · for deciding whether a **loose-solver posterior is trustworthy** → **r](../../recs/ode-dynamical/S6.md) `0.81`
 - [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.81`
-
-
-## Technique (pymc-labs)
-
-**adapt_delta <-> target_accept / max_treedepth <-> max_tree_depth naming cross-walk** — Stan `adapt_delta` = PyMC `target_accept` (default 0.8), Stan `max_treedepth` = PyMC `max_tree_depth`. The pymc file's actual advice ('increase target_accept for difficult posteriors') is a shallow subset of DV5/DV10 (raise ONLY for divergences; never cures a true funnel) — principle already covered, only the alias is missing.
-*Source: [pymc-labs:inference](https://github.com/pymc-labs/python-analytics-skills)*

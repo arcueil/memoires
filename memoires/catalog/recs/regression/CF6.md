@@ -23,9 +23,3 @@ fixed design covariate** does **NOT** work for intervention conclusions.
 - [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.81`
 - [✓ gaussian-process HP9 · for a **designed study** whose sampling was motivated by length-scale ](../../recs/gaussian-process/HP9.md) `0.79`
 - [✗ measurement-error-missing A1 · for a randomized/designed experiment with **dropout, censoring, or non](../../recs/measurement-error-missing/A1.md) `0.79`
-
-
-## Technique (pymc-labs)
-
-**PyMC do-calculus API: pm.do (graph surgery) vs pm.observe (add data, structure intact)** — 'PyMC exposes structural-causal graph surgery directly. `with pm.do(model, {x: v})` replaces x's distribution with a constant and severs its incoming edges -> samples P(rest | do(x=v)); `with pm.observe(model, {y: v})` conditions without breaking structure -> P(rest | y=v). Interventions can be composed (`pm.do` then `pm.observe`) for counterfactual-style queries P(y | do(x), z).' The concrete API realization of CF6's controlled-vs-uncontrolled distinction.
-*Source: [pymc-labs:causal](https://github.com/pymc-labs/python-analytics-skills)*

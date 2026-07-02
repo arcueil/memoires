@@ -22,9 +22,3 @@
 - [✗ gaussian-process S7 · for **gradient-based hyperparameter inference through the partial inve](../../recs/gaussian-process/S7.md) `0.77`
 - [✗ regression SM1 · for **uncertainty in a predicted outcome** → using **`posterior_epred`](../../recs/regression/SM1.md) `0.76`
 - [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.75`
-
-## Enrichment (pymc-labs)
-
-**VI/Pathfinder can miss multimodality (second VI failure mode)** (📐 portable) — One-line addition to ST5's 'why': beyond variance-underestimation (which ST5 nails), a unimodal q also misses multimodality entirely. Cross-link DM4 (missed well-separated modes) — 'Always validate VI/Pathfinder against MCMC.'
-
-*Source: pymc-labs (human-curated).*

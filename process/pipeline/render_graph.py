@@ -29,6 +29,8 @@ related = json.load(open(M / 'data/related_edges.json'))         # "kind:page/id
 
 SID = r'(mc-stan:\d+|pymc:\d+|pyro:\d+|betanalpha:[a-z_0-9]+|dansblog:[a-z0-9_-]+|pymc-labs:[a-z0-9-]+)'
 MARK = r'([✓✗⚪](?:/[✓✗])?)'
+# permalinks previously injected into pages/ — stripped before body extraction so render is idempotent
+PERMA = re.compile(r'\s*\*\[→ (?:full entry|entry)\]\([^)]*\)\*')
 
 
 def linkify(text: str) -> str:
@@ -65,7 +67,7 @@ pages = sorted((M / 'pages').glob('*.md'))
 claims, recs, titles, page_title = {}, {}, {}, {}
 for f in pages:
     pg = f.stem
-    t = f.read_text()
+    t = PERMA.sub('', f.read_text())   # strip any prior-render permalinks -> idempotent extraction
     page_title[pg] = re.search(r'^# (.+)$', t, re.M).group(1)
     for m in re.finditer(r'(?ms)^### (C\d+) · (.+?)\s*([🟢🟡⚪])?\s*$\n(.*?)(?=^### |^## |\Z)', t):
         claims[f'{pg}/{m.group(1)}'] = {'title': m.group(2), 'glyph': m.group(3) or '',
@@ -142,12 +144,10 @@ def _sub(m):
 t = re.sub(r'(?<!\[)([A-Za-z-]+(?:-[A-Za-z-]+)*)\s+(C\d+)\s*·', _sub, t)
 (M / 'SUPER_AXIOMS.md').write_text(t)
 
-# ---------- patch pages + spine ----------
+# ---------- patch pages + spine (strip-then-reinject -> idempotent for new entries) ----------
 for f in pages:
     pg = f.stem
-    t = f.read_text()
-    if '](../claims/' in t:
-        continue
+    t = PERMA.sub('', f.read_text())
     t = re.sub(r'(?m)^(### (C\d+) · .+)$',
                lambda m: f'{m.group(1)}\n*[→ full entry](../claims/{pg}/{m.group(2)}.md)*', t)
     def _rl(m):

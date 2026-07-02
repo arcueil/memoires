@@ -22,9 +22,3 @@
 - [✓ CC-model-evaluation F8 · when you **marginalized a discrete latent z** out for HMC → recovering](../../recs/CC-model-evaluation/F8.md) `0.78`
 - [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.78`
 - [✓ CC-model-evaluation H3 · when **assessing whether an effect is non-negligible** → a **direction](../../recs/CC-model-evaluation/H3.md) `0.77`
-
-
-## Technique (pymc-labs)
-
-**Sum-to-zero & soft-penalty constraints for additive non-identifiability** — The standard fix for intercept<->group-effect additive degeneracy is a sum-to-zero constraint — hard via centering (alpha = alpha_raw - alpha_raw.mean(), or pm.ZeroSumNormal), or soft via pm.Potential(-k*(sum)^2). Caveat: soft QUADRATIC penalties (soft ordering, soft sum-to-zero) introduce a stiff direction -> scale heterogeneity/anisotropy that RP10's dense metric or reparameterization must then absorb, so a hard bijection/ZeroSumNormal is usually preferable under NUTS.
-*Source: [pymc-labs:priors](https://github.com/pymc-labs/python-analytics-skills)*

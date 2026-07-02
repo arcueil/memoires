@@ -1870,5 +1870,90 @@
  "sparse-shrinkage/P8": [
   "sparse-shrinkage/C7",
   "sparse-shrinkage/C3"
+ ],
+ "regression/PR1": [
+  "CC-priors-identifiability/C3"
+ ],
+ "regression/O2": [
+  "CC-priors-identifiability/C3"
+ ],
+ "spatial-areal/N1": [
+  "gaussian-process/C5"
+ ],
+ "spatial-areal/N2": [
+  "CC-geometry-sampling/C7"
+ ],
+ "spatial-areal/N3": [
+  "CC-model-evaluation/C1",
+  "gaussian-process/C5"
+ ],
+ "spatial-areal/V1": [
+  "latent-factor/C2"
+ ],
+ "spatial-areal/M1": [
+  "CC-priors-identifiability/C4"
+ ],
+ "spatial-areal/B1": [
+  "sparse-shrinkage/C1",
+  "CC-geometry-sampling/C6"
+ ],
+ "spatial-areal/X1": [
+  "CC-model-evaluation/C7",
+  "CC-convergence-diagnostics/C6"
+ ],
+ "spatial-areal/C1": [
+  "CC-geometry-sampling/C2",
+  "CC-geometry-sampling/C4"
+ ],
+ "regression/PR4": [
+  "regression/C7"
+ ],
+ "regression/O1": [
+  "regression/C7"
+ ],
+ "regression/O4": [
+  "regression/C7"
+ ],
+ "regression/LS1": [
+  "regression/C7"
+ ],
+ "regression/LS2": [
+  "regression/C7"
+ ],
+ "regression/HZ1": [
+  "regression/C7"
+ ],
+ "regression/TB1": [
+  "regression/C7"
+ ],
+ "regression/O5": [
+  "regression/C7"
+ ],
+ "regression/RB1": [
+  "regression/C7"
+ ],
+ "spatial-areal/G1": [
+  "spatial-areal/C6"
+ ],
+ "spatial-areal/I1": [
+  "spatial-areal/C6"
+ ],
+ "spatial-areal/D1": [
+  "spatial-areal/C6"
+ ],
+ "hierarchical-multilevel/J1": [
+  "hierarchical-multilevel/C6"
+ ],
+ "hierarchical-multilevel/J2": [
+  "hierarchical-multilevel/C6"
+ ],
+ "CC-priors-identifiability/EL1": [
+  "CC-priors-identifiability/C10"
+ ],
+ "time-series-state-space/V1": [
+  "time-series-state-space/C7"
+ ],
+ "measurement-error-missing/I2": [
+  "measurement-error-missing/C7"
  ]
 }

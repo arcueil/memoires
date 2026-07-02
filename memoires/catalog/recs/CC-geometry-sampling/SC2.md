@@ -22,9 +22,3 @@
 - [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.87`
 - [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.83`
 - [✗ sparse-shrinkage W5 · for a **large sparse/hierarchical fit that stalls or runs pathological](../../recs/sparse-shrinkage/W5.md) `0.83`
-
-
-## Technique (pymc-labs)
-
-**PyMC performance handles: HSGP API, avoid saving large Deterministics, model.profile()** — (1) low-rank GP via pm.gp.HSGP(m=[...], c=...); (2) avoid pm.Deterministic on n_obs x n_draws intermediates (memory blowup) — recompute in posterior_predictive; (3) profile with model.profile(model.logp()) and a grad-profile to operationalize the SC 'reframe runtime as gradient evaluations' move.
-*Source: [pymc-labs:pymc-modeling](https://github.com/pymc-labs/python-analytics-skills)*

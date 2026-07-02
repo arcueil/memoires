@@ -2,7 +2,9 @@
 
 [Regression models (linear / GLM / GP / ordinal)](../../pages/regression.md)
 
-*No governing claim in the current spine — an honest gap signal (see data/unassigned_recs.json).*
+**Why this holds — the governing claim:**
+
+- ↑ [CC-priors-identifiability C3 · "Non-informative" priors are a myth; the weakly-informative alternative is delib](../../claims/CC-priors-identifiability/C3.md)
 
 **✗ PR1**  · for **any regression** → **flat/improper** or **diffuse-but-proper** priors (N(0,1000),
 U(−1000,1000)) do **NOT** work as "non-informative" (they push mass to extremes).
