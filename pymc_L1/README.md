@@ -12,3 +12,9 @@ as claims/recs) vs 🔧 PyMC-specific (the technique/library layer).
 - `TECHNIQUES.md` — the PyMC how: API, thresholds, tooling (technique + library-note)
 - `ENRICHMENTS.md` — nuance/moves to graft onto existing entries
 - `CONTRADICTIONS.md` — the 7 disagreements, adjudicated (external expert check on us)
+
+## Source resolution + license
+`pymc-labs:<topic>` short-ids used across the catalog pages resolve to skills in
+[pymc-labs/python-analytics-skills](https://github.com/pymc-labs/python-analytics-skills)
+(e.g. `pymc-labs:prior-elicitation` → `skills/prior-elicitation/`). That repo is **MIT-licensed**
+(per its README); content derived here is attributed accordingly.
