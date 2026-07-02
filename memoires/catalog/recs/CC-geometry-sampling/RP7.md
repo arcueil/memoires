@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ hierarchical-multilevel B7 · for the **population scale τ** → choosing the prior **shape** delibera](../../recs/hierarchical-multilevel/B7.md) `0.85`
+- [✗ regression U7 · for the **underdetermined-regression funnel** → **NCP** (non-centered ](../../recs/regression/U7.md) `0.83`
 - [✗ latent-factor D1 · for a **latent-Gaussian** model → **joint HMC/NUTS on (u,θ)** without ](../../recs/latent-factor/D1.md) `0.83`
-- [✗ CC-priors-identifiability S10 · when **a latent affinity/location and cutpoints/offsets appear only as](../../recs/CC-priors-identifiability/S10.md) `0.83`
-- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.82`
-- [✓ CC-priors-identifiability E5 · when **you tune a containment prior by moment-matching and δ is large*](../../recs/CC-priors-identifiability/E5.md) `0.82`
+- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.83`

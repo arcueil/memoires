@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [ode-dynamical C1 · Continuous-time generative flows: the vector field's reversibility is ](../../claims/ode-dynamical/C1.md) `0.83`
-- [✓ CC-model-evaluation F12 · when **predicting a GP at new inputs** → **explicitly conditioning on ](../../recs/CC-model-evaluation/F12.md) `0.78`
-- [✓/✗ CC-priors-identifiability E6 · when **a family's CDF/quantile has no closed form** → for **fixed-para](../../recs/CC-priors-identifiability/E6.md) `0.78`
-- [✓ CC-model-evaluation F2 · when generating a posterior predictive → **drawing through the observa](../../recs/CC-model-evaluation/F2.md) `0.77`
+- [ode-dynamical C1 · Continuous-time generative flows: the vector field's reversibility is ](../../claims/ode-dynamical/C1.md) `0.86`
+- [✓/✗ CC-priors-identifiability E6 · when **a family's CDF/quantile has no closed form** → for **fixed-para](../../recs/CC-priors-identifiability/E6.md) `0.81`
+- [✓ ode-dynamical R7 · for **exposing hidden parameter combinations** → **re-derive the ODE/f](../../recs/ode-dynamical/R7.md) `0.79`
+- [✓ mixture M3 · for a **marginalized model** → recover z **post-hoc as the data-condit](../../recs/mixture/M3.md) `0.79`

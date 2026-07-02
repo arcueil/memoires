@@ -20,6 +20,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ CC-priors-identifiability X4 · when **you reason about a spline / GAM smooth via its coefficients or ](../../recs/CC-priors-identifiability/X4.md) `0.82`
-- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.81`
-- [✓ spatial-areal Z2 · for the same effects → the **N-corrected soft constraint sum(x) ~ norm](../../recs/spatial-areal/Z2.md) `0.81`
-- [✗ spatial-areal Z1 · for **non-identified additive spatial effects** (ICAR/BYM/CAR effects,](../../recs/spatial-areal/Z1.md) `0.80`
+- [spatial-areal C4 · Identifying additive spatial effects requires a sum-to-zero constraint](../../claims/spatial-areal/C4.md) `0.80`
+- [✓ hierarchical-multilevel L2 · for the same setting → a **structured prior that borrows strength acro](../../recs/hierarchical-multilevel/L2.md) `0.80`
+- [✓ CC-geometry-sampling DM6 · when parameters have **inequality/ordering/support constraints** → rep](../../recs/CC-geometry-sampling/DM6.md) `0.79`

@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ gaussian-process S8 · for **sparse Cholesky in JAX** → relying on **dynamically-shaped outpu](../../recs/gaussian-process/S8.md) `0.81`
-- [✗ CC-model-evaluation I6 · when a **sparse-matrix class lazily caches its Cholesky via a mutable ](../../recs/CC-model-evaluation/I6.md) `0.79`
-- [✗ spatial-areal R1 · for an **ICAR / BYM / intrinsic-smoothing-spline** component (Q rank-d](../../recs/spatial-areal/R1.md) `0.76`
-- [✗ sparse-shrinkage G3 · for a **mixture-prior / horseshoe** → the **N_k observation-count heur](../../recs/sparse-shrinkage/G3.md) `0.75`
+- [✗ CC-model-evaluation I6 · when a **sparse-matrix class lazily caches its Cholesky via a mutable ](../../recs/CC-model-evaluation/I6.md) `0.80`
+- [gaussian-process C3 · An exact dense GP does not scale — the fix is a *structured* represent](../../claims/gaussian-process/C3.md) `0.75`
+- [✓ hierarchical-multilevel E2 · for **divergences** → **pairs-plotting** the offending parameters and ](../../recs/hierarchical-multilevel/E2.md) `0.75`

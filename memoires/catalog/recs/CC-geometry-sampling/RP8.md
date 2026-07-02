@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ regression PR5 · for a **high-dimensional scale-mixture (local-global) prior** → calibr](../../recs/regression/PR5.md) `0.84`
 - [✓ gaussian-process HP1 · for an **EQ / Matérn GP length scale** where the design is length-scal](../../recs/gaussian-process/HP1.md) `0.83`
-- [✓ regression PR5 · for a **high-dimensional scale-mixture (local-global) prior** → calibr](../../recs/regression/PR5.md) `0.83`
-- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.83`
-- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.83`
+- [✗ gaussian-process HP2 · for an **EQ length scale** → a **half-normal / light-tailed** prior do](../../recs/gaussian-process/HP2.md) `0.82`
+- [✓/✗ CC-priors-identifiability E2 · when **the likelihood is numerically sensitive** (ODE solver, GP kerne](../../recs/CC-priors-identifiability/E2.md) `0.82`

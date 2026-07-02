@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.88`
-- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.83`
-- [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.81`
-- [✗ CC-priors-identifiability S12 · when **the global ridge is already broken** (Gaussian prior on the aff](../../recs/CC-priors-identifiability/S12.md) `0.81`
+- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.85`
+- [✗ time-series-state-space P1 · for a **fine-grid discretized Markov chain** (e.g. Brownian motion, N≈](../../recs/time-series-state-space/P1.md) `0.85`
+- [regression C3 · Ridges and funnels in the *linear predictor* split into two look-alike](../../claims/regression/C3.md) `0.84`
+- [✓ ode-dynamical R8 · for **testing whether a ridge is data-limited vs structural** → **add ](../../recs/ode-dynamical/R8.md) `0.83`

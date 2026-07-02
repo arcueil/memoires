@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression Q1 · for **near-collinear covariates** (e.g. x and x² for uncentered positi](../../recs/regression/Q1.md) `0.85`
+- [✗ regression Q1 · for **near-collinear covariates** (e.g. x and x² for uncentered positi](../../recs/regression/Q1.md) `0.91`
 - [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.82`
-- [✗ sparse-shrinkage V3 · for a **hierarchical model with fixed + correlated random slopes** → a](../../recs/sparse-shrinkage/V3.md) `0.81`
-- [✗ CC-model-evaluation F17 · when **poststratifying over a covariate whose population joint distrib](../../recs/CC-model-evaluation/F17.md) `0.81`
+- [✗ regression U10 · for **exact collinearity** (N<M+1, or perfectly correlated components ](../../recs/regression/U10.md) `0.82`
+- [regression C3 · Ridges and funnels in the *linear predictor* split into two look-alike](../../claims/regression/C3.md) `0.82`

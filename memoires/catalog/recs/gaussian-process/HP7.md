@@ -19,7 +19,7 @@ works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G2 · when **you judge GP identifiability from the marginal ρ and σ posterio](../../recs/CC-priors-identifiability/G2.md) `0.87`
-- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.85`
-- [✓ CC-geometry-sampling GP2 · when a **GP is too large** → replacing it with a low-rank basis-functi](../../recs/CC-geometry-sampling/GP2.md) `0.80`
-- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.80`
+- [✗ CC-priors-identifiability G2 · when **you judge GP identifiability from the marginal ρ and σ posterio](../../recs/CC-priors-identifiability/G2.md) `0.90`
+- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.87`
+- [✓ ode-dynamical R2 · for the **g/k ridge** → an **informative/regularizing prior on g and k](../../recs/ode-dynamical/R2.md) `0.83`
+- [✓ ode-dynamical R5 · for **localizing a suspected identifiability ridge** → a **controlled ](../../recs/ode-dynamical/R5.md) `0.82`

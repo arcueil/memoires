@@ -20,7 +20,7 @@ outlier-robust alternative to mean regression. Implement in PyMC via `pm.CustomD
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.82`
-- [✓ CC-priors-identifiability W3 · when **the M>N regression is genuinely sparse** → a **Finnish horsesho](../../recs/CC-priors-identifiability/W3.md) `0.81`
-- [✗ CC-priors-identifiability X3 · when **you place a prior on a GMRF / CAR precision τ as if it were an ](../../recs/CC-priors-identifiability/X3.md) `0.80`
-- [✓ sparse-shrinkage D4 · for **sparse regression** → reading the **σ (noise) posterior as a sen](../../recs/sparse-shrinkage/D4.md) `0.79`
+- [✓ sparse-shrinkage S1 · for a **horseshoe / Finnish horseshoe** → setting **tau_0 = (m_0/(M − ](../../recs/sparse-shrinkage/S1.md) `0.80`
+- [✗ sparse-shrinkage S2 · for a **horseshoe** → the common default **tau_0 = σ** does **NOT** wo](../../recs/sparse-shrinkage/S2.md) `0.80`
+- [✓ sparse-shrinkage D4 · for **sparse regression** → reading the **σ (noise) posterior as a sen](../../recs/sparse-shrinkage/D4.md) `0.80`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.79`

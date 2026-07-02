@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.87`
-- [✓ sparse-shrinkage G2 · for a **mixture-prior / horseshoe** → choosing **CP vs NCP per-paramet](../../recs/sparse-shrinkage/G2.md) `0.86`
-- [✓ hierarchical-multilevel P3 · for a normal hierarchical model with **strong per-group data** → **cen](../../recs/hierarchical-multilevel/P3.md) `0.86`
-- [✓ time-series-state-space P2 · for the same fine-grid Markov chain → the **non-centered parameterizat](../../recs/time-series-state-space/P2.md) `0.85`
+- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.92`
+- [hierarchical-multilevel C2 · CP and NCP are exactly complementary and data-dependent — parameterize](../../claims/hierarchical-multilevel/C2.md) `0.90`
+- [✓ hierarchical-multilevel B7 · for the **population scale τ** → choosing the prior **shape** delibera](../../recs/hierarchical-multilevel/B7.md) `0.90`
+- [✓ hierarchical-multilevel P3 · for a normal hierarchical model with **strong per-group data** → **cen](../../recs/hierarchical-multilevel/P3.md) `0.88`
 
 
 ## Enrichment (pymc-labs)

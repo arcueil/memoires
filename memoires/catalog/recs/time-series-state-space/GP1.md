@@ -17,7 +17,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ gaussian-process HP4 · for **EQ GP hyperparameters** → **maximum marginal likelihood (MML) wi](../../recs/gaussian-process/HP4.md) `0.83`
-- [✗ gaussian-process HP11 · for a **GP under cross-validation or sequential data collection** → th](../../recs/gaussian-process/HP11.md) `0.82`
-- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.82`
-- [✗ gaussian-process E4 · for **prior-improbable posteriors on GP terms** → reading them as a **](../../recs/gaussian-process/E4.md) `0.82`
+- [gaussian-process C5 · A GP is non-parametric — prediction and structural decomposition requi](../../claims/gaussian-process/C5.md) `0.85`
+- [✗ gaussian-process A1 · for an **additive / multi-component signal decomposition** (multi-scal](../../recs/gaussian-process/A1.md) `0.82`
+- [✓ CC-model-evaluation F12 · when **predicting a GP at new inputs** → **explicitly conditioning on ](../../recs/CC-model-evaluation/F12.md) `0.82`
+- [✓ gaussian-process AP3 · for **population-mean estimation under covariate-dependent randomizati](../../recs/gaussian-process/AP3.md) `0.81`

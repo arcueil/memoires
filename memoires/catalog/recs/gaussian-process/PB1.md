@@ -22,6 +22,6 @@ to a **logit-normal controlling location and spread on the unconstrained logit s
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓ hierarchical-multilevel B8 · for an intended **bimodal beta prior** → re-express it as a **Mixture ](../../recs/hierarchical-multilevel/B8.md) `0.84`
-- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.81`
-- [✓ regression LS1 · for an **outcome that is a proportion k/n** → model the **underlying c](../../recs/regression/LS1.md) `0.81`
-- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.81`
+- [✓ CC-geometry-sampling RP7 · when a **Gamma-prior latent vector funnels** → substituting a LogNorma](../../recs/CC-geometry-sampling/RP7.md) `0.82`
+- [✗ CC-priors-identifiability N4 · when **you use a Beta with a shape parameter < 1** (e.g. Beta(0.5,0.5)](../../recs/CC-priors-identifiability/N4.md) `0.82`
+- [✓ hierarchical-multilevel B2 · for a hierarchical **scale parameter** → **weakly-informative bounded ](../../recs/hierarchical-multilevel/B2.md) `0.82`

@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ gaussian-process S8 · for **sparse Cholesky in JAX** → relying on **dynamically-shaped outpu](../../recs/gaussian-process/S8.md) `0.80`
-- [✓ CC-model-evaluation A7 · when a **shared parameter is constrained by two independent sources / ](../../recs/CC-model-evaluation/A7.md) `0.79`
-- [✗ CC-convergence-diagnostics D3 · when you thin a periodic chain by a stride that is a multiple of its p](../../recs/CC-convergence-diagnostics/D3.md) `0.78`
-- [✗ CC-priors-identifiability S3 · when **mixture components overlap** (separation within ~1σ) → an **ord](../../recs/CC-priors-identifiability/S3.md) `0.78`
+- [✓ spatial-areal Z3 · for the same effects → a **hard sum-to-zero** via an exact linear map ](../../recs/spatial-areal/Z3.md) `0.78`
+- [✗ CC-priors-identifiability S9 · when **two additive model components share a function class** (overlap](../../recs/CC-priors-identifiability/S9.md) `0.77`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.76`
+- [✗ time-series-state-space P6 · for comparing **two mathematically-equivalent NCP factorizations** → a](../../recs/time-series-state-space/P6.md) `0.76`

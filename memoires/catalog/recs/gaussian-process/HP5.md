@@ -19,7 +19,7 @@ well.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-geometry-sampling GP4 · when **GP divergences localize at small σ** → a zero-avoiding prior on](../../recs/CC-geometry-sampling/GP4.md) `0.84`
-- [✓ CC-geometry-sampling GP2 · when a **GP is too large** → replacing it with a low-rank basis-functi](../../recs/CC-geometry-sampling/GP2.md) `0.83`
-- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.83`
-- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.82`
+- [✗ CC-priors-identifiability G3 · when **you reach for a reference prior to "let the data speak" for GP ](../../recs/CC-priors-identifiability/G3.md) `0.93`
+- [✗ CC-priors-identifiability G2 · when **you judge GP identifiability from the marginal ρ and σ posterio](../../recs/CC-priors-identifiability/G2.md) `0.86`
+- [✓ ode-dynamical R2 · for the **g/k ridge** → an **informative/regularizing prior on g and k](../../recs/ode-dynamical/R2.md) `0.84`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.84`

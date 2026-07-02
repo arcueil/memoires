@@ -20,6 +20,6 @@ tuning** does **NOT** work.
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.92`
-- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.83`
-- [✗ ode-dynamical Q5 · for **iterative model building** → treating **post-hoc model selection](../../recs/ode-dynamical/Q5.md) `0.83`
-- [✗ CC-model-evaluation H1 · when computing a **Bayes factor on an estimation-prior fit** (e.g. rst](../../recs/CC-model-evaluation/H1.md) `0.83`
+- [✗ ode-dynamical Q5 · for **iterative model building** → treating **post-hoc model selection](../../recs/ode-dynamical/Q5.md) `0.87`
+- [✓/✗ CC-priors-identifiability G5 · when **you set ρ-prior bounds from the observed covariate span** → wor](../../recs/CC-priors-identifiability/G5.md) `0.84`
+- [✓/✗ regression SM9 · for **comparing a broad-prior Bayesian logistic fit to classical MLE**](../../recs/regression/SM9.md) `0.84`

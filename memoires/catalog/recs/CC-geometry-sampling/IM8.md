@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability X2 · when **you set LogNormal(μ,σ) using a natural-scale mean/sd** → does *](../../recs/CC-priors-identifiability/X2.md) `0.79`
-- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.79`
-- [✗ spatial-areal R1 · for an **ICAR / BYM / intrinsic-smoothing-spline** component (Q rank-d](../../recs/spatial-areal/R1.md) `0.78`
-- [✗ spatial-areal Z1 · for **non-identified additive spatial effects** (ICAR/BYM/CAR effects,](../../recs/spatial-areal/Z1.md) `0.78`
+- [✗ time-series-state-space D3 · for a **log-scale forward algorithm with structural zeros** in the tra](../../recs/time-series-state-space/D3.md) `0.82`
+- [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.79`
+- [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.79`
+- [spatial-areal C2 · The GMRF precision parameterization silently decouples its scalar τ fr](../../claims/spatial-areal/C2.md) `0.79`

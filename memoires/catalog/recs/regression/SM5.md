@@ -19,7 +19,7 @@ level** does **NOT** work; marginalize over the factor's levels for a population
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation F14 · when reading a **factor's effect off the reference / baseline level** ](../../recs/CC-model-evaluation/F14.md) `0.89`
-- [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.84`
-- [✗ hierarchical-multilevel G2 · for a **mixed-effects model** → assuming a single **"Bayesian R²"** do](../../recs/hierarchical-multilevel/G2.md) `0.84`
-- [✗ hierarchical-multilevel P4 · for a normal hierarchical model with **weak per-group data** → CP does](../../recs/hierarchical-multilevel/P4.md) `0.83`
+- [✗ CC-model-evaluation F14 · when reading a **factor's effect off the reference / baseline level** ](../../recs/CC-model-evaluation/F14.md) `0.96`
+- [✓ hierarchical-multilevel I2 · for **MRP** with a strong predictor known only in the sample → **inclu](../../recs/hierarchical-multilevel/I2.md) `0.84`
+- [✗ hierarchical-multilevel D1 · for a **hierarchical/varying-effects regression** → placing a zero-cen](../../recs/hierarchical-multilevel/D1.md) `0.84`
+- [✓ hierarchical-multilevel F4 · for **pre/post** repeated measures → modeling **both timepoints as the](../../recs/hierarchical-multilevel/F4.md) `0.83`

@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability S3 · when **mixture components overlap** (separation within ~1σ) → an **ord](../../recs/CC-priors-identifiability/S3.md) `0.89`
-- [✗ mixture O1 · for **overlapping components** (separation < ~1–2 σ) → the **ordering ](../../recs/mixture/O1.md) `0.89`
-- [✗ CC-priors-identifiability W6 · when **mixture components overlap substantially** → the data do **NOT*](../../recs/CC-priors-identifiability/W6.md) `0.86`
-- [✗ mixture O4 · for **overlapping components** → trying to **infer the mixture weight ](../../recs/mixture/O4.md) `0.85`
+- [✗ mixture O1 · for **overlapping components** (separation < ~1–2 σ) → the **ordering ](../../recs/mixture/O1.md) `0.94`
+- [✗ CC-priors-identifiability S3 · when **mixture components overlap** (separation within ~1σ) → an **ord](../../recs/CC-priors-identifiability/S3.md) `0.92`
+- [mixture C4 · Overlapping components are a *second*, continuous non-identifiability ](../../claims/mixture/C4.md) `0.88`
+- [✗ mixture O4 · for **overlapping components** → trying to **infer the mixture weight ](../../recs/mixture/O4.md) `0.87`

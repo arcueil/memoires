@@ -19,7 +19,7 @@ knowledge about proportional changes works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.83`
-- [✓ CC-model-evaluation E9 · when you want **some observations to count more than others** → **mult](../../recs/CC-model-evaluation/E9.md) `0.81`
-- [✗ hierarchical-multilevel C3 · for a **partial-pooling model** → reading a positive **residuals-vs-fi](../../recs/hierarchical-multilevel/C3.md) `0.81`
-- [✓ CC-model-evaluation F9 · when computing **marginal effects from random-slope / correlated-RE mo](../../recs/CC-model-evaluation/F9.md) `0.81`
+- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.84`
+- [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.83`
+- [✓ CC-model-evaluation F9 · when computing **marginal effects from random-slope / correlated-RE mo](../../recs/CC-model-evaluation/F9.md) `0.82`
+- [✗ CC-model-evaluation G1 · when reading **`lp__` / `target` as the pointwise log-likelihood** for](../../recs/CC-model-evaluation/G1.md) `0.82`

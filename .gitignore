@@ -5,4 +5,3 @@ __pycache__/
 data/raw
 dist/
 *.egg-info/
-memoires/catalog/data/entry_vectors.npz

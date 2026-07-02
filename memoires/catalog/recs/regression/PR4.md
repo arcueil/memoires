@@ -19,7 +19,7 @@ does **NOT** work (initialization rejected).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel G1 · for a **GLMM with a non-identity link** (logistic/Poisson/ordinal) → r](../../recs/hierarchical-multilevel/G1.md) `0.82`
-- [✗ spatial-areal A1 · for a **regression/GLM on spatially-indexed data where a covariate is ](../../recs/spatial-areal/A1.md) `0.80`
-- [✗ gaussian-process HP10 · for an **observational (non-designed) GP** → **retrofitting the ρ prio](../../recs/gaussian-process/HP10.md) `0.80`
-- [✓ CC-priors-identifiability E3 · when **you need to suppress a specific tail on a positive parameter** ](../../recs/CC-priors-identifiability/E3.md) `0.80`
+- [✗ CC-priors-identifiability X1 · when **a parameter is fit through a non-identity link / transform** (l](../../recs/CC-priors-identifiability/X1.md) `0.84`
+- [✗ hierarchical-multilevel G1 · for a **GLMM with a non-identity link** (logistic/Poisson/ordinal) → r](../../recs/hierarchical-multilevel/G1.md) `0.81`
+- [✗ time-series-state-space D3 · for a **log-scale forward algorithm with structural zeros** in the tra](../../recs/time-series-state-space/D3.md) `0.80`
+- [✓ CC-geometry-sampling DV8 · when divergences appear **even in a prior-only run** (no likelihood) →](../../recs/CC-geometry-sampling/DV8.md) `0.80`

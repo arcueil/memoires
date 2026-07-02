@@ -19,10 +19,10 @@ fixed design covariate** does **NOT** work for intervention conclusions.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.86`
-- [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.80`
+- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.92`
 - [✗ measurement-error-missing A1 · for a randomized/designed experiment with **dropout, censoring, or non](../../recs/measurement-error-missing/A1.md) `0.80`
-- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.79`
+- [✓ measurement-error-missing A2 · for that designed experiment → **explicitly modeling the censoring/sel](../../recs/measurement-error-missing/A2.md) `0.80`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.78`
 
 
 ## Technique (pymc-labs)

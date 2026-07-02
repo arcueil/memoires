@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation E1 · when **choosing the likelihood family by matching the data histogram's](../../recs/CC-model-evaluation/E1.md) `0.81`
-- [✓ CC-model-evaluation I4 · when **designing a method-comparison benchmark** → **including an auth](../../recs/CC-model-evaluation/I4.md) `0.81`
-- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.80`
-- [✗ spatial-areal M1 · for **optimizing a constrained-parameter spatial model** → conflating ](../../recs/spatial-areal/M1.md) `0.80`
+- [✗ CC-convergence-diagnostics D1 · when you thin a well-mixing chain to "improve" ESS → does **NOT** work](../../recs/CC-convergence-diagnostics/D1.md) `0.80`
+- [✓/✗ CC-priors-identifiability E6 · when **a family's CDF/quantile has no closed form** → for **fixed-para](../../recs/CC-priors-identifiability/E6.md) `0.78`
+- [✗ CC-convergence-diagnostics C1 · when you quote one number as "the chain's ESS" → does **NOT** work.](../../recs/CC-convergence-diagnostics/C1.md) `0.78`
+- [✓ CC-convergence-diagnostics C7 · when ESS/n_eff is untrustworthy in the struggling regime → **refit sma](../../recs/CC-convergence-diagnostics/C7.md) `0.78`

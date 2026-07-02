@@ -19,6 +19,6 @@
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
 - [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.78`
-- [✗ spatial-areal X1 · for **validating a spatial sampler with SBC** → trusting a **single sc](../../recs/spatial-areal/X1.md) `0.77`
-- [✗ spatial-areal Z1 · for **non-identified additive spatial effects** (ICAR/BYM/CAR effects,](../../recs/spatial-areal/Z1.md) `0.77`
-- [✗ spatial-areal Z4 · for **choosing soft vs hard** sum-to-zero → assuming one is **universa](../../recs/spatial-areal/Z4.md) `0.77`
+- [spatial-areal C4 · Identifying additive spatial effects requires a sum-to-zero constraint](../../claims/spatial-areal/C4.md) `0.78`
+- [hierarchical-multilevel C1 · Hierarchical geometry is intrinsic and load-bearing — sampler tuning c](../../claims/hierarchical-multilevel/C1.md) `0.77`
+- [✓ latent-factor E2 · for a **slow / deep-tree-saturating** latent-factor fit → treating slo](../../recs/latent-factor/E2.md) `0.77`

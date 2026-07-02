@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.92`
-- [✗ mixture D2 · for a **degenerate mixture** → the **standard HMC diagnostics** (diver](../../recs/mixture/D2.md) `0.85`
-- [CC-model-evaluation C1 · Clean computation certifies the sampler, not the model — evaluation mu](../../claims/CC-model-evaluation/C1.md) `0.85`
-- [✓ ode-dynamical S6 · for deciding whether a **loose-solver posterior is trustworthy** → **r](../../recs/ode-dynamical/S6.md) `0.84`
+- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.87`
+- [✗ mixture D2 · for a **degenerate mixture** → the **standard HMC diagnostics** (diver](../../recs/mixture/D2.md) `0.87`
+- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.83`
+- [✓ hierarchical-multilevel E2 · for **divergences** → **pairs-plotting** the offending parameters and ](../../recs/hierarchical-multilevel/E2.md) `0.83`

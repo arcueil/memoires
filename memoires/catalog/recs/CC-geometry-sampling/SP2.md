@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage D1 · for a **horseshoe funnel** → **raising adapt_delta / max_treedepth to ](../../recs/sparse-shrinkage/D1.md) `0.89`
-- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.81`
-- [✗/✓ regression U8 · for the **underdetermined-regression funnel** → raising **max_treedept](../../recs/regression/U8.md) `0.81`
-- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.81`
+- [✗ sparse-shrinkage D1 · for a **horseshoe funnel** → **raising adapt_delta / max_treedepth to ](../../recs/sparse-shrinkage/D1.md) `0.92`
+- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.87`
+- [sparse-shrinkage C4 · Sparsity pathology is intrinsic funnel geometry — diagnostics are sign](../../claims/sparse-shrinkage/C4.md) `0.86`
+- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.84`
 
 
 ## Contradiction record

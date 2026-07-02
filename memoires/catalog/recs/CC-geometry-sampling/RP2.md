@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel P2 · for a normal hierarchical model with **strong/dense per-group data** →](../../recs/hierarchical-multilevel/P2.md) `0.87`
-- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.85`
-- [✗ hierarchical-multilevel P4 · for a normal hierarchical model with **weak per-group data** → CP does](../../recs/hierarchical-multilevel/P4.md) `0.84`
-- [✓ hierarchical-multilevel P5 · for **unbalanced** hierarchical data (mixed per-group sample sizes) → ](../../recs/hierarchical-multilevel/P5.md) `0.82`
+- [✗ hierarchical-multilevel P2 · for a normal hierarchical model with **strong/dense per-group data** →](../../recs/hierarchical-multilevel/P2.md) `0.93`
+- [hierarchical-multilevel C2 · CP and NCP are exactly complementary and data-dependent — parameterize](../../claims/hierarchical-multilevel/C2.md) `0.87`
+- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.86`
+- [✓ hierarchical-multilevel P3 · for a normal hierarchical model with **strong per-group data** → **cen](../../recs/hierarchical-multilevel/P3.md) `0.86`
 
 
 ## Enrichment (pymc-labs)

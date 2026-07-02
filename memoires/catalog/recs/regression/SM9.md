@@ -20,7 +20,7 @@ gaps to the **decision rule / scoring**.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation F15 · when inferring a **difference between two conditions from overlap of t](../../recs/CC-model-evaluation/F15.md) `0.84`
-- [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.83`
-- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.83`
-- [✗ CC-model-evaluation F3 · when computing **predictive RMSE / intervals** → differencing data aga](../../recs/CC-model-evaluation/F3.md) `0.83`
+- [✗ CC-model-evaluation H1 · when computing a **Bayes factor on an estimation-prior fit** (e.g. rst](../../recs/CC-model-evaluation/H1.md) `0.85`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.85`
+- [✗ gaussian-process EB1 · for **setting a GP prior scale from a pre-fit to the same data** → **e](../../recs/gaussian-process/EB1.md) `0.84`
+- [CC-model-evaluation C6 · Hypothesis tests and single-number summaries (Bayes factors, R², varia](../../claims/CC-model-evaluation/C6.md) `0.84`

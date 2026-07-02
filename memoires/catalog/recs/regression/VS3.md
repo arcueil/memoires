@@ -19,7 +19,7 @@ work (it can select an interaction before its main effects).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation G12 · when reading a **projpred forward-search path as an interpretable mode](../../recs/CC-model-evaluation/G12.md) `0.93`
-- [✗ ode-dynamical Q3 · for **validating a prior** → checking **prior-predictive consequences ](../../recs/ode-dynamical/Q3.md) `0.82`
-- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.82`
-- [✗ CC-model-evaluation F14 · when reading a **factor's effect off the reference / baseline level** ](../../recs/CC-model-evaluation/F14.md) `0.81`
+- [✗ CC-model-evaluation G12 · when reading a **projpred forward-search path as an interpretable mode](../../recs/CC-model-evaluation/G12.md) `0.96`
+- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.85`
+- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.83`
+- [✗ CC-model-evaluation F13 · when interpreting **latent / penalized / transformed parameters from t](../../recs/CC-model-evaluation/F13.md) `0.82`

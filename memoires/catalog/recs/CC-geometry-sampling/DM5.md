@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.83`
-- [✗ spatial-areal C1 · for **divergences caused by a hard clip on a constrained parameter** →](../../recs/spatial-areal/C1.md) `0.81`
-- [✓ ode-dynamical P3 · for **constraint specification** → **separate hard (physical, e.g. pos](../../recs/ode-dynamical/P3.md) `0.80`
-- [✓ CC-model-evaluation A7 · when a **shared parameter is constrained by two independent sources / ](../../recs/CC-model-evaluation/A7.md) `0.78`
+- [✗ spatial-areal C1 · for **divergences caused by a hard clip on a constrained parameter** →](../../recs/spatial-areal/C1.md) `0.84`
+- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.82`
+- [✗ ode-dynamical P1 · for a **positive parameter near a boundary** (e.g. drag k with `lower=](../../recs/ode-dynamical/P1.md) `0.81`
+- [✗ CC-priors-identifiability K1 · when **a hierarchical model is non-identified and you add a hard sum-t](../../recs/CC-priors-identifiability/K1.md) `0.81`
 
 
 ## Contradiction record

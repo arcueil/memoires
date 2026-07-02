@@ -19,7 +19,7 @@ prior and use projection-predictive selection (projpred)** works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.96`
+- [✓ sparse-shrinkage V2 · for **selecting a smaller predictor set** → **projection-predictive se](../../recs/sparse-shrinkage/V2.md) `0.97`
+- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.90`
 - [✗ sparse-shrinkage V1 · for **selecting a smaller predictor set** → **scoring candidate submod](../../recs/sparse-shrinkage/V1.md) `0.87`
-- [✗ CC-model-evaluation G11 · when **selecting predictors by independently refitting each submodel a](../../recs/CC-model-evaluation/G11.md) `0.84`
-- [✓ sparse-shrinkage D4 · for **sparse regression** → reading the **σ (noise) posterior as a sen](../../recs/sparse-shrinkage/D4.md) `0.84`
+- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.85`

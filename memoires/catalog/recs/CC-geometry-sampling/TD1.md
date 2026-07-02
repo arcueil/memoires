@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.87`
-- [✓ ode-dynamical R8 · for **testing whether a ridge is data-limited vs structural** → **add ](../../recs/ode-dynamical/R8.md) `0.83`
-- [✗ mixture D2 · for a **degenerate mixture** → the **standard HMC diagnostics** (diver](../../recs/mixture/D2.md) `0.83`
-- [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.83`
+- [✗ regression O3 · for **ordinal regression showing tree-depth saturation without diverge](../../recs/regression/O3.md) `0.94`
+- [✗ time-series-state-space P1 · for a **fine-grid discretized Markov chain** (e.g. Brownian motion, N≈](../../recs/time-series-state-space/P1.md) `0.85`
+- [✗/✓ regression U8 · for the **underdetermined-regression funnel** → raising **max_treedept](../../recs/regression/U8.md) `0.84`
+- [✗ regression U6 · for **underdetermined linear regression (N<M+1)** → trusting **zero di](../../recs/regression/U6.md) `0.83`

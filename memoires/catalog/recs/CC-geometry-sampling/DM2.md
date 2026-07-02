@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability S3 · when **mixture components overlap** (separation within ~1σ) → an **ord](../../recs/CC-priors-identifiability/S3.md) `0.87`
-- [✗ mixture O1 · for **overlapping components** (separation < ~1–2 σ) → the **ordering ](../../recs/mixture/O1.md) `0.85`
-- [✓ mixture B1 · for a degenerate mixture with **scalar component params + a permutatio](../../recs/mixture/B1.md) `0.84`
-- [✗ CC-convergence-diagnostics F6 · when a subset of parameters shows R̂>1.1 under a two-component (inner_](../../recs/CC-convergence-diagnostics/F6.md) `0.83`
+- [✗ CC-priors-identifiability S3 · when **mixture components overlap** (separation within ~1σ) → an **ord](../../recs/CC-priors-identifiability/S3.md) `0.85`
+- [mixture C4 · Overlapping components are a *second*, continuous non-identifiability ](../../claims/mixture/C4.md) `0.84`
+- [✓ mixture B1 · for a degenerate mixture with **scalar component params + a permutatio](../../recs/mixture/B1.md) `0.81`
+- [✓ CC-priors-identifiability S2 · when **the modes are symmetry-equivalent** (permutation-invariant esti](../../recs/CC-priors-identifiability/S2.md) `0.81`

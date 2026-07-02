@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.82`
-- [✓/✗ CC-priors-identifiability E2 · when **the likelihood is numerically sensitive** (ODE solver, GP kerne](../../recs/CC-priors-identifiability/E2.md) `0.82`
-- [✓ hierarchical-multilevel K3 · for a hierarchical model whose **latents are conditionally independent](../../recs/hierarchical-multilevel/K3.md) `0.82`
-- [✓ hierarchical-multilevel P1 · for a normal hierarchical model with **weak per-group data** (few obs/](../../recs/hierarchical-multilevel/P1.md) `0.82`
+- [✗ CC-priors-identifiability K1 · when **a hierarchical model is non-identified and you add a hard sum-t](../../recs/CC-priors-identifiability/K1.md) `0.84`
+- [✗ hierarchical-multilevel D3 · for a non-identified hierarchical model where you **predict new groups](../../recs/hierarchical-multilevel/D3.md) `0.84`
+- [✗ hierarchical-multilevel B1 · for a hierarchical model with **few obs/group** → **vague/uniform prio](../../recs/hierarchical-multilevel/B1.md) `0.83`
+- [✓ time-series-state-space M2 · for the same multimodal frequency posterior → considering **non-gradie](../../recs/time-series-state-space/M2.md) `0.82`

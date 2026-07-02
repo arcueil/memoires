@@ -19,7 +19,7 @@ scale τ jointly to (n, p, expected sparsity k)** works; a fixed τ does **NOT**
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage S3 · for **high-dimensional (p ≫ n) sparse regression** → a **fixed global ](../../recs/sparse-shrinkage/S3.md) `0.91`
-- [sparse-shrinkage C3 · The global scale is a design-dependent quantity — calibrate it to (N, ](../../claims/sparse-shrinkage/C3.md) `0.87`
-- [✓ CC-priors-identifiability W3 · when **the M>N regression is genuinely sparse** → a **Finnish horsesho](../../recs/CC-priors-identifiability/W3.md) `0.86`
-- [✓ sparse-shrinkage G2 · for a **mixture-prior / horseshoe** → choosing **CP vs NCP per-paramet](../../recs/sparse-shrinkage/G2.md) `0.85`
+- [✗ sparse-shrinkage S3 · for **high-dimensional (p ≫ n) sparse regression** → a **fixed global ](../../recs/sparse-shrinkage/S3.md) `0.93`
+- [sparse-shrinkage C3 · The global scale is a design-dependent quantity — calibrate it to (N, ](../../claims/sparse-shrinkage/C3.md) `0.88`
+- [✗ spatial-areal T3 · for choosing a **prior scale in a scale-mixture / structured spatial m](../../recs/spatial-areal/T3.md) `0.86`
+- [✓ hierarchical-multilevel B7 · for the **population scale τ** → choosing the prior **shape** delibera](../../recs/hierarchical-multilevel/B7.md) `0.85`

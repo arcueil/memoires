@@ -17,10 +17,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ latent-factor D1 · for a **latent-Gaussian** model → **joint HMC/NUTS on (u,θ)** without ](../../recs/latent-factor/D1.md) `0.76`
+- [sparse-shrinkage C5 · Build sparse models by nested expansion under valid warmup — fix geome](../../claims/sparse-shrinkage/C5.md) `0.76`
+- [✓ sparse-shrinkage W3 · for **HMC/NUTS with windowed warmup and multiple chains** → **adaptive](../../recs/sparse-shrinkage/W3.md) `0.76`
+- [hierarchical-multilevel C1 · Hierarchical geometry is intrinsic and load-bearing — sampler tuning c](../../claims/hierarchical-multilevel/C1.md) `0.76`
 - [✓ time-series-state-space P8 · for **choosing per-state centeredness** → **adapting the centeredness ](../../recs/time-series-state-space/P8.md) `0.76`
-- [✗ hierarchical-multilevel F1 · for a **strictly nested** hierarchy in array/plate PPLs (NumPyro/Pyro;](../../recs/hierarchical-multilevel/F1.md) `0.75`
-- [✓ sparse-shrinkage W3 · for **HMC/NUTS with windowed warmup and multiple chains** → **adaptive](../../recs/sparse-shrinkage/W3.md) `0.74`
 
 
 ## Technique (pymc-labs)

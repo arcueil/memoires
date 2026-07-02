@@ -18,7 +18,7 @@ period) works.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ ode-dynamical M5 · for **suppressing spurious period-alias modes without changing the mod](../../recs/ode-dynamical/M5.md) `0.79`
 - [✓ ode-dynamical M4 · for a **periodic dynamical model with period-induced multimodality** →](../../recs/ode-dynamical/M4.md) `0.79`
-- [✗ gaussian-process A1 · for an **additive / multi-component signal decomposition** (multi-scal](../../recs/gaussian-process/A1.md) `0.77`
-- [✗ CC-convergence-diagnostics D3 · when you thin a periodic chain by a stride that is a multiple of its p](../../recs/CC-convergence-diagnostics/D3.md) `0.76`
+- [✓ ode-dynamical M5 · for **suppressing spurious period-alias modes without changing the mod](../../recs/ode-dynamical/M5.md) `0.78`
+- [✗ gaussian-process A1 · for an **additive / multi-component signal decomposition** (multi-scal](../../recs/gaussian-process/A1.md) `0.76`
+- [✓ CC-convergence-diagnostics D4 · when thinning is genuinely needed → use **deterministic post-run thinn](../../recs/CC-convergence-diagnostics/D4.md) `0.76`

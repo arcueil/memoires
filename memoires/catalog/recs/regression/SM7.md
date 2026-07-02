@@ -19,7 +19,7 @@ work (observation-model-dependent).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation H4 · when reporting a **single "Bayesian R²"** for a mixed model → does **N](../../recs/CC-model-evaluation/H4.md) `0.87`
-- [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.86`
-- [✗ hierarchical-multilevel G2 · for a **mixed-effects model** → assuming a single **"Bayesian R²"** do](../../recs/hierarchical-multilevel/G2.md) `0.86`
-- [✗ CC-model-evaluation E1 · when **choosing the likelihood family by matching the data histogram's](../../recs/CC-model-evaluation/E1.md) `0.84`
+- [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.93`
+- [✗ CC-model-evaluation H4 · when reporting a **single "Bayesian R²"** for a mixed model → does **N](../../recs/CC-model-evaluation/H4.md) `0.84`
+- [✗ hierarchical-multilevel G1 · for a **GLMM with a non-identity link** (logistic/Poisson/ordinal) → r](../../recs/hierarchical-multilevel/G1.md) `0.83`
+- [✓/✗ gaussian-process HP14 · for an **R2D2 prior on a GP** → substituting a **pseudo-variance indep](../../recs/gaussian-process/HP14.md) `0.82`

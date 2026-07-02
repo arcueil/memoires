@@ -25,7 +25,7 @@ reproducing the zero spike, i.e. the summary side).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ mixture Z2 · for **hurdle / zero-inflated models** → reading **`fitted`-type output](../../recs/mixture/Z2.md) `0.88`
-- [✓ mixture Z1 · for **zero-inflation over a continuous baseline** → **decompose exactl](../../recs/mixture/Z1.md) `0.85`
-- [✗ measurement-error-missing B1 · for **count/spectral data observed through a non-trivial measurement p](../../recs/measurement-error-missing/B1.md) `0.83`
-- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.82`
+- [✗ mixture Z2 · for **hurdle / zero-inflated models** → reading **`fitted`-type output](../../recs/mixture/Z2.md) `0.85`
+- [✓ mixture Z1 · for **zero-inflation over a continuous baseline** → **decompose exactl](../../recs/mixture/Z1.md) `0.83`
+- [✗ hierarchical-multilevel D3 · for a non-identified hierarchical model where you **predict new groups](../../recs/hierarchical-multilevel/D3.md) `0.81`
+- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.80`

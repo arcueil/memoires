@@ -18,7 +18,7 @@ seasonal dummies** work.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ ode-dynamical D1 · for **structural zeros** in the data of a dynamical/count model → trea](../../recs/ode-dynamical/D1.md) `0.77`
-- [✓ regression HZ1 · for **count / semicontinuous data with excess zeros** → choosing betwe](../../recs/regression/HZ1.md) `0.77`
-- [✓ ode-dynamical M5 · for **suppressing spurious period-alias modes without changing the mod](../../recs/ode-dynamical/M5.md) `0.77`
-- [✗ regression SM2 · for **reproducing structural features** (e.g. the zero spike) of a **h](../../recs/regression/SM2.md) `0.76`
+- [✓ ode-dynamical M5 · for **suppressing spurious period-alias modes without changing the mod](../../recs/ode-dynamical/M5.md) `0.79`
+- [spatial-areal C4 · Identifying additive spatial effects requires a sum-to-zero constraint](../../claims/spatial-areal/C4.md) `0.78`
+- [✗ spatial-areal Z1 · for **non-identified additive spatial effects** (ICAR/BYM/CAR effects,](../../recs/spatial-areal/Z1.md) `0.77`
+- [✓ spatial-areal Z3 · for the same effects → a **hard sum-to-zero** via an exact linear map ](../../recs/spatial-areal/Z3.md) `0.77`

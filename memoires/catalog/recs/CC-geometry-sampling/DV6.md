@@ -19,7 +19,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ sparse-shrinkage D2 · for a **sparsity funnel** → reading a **near-zero divergence count fro](../../recs/sparse-shrinkage/D2.md) `0.86`
+- [✗ hierarchical-multilevel E1 · for a **hierarchical funnel** → sweeping **adapt_delta / shrinking ste](../../recs/hierarchical-multilevel/E1.md) `0.90`
+- [✗ sparse-shrinkage D2 · for a **sparsity funnel** → reading a **near-zero divergence count fro](../../recs/sparse-shrinkage/D2.md) `0.85`
 - [✓ sparse-shrinkage D3 · for a **sparsity model at high adapt_delta** → checking **tree-depth s](../../recs/sparse-shrinkage/D3.md) `0.84`
-- [✗ gaussian-process E3 · for a **geometric GP pathology** → cranking **adapt_delta / target_acc](../../recs/gaussian-process/E3.md) `0.84`
-- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.83`
+- [✗ gaussian-process G8 · for **frozen/flat GP traces** with a collapsed step size → reading the](../../recs/gaussian-process/G8.md) `0.83`

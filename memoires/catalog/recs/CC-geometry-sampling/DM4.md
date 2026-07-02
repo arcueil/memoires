@@ -19,7 +19,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ ode-dynamical M2 · for **genuine multimodality** → **characterize each mode with posterio](../../recs/ode-dynamical/M2.md) `0.84`
-- [✓ CC-model-evaluation A7 · when a **shared parameter is constrained by two independent sources / ](../../recs/CC-model-evaluation/A7.md) `0.84`
-- [✗ ode-dynamical M1 · for **unexpected multimodality** in a dynamical-model posterior → trea](../../recs/ode-dynamical/M1.md) `0.83`
-- [✓ time-series-state-space M2 · for the same multimodal frequency posterior → considering **non-gradie](../../recs/time-series-state-space/M2.md) `0.83`
+- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.86`
+- [✗ CC-priors-identifiability S1 · when **chains land in conflicting sign/label/orientation modes and tun](../../recs/CC-priors-identifiability/S1.md) `0.85`
+- [✗ CC-convergence-diagnostics B2 · when you run a single chain on a multimodal/mixture target → per-chain](../../recs/CC-convergence-diagnostics/B2.md) `0.84`
+- [✗ mixture D1 · for a **degenerate mixture** (identical component family, exchangeable](../../recs/mixture/D1.md) `0.84`

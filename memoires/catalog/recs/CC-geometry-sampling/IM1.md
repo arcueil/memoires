@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ time-series-state-space D4 · for that structural-zero gradient failure → **regularize the zeros awa](../../recs/time-series-state-space/D4.md) `0.80`
-- [✗ sparse-shrinkage P2 · for a **non-identified sparse regression (M > N)** → the **classic hor](../../recs/sparse-shrinkage/P2.md) `0.79`
-- [✓ CC-priors-identifiability W3 · when **the M>N regression is genuinely sparse** → a **Finnish horsesho](../../recs/CC-priors-identifiability/W3.md) `0.79`
-- [✗ spatial-areal R1 · for an **ICAR / BYM / intrinsic-smoothing-spline** component (Q rank-d](../../recs/spatial-areal/R1.md) `0.79`
+- [✗ time-series-state-space D3 · for a **log-scale forward algorithm with structural zeros** in the tra](../../recs/time-series-state-space/D3.md) `0.79`
+- [✓ time-series-state-space D4 · for that structural-zero gradient failure → **regularize the zeros awa](../../recs/time-series-state-space/D4.md) `0.78`
+- [✗ sparse-shrinkage D2 · for a **sparsity funnel** → reading a **near-zero divergence count fro](../../recs/sparse-shrinkage/D2.md) `0.78`
+- [✓ CC-model-evaluation I5 · when you **need log|Q| for a Cholesky-factored sparse SPD matrix** (ma](../../recs/CC-model-evaluation/I5.md) `0.77`

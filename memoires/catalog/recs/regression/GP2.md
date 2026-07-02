@@ -19,10 +19,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ gaussian-process P2 · for **GP out-of-sample prediction** → explicitly **conditioning on the](../../recs/gaussian-process/P2.md) `0.87`
-- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.86`
-- [✗ gaussian-process HP10 · for an **observational (non-designed) GP** → **retrofitting the ρ prio](../../recs/gaussian-process/HP10.md) `0.84`
-- [✗ gaussian-process P1 · for an **exact/latent GP predicting at new inputs X\*** → the **generi](../../recs/gaussian-process/P1.md) `0.83`
+- [✓ gaussian-process P2 · for **GP out-of-sample prediction** → explicitly **conditioning on the](../../recs/gaussian-process/P2.md) `0.95`
+- [✓ CC-model-evaluation F12 · when **predicting a GP at new inputs** → **explicitly conditioning on ](../../recs/CC-model-evaluation/F12.md) `0.94`
+- [✗ CC-model-evaluation F11 · when **predicting a GP at new inputs X\*** via generic `Predictive` / ](../../recs/CC-model-evaluation/F11.md) `0.88`
+- [gaussian-process C5 · A GP is non-parametric — prediction and structural decomposition requi](../../claims/gaussian-process/C5.md) `0.88`
 
 
 ## Technique (pymc-labs)

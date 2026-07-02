@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-priors-identifiability E7 · when **you are deciding whether a shrink-to-zero (PC) prior is appropr](../../recs/CC-priors-identifiability/E7.md) `0.78`
-- [✗ time-series-state-space P6 · for comparing **two mathematically-equivalent NCP factorizations** → a](../../recs/time-series-state-space/P6.md) `0.77`
-- [✗ CC-priors-identifiability X2 · when **you set LogNormal(μ,σ) using a natural-scale mean/sd** → does *](../../recs/CC-priors-identifiability/X2.md) `0.77`
-- [✗ CC-priors-identifiability N2 · when **you use a diffuse-but-proper prior** (Normal(0,1000), U(−1000,1](../../recs/CC-priors-identifiability/N2.md) `0.77`
+- [✗ time-series-state-space D3 · for a **log-scale forward algorithm with structural zeros** in the tra](../../recs/time-series-state-space/D3.md) `0.83`
+- [✗ hierarchical-multilevel B4 · for the **data-level noise SD σ** in a simple random-intercept model →](../../recs/hierarchical-multilevel/B4.md) `0.81`
+- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.81`
+- [✓ time-series-state-space D4 · for that structural-zero gradient failure → **regularize the zeros awa](../../recs/time-series-state-space/D4.md) `0.81`

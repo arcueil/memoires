@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ gaussian-process HP11 · for a **GP under cross-validation or sequential data collection** → th](../../recs/gaussian-process/HP11.md) `0.79`
-- [✗ gaussian-process G2 · for a **high-dimensional GP prior** → the **centered parameterization*](../../recs/gaussian-process/G2.md) `0.78`
-- [✓ CC-model-evaluation I5 · when you **need log|Q| for a Cholesky-factored sparse SPD matrix** (ma](../../recs/CC-model-evaluation/I5.md) `0.78`
-- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.78`
+- [✗ gaussian-process S1 · for an **exact dense GP with N more than a few hundred** → **full-cova](../../recs/gaussian-process/S1.md) `0.81`
+- [gaussian-process C3 · An exact dense GP does not scale — the fix is a *structured* represent](../../claims/gaussian-process/C3.md) `0.81`
+- [✗ sparse-shrinkage W5 · for a **large sparse/hierarchical fit that stalls or runs pathological](../../recs/sparse-shrinkage/W5.md) `0.77`
+- [✗ time-series-state-space P1 · for a **fine-grid discretized Markov chain** (e.g. Brownian motion, N≈](../../recs/time-series-state-space/P1.md) `0.77`

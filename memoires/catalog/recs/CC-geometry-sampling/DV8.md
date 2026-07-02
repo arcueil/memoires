@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability E1 · when **the true value may exceed your chosen scale and you use a light](../../recs/CC-priors-identifiability/E1.md) `0.84`
-- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.84`
-- [✓ time-series-state-space T3 · for **scattered (non-clustered) divergences** → running the **hard-mod](../../recs/time-series-state-space/T3.md) `0.84`
-- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.83`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.86`
+- [✓ CC-priors-identifiability W8 · when **the likelihood cannot inform some directions** → elicit only **](../../recs/CC-priors-identifiability/W8.md) `0.85`
+- [✗ gaussian-process E4 · for **prior-improbable posteriors on GP terms** → reading them as a **](../../recs/gaussian-process/E4.md) `0.84`
+- [✓ ode-dynamical S6 · for deciding whether a **loose-solver posterior is trustworthy** → **r](../../recs/ode-dynamical/S6.md) `0.84`

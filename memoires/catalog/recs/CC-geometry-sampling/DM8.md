@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✓ measurement-error-missing J2 · for the **misclassification-row simplex under HMC** → reparameterize t](../../recs/measurement-error-missing/J2.md) `0.80`
 - [✓ CC-model-evaluation F2 · when generating a posterior predictive → **drawing through the observa](../../recs/CC-model-evaluation/F2.md) `0.79`
-- [✗ CC-model-evaluation F13 · when interpreting **latent / penalized / transformed parameters from t](../../recs/CC-model-evaluation/F13.md) `0.78`
-- [✗ CC-model-evaluation E1 · when **choosing the likelihood family by matching the data histogram's](../../recs/CC-model-evaluation/E1.md) `0.78`
-- [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.78`
+- [✗ time-series-state-space D1 · for an **HMM / discrete-latent-state / state-space model** under HMC/N](../../recs/time-series-state-space/D1.md) `0.79`
+- [✗ CC-convergence-diagnostics F3 · when a top-line "largest R-hat is NA, chains have not mixed" / "Bulk/T](../../recs/CC-convergence-diagnostics/F3.md) `0.78`
 
 
 ## Technique (pymc-labs)

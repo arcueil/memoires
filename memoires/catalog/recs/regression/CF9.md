@@ -22,7 +22,7 @@ do-calculus as approximations) and CF2 (decoupling when there is no confounder).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.82`
-- [✓ latent-factor B2 · for such an **additive-component** model → adding **structure that tie](../../recs/latent-factor/B2.md) `0.81`
+- [✗ CC-model-evaluation E4 · when **x is stochastic (uncontrolled) but you treat it as a fixed cova](../../recs/CC-model-evaluation/E4.md) `0.81`
 - [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.81`
-- [✗ measurement-error-missing I2 · for **turning a solved censored inference into an action** → using a f](../../recs/measurement-error-missing/I2.md) `0.80`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.81`
+- [✗ measurement-error-missing A1 · for a randomized/designed experiment with **dropout, censoring, or non](../../recs/measurement-error-missing/A1.md) `0.80`

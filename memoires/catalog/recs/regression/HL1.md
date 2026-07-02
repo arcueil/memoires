@@ -21,7 +21,7 @@ group effects without a sum-to-zero/pin constraint** does **NOT** work (location
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel D1 · for a **hierarchical/varying-effects regression** → placing a zero-cen](../../recs/hierarchical-multilevel/D1.md) `0.93`
-- [✗ CC-priors-identifiability S11 · when **a global intercept AND zero-mean group effects are both freely ](../../recs/CC-priors-identifiability/S11.md) `0.89`
-- [✗ spatial-areal Z1 · for **non-identified additive spatial effects** (ICAR/BYM/CAR effects,](../../recs/spatial-areal/Z1.md) `0.81`
-- [✗ hierarchical-multilevel D3 · for a non-identified hierarchical model where you **predict new groups](../../recs/hierarchical-multilevel/D3.md) `0.81`
+- [✗ hierarchical-multilevel D1 · for a **hierarchical/varying-effects regression** → placing a zero-cen](../../recs/hierarchical-multilevel/D1.md) `0.94`
+- [✗ CC-priors-identifiability S11 · when **a global intercept AND zero-mean group effects are both freely ](../../recs/CC-priors-identifiability/S11.md) `0.93`
+- [✗ hierarchical-multilevel D3 · for a non-identified hierarchical model where you **predict new groups](../../recs/hierarchical-multilevel/D3.md) `0.84`
+- [✗ CC-priors-identifiability K1 · when **a hierarchical model is non-identified and you add a hard sum-t](../../recs/CC-priors-identifiability/K1.md) `0.82`

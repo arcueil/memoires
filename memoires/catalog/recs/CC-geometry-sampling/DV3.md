@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.87`
 - [✓ hierarchical-multilevel E2 · for **divergences** → **pairs-plotting** the offending parameters and ](../../recs/hierarchical-multilevel/E2.md) `0.87`
-- [✗ time-series-state-space T2 · for divergences clustering tightly at the **AR(1) unit-root boundary**](../../recs/time-series-state-space/T2.md) `0.85`
-- [✓ gaussian-process E1 · for a **GP funnel with divergences** → **pairs-plotting the ENSEMBLE o](../../recs/gaussian-process/E1.md) `0.82`
-- [time-series-state-space C4 · Divergence *location*, not count, is the primary triage signal — state](../../claims/time-series-state-space/C4.md) `0.82`
+- [✗ time-series-state-space T2 · for divergences clustering tightly at the **AR(1) unit-root boundary**](../../recs/time-series-state-space/T2.md) `0.86`
+- [✓ time-series-state-space T1 · for **MCMC divergences breaching a gate** in a state-space / AR(1) mod](../../recs/time-series-state-space/T1.md) `0.86`

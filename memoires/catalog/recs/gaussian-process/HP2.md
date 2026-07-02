@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.84`
-- [✗ CC-priors-identifiability G1 · when **you estimate an EQ-kernel length scale ρ by maximum marginal li](../../recs/CC-priors-identifiability/G1.md) `0.83`
-- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.83`
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.83`
+- [✗ CC-priors-identifiability G1 · when **you estimate an EQ-kernel length scale ρ by maximum marginal li](../../recs/CC-priors-identifiability/G1.md) `0.89`
+- [CC-priors-identifiability C5 · Scaling a prior to the experimental design is principled, not cheating](../../claims/CC-priors-identifiability/C5.md) `0.87`
+- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.85`
+- [✗ CC-priors-identifiability N3 · when **you put uniform(0,10) / wide normals on scale hyperparameters**](../../recs/CC-priors-identifiability/N3.md) `0.85`

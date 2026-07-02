@@ -19,7 +19,7 @@ do **NOT** work to reveal the misspecification.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation A5 · when **prediction targets fall outside the training covariate support*](../../recs/CC-model-evaluation/A5.md) `0.85`
-- [✓ CC-model-evaluation A2 · when you need to **catch misspecification behind clean diagnostics** →](../../recs/CC-model-evaluation/A2.md) `0.84`
-- [✓ CC-model-evaluation F12 · when **predicting a GP at new inputs** → **explicitly conditioning on ](../../recs/CC-model-evaluation/F12.md) `0.82`
-- [✓ sparse-shrinkage D4 · for **sparse regression** → reading the **σ (noise) posterior as a sen](../../recs/sparse-shrinkage/D4.md) `0.82`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.90`
+- [✗ CC-model-evaluation A5 · when **prediction targets fall outside the training covariate support*](../../recs/CC-model-evaluation/A5.md) `0.88`
+- [CC-model-evaluation C1 · Clean computation certifies the sampler, not the model — evaluation mu](../../claims/CC-model-evaluation/C1.md) `0.88`
+- [✓ CC-model-evaluation A2 · when you need to **catch misspecification behind clean diagnostics** →](../../recs/CC-model-evaluation/A2.md) `0.85`

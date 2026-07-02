@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-priors-identifiability W8 · when **the likelihood cannot inform some directions** → elicit only **](../../recs/CC-priors-identifiability/W8.md) `0.81`
+- [✗ CC-convergence-diagnostics I1 · when you rely on absolute continuity (support containment) for IS vali](../../recs/CC-convergence-diagnostics/I1.md) `0.81`
 - [✓ CC-model-evaluation D1 · when asking **"is my model good enough?"** → judging **relevant (goal-](../../recs/CC-model-evaluation/D1.md) `0.80`
-- [✗ CC-model-evaluation D5 · when reading a **frequentist procedure as quantifying which parameters](../../recs/CC-model-evaluation/D5.md) `0.80`
-- [✗ CC-model-evaluation F10 · when a **constraint is imposed via `pm.Potential`** (e.g. −inf outside](../../recs/CC-model-evaluation/F10.md) `0.80`
+- [✓ time-series-state-space M3 · for a **tiny min-ESS diagnosed as multimodality** → **classifying the ](../../recs/time-series-state-space/M3.md) `0.79`
+- [✗ CC-priors-identifiability N2 · when **you use a diffuse-but-proper prior** (Normal(0,1000), U(−1000,1](../../recs/CC-priors-identifiability/N2.md) `0.79`

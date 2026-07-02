@@ -20,7 +20,7 @@ model → **`fitted()`-type output** (conditional mean) does **NOT** work; use *
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ mixture Z2 · for **hurdle / zero-inflated models** → reading **`fitted`-type output](../../recs/mixture/Z2.md) `0.94`
-- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.84`
+- [✗ mixture Z2 · for **hurdle / zero-inflated models** → reading **`fitted`-type output](../../recs/mixture/Z2.md) `0.97`
+- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.85`
 - [✓ CC-model-evaluation F4 · when you need **full predictive uncertainty** → **`posterior_predict`*](../../recs/CC-model-evaluation/F4.md) `0.84`
-- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.84`
+- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.82`

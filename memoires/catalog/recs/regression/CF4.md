@@ -19,7 +19,7 @@ retrodictive check** (fix covariates, simulate only variates) does **NOT** work 
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.91`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.95`
 - [✗ CC-model-evaluation A5 · when **prediction targets fall outside the training covariate support*](../../recs/CC-model-evaluation/A5.md) `0.88`
-- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.85`
-- [✓ CC-model-evaluation A2 · when you need to **catch misspecification behind clean diagnostics** →](../../recs/CC-model-evaluation/A2.md) `0.83`
+- [CC-model-evaluation C1 · Clean computation certifies the sampler, not the model — evaluation mu](../../claims/CC-model-evaluation/C1.md) `0.86`
+- [✓ CC-model-evaluation A2 · when you need to **catch misspecification behind clean diagnostics** →](../../recs/CC-model-evaluation/A2.md) `0.85`

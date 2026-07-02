@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-convergence-diagnostics F1 · when NaN R̂/n_eff fires on a stored constant (fixed boundary state) → ](../../recs/CC-convergence-diagnostics/F1.md) `0.79`
-- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.77`
-- [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.76`
-- [✗ CC-convergence-diagnostics B6 · when you "discard the bad chains and keep the good ones" (burn-in fram](../../recs/CC-convergence-diagnostics/B6.md) `0.76`
+- [✗ regression PR4 · for a **positive-support GLM** (Gamma, Weibull, inverse-Gaussian) → an](../../recs/regression/PR4.md) `0.79`
+- [✗ measurement-error-missing K1 · for a **latent/mixture measurement model that diverges** → **pure samp](../../recs/measurement-error-missing/K1.md) `0.78`
+- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.78`
+- [✓ measurement-error-missing K3 · for such a fit → **diagnose the geometry first** — pairs/scatter of (μ](../../recs/measurement-error-missing/K3.md) `0.78`
 
 
 ## Enrichment (pymc-labs)

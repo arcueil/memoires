@@ -20,7 +20,7 @@ prior.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ CC-geometry-sampling GP3 · when a **latent-Gaussian/GP regression shows divergences concentrated ](../../recs/CC-geometry-sampling/GP3.md) `0.94`
-- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.94`
-- [✓ latent-factor D2 · for a **conjugate latent-Gaussian** model → **analytic marginalization](../../recs/latent-factor/D2.md) `0.85`
-- [✓ gaussian-process S4 · for a **sparse-precision latent-Gaussian model** → **parameterizing vi](../../recs/gaussian-process/S4.md) `0.85`
+- [✓ CC-geometry-sampling GP3 · when a **latent-Gaussian/GP regression shows divergences concentrated ](../../recs/CC-geometry-sampling/GP3.md) `0.97`
+- [✓/✗ gaussian-process G4 · for a **GP regression** y ~ N(a+f, σ) with **divergences concentrated ](../../recs/gaussian-process/G4.md) `0.96`
+- [gaussian-process C2 · The GP latent field is a high-dimensional funnel — whiten it (NCP Chol](../../claims/gaussian-process/C2.md) `0.87`
+- [✓ gaussian-process G1 · for a **latent-GP field** with fixed hyperparameters and a relatively ](../../recs/gaussian-process/G1.md) `0.87`

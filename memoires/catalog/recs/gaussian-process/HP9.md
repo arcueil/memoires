@@ -19,10 +19,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓/✗ CC-priors-identifiability G5 · when **you set ρ-prior bounds from the observed covariate span** → wor](../../recs/CC-priors-identifiability/G5.md) `0.90`
-- [✓ measurement-error-missing A4 · for that covariate-dependent-sampling problem → **modeling the randomi](../../recs/measurement-error-missing/A4.md) `0.83`
-- [✓ hierarchical-multilevel B3 · for a **Gaussian random-effect SD** where τ=0 is a plausible base mode](../../recs/hierarchical-multilevel/B3.md) `0.83`
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.83`
+- [✓/✗ CC-priors-identifiability G5 · when **you set ρ-prior bounds from the observed covariate span** → wor](../../recs/CC-priors-identifiability/G5.md) `0.91`
+- [CC-priors-identifiability C5 · Scaling a prior to the experimental design is principled, not cheating](../../claims/CC-priors-identifiability/C5.md) `0.86`
+- [✓ CC-priors-identifiability G4 · when **ρ drifts to ∞ or the GP interpolates** → recognize these as **t](../../recs/CC-priors-identifiability/G4.md) `0.85`
+- [✗ CC-priors-identifiability G6 · when **you use GP ARD inverse-length-scales for variable selection** (](../../recs/CC-priors-identifiability/G6.md) `0.82`
 
 
 ## Contradiction record

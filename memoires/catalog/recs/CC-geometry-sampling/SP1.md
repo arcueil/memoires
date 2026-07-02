@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression U2 · for **M>N sparse regression** → the **classic horseshoe** (unbounded l](../../recs/regression/U2.md) `0.88`
-- [✗ sparse-shrinkage P2 · for a **non-identified sparse regression (M > N)** → the **classic hor](../../recs/sparse-shrinkage/P2.md) `0.86`
-- [✗ sparse-shrinkage P4 · for **prediction** with unlabeled future observations → a **single-sca](../../recs/sparse-shrinkage/P4.md) `0.84`
-- [✗ CC-priors-identifiability W7 · when **you put a horseshoe on the fixed-effect coefficients** to remov](../../recs/CC-priors-identifiability/W7.md) `0.83`
+- [✗ regression U2 · for **M>N sparse regression** → the **classic horseshoe** (unbounded l](../../recs/regression/U2.md) `0.94`
+- [✗ sparse-shrinkage P2 · for a **non-identified sparse regression (M > N)** → the **classic hor](../../recs/sparse-shrinkage/P2.md) `0.94`
+- [✗ sparse-shrinkage S2 · for a **horseshoe** → the common default **tau_0 = σ** does **NOT** wo](../../recs/sparse-shrinkage/S2.md) `0.88`
+- [✗ sparse-shrinkage D1 · for a **horseshoe funnel** → **raising adapt_delta / max_treedepth to ](../../recs/sparse-shrinkage/D1.md) `0.87`

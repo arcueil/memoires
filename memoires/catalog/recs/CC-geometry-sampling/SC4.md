@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
+- [✗ CC-model-evaluation G1 · when reading **`lp__` / `target` as the pointwise log-likelihood** for](../../recs/CC-model-evaluation/G1.md) `0.79`
 - [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.78`
-- [✗ CC-priors-identifiability N6 · when **you try to calibrate an unbounded scale parameter by frequentis](../../recs/CC-priors-identifiability/N6.md) `0.77`
-- [✓ ode-dynamical Q4 · for **eliciting a prior on an awkwardly-scaled ODE parameter** → elici](../../recs/ode-dynamical/Q4.md) `0.77`
-- [✓ ode-dynamical R7 · for **exposing hidden parameter combinations** → **re-derive the ODE/f](../../recs/ode-dynamical/R7.md) `0.77`
+- [✓/✗ CC-priors-identifiability E6 · when **a family's CDF/quantile has no closed form** → for **fixed-para](../../recs/CC-priors-identifiability/E6.md) `0.78`
+- [ode-dynamical C1 · Continuous-time generative flows: the vector field's reversibility is ](../../claims/ode-dynamical/C1.md) `0.77`

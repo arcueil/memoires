@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.88`
-- [✓ time-series-state-space F1 · for a **frozen (fixed-hyperparameter) linear-Gaussian state-space mode](../../recs/time-series-state-space/F1.md) `0.83`
-- [✗ gaussian-process HP6 · for **GP hyperparameter identifiability** → reading only the **margina](../../recs/gaussian-process/HP6.md) `0.80`
-- [✗ CC-priors-identifiability P6 · when **you drop the prior term on subsequent online / streaming update](../../recs/CC-priors-identifiability/P6.md) `0.79`
+- [✗ time-series-state-space F2 · for **updating the posterior over the model's hyperparameters** (trans](../../recs/time-series-state-space/F2.md) `0.93`
+- [✓ time-series-state-space F1 · for a **frozen (fixed-hyperparameter) linear-Gaussian state-space mode](../../recs/time-series-state-space/F1.md) `0.90`
+- [time-series-state-space C5 · The recursion is conditional — respect what it conditions on (initial ](../../claims/time-series-state-space/C5.md) `0.83`
+- [✗ time-series-state-space P1 · for a **fine-grid discretized Markov chain** (e.g. Brownian motion, N≈](../../recs/time-series-state-space/P1.md) `0.82`

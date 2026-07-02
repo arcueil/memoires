@@ -19,7 +19,7 @@ work (it can invert the sign of the causal estimate).
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.84`
-- [✗ CC-model-evaluation F1 · when **generating a posterior predictive** → plugging in posterior dra](../../recs/CC-model-evaluation/F1.md) `0.81`
-- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.81`
-- [✗ CC-model-evaluation F15 · when inferring a **difference between two conditions from overlap of t](../../recs/CC-model-evaluation/F15.md) `0.80`
+- [✗ CC-model-evaluation A4 · when a **conditional-only retrodictive check passes** (covariates fixe](../../recs/CC-model-evaluation/A4.md) `0.88`
+- [✗ CC-priors-identifiability P2 · when **you treat confounding as a property fixable inside one model co](../../recs/CC-priors-identifiability/P2.md) `0.87`
+- [✗ CC-model-evaluation A5 · when **prediction targets fall outside the training covariate support*](../../recs/CC-model-evaluation/A5.md) `0.81`
+- [✗ CC-model-evaluation F14 · when reading a **factor's effect off the reference / baseline level** ](../../recs/CC-model-evaluation/F14.md) `0.81`

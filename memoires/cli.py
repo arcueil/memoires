@@ -65,29 +65,89 @@ def _fts_query(q: str) -> str:
     return " OR ".join(f'"{t}"' for t in terms) or '""'
 
 
+def _fts_ranked(db, query, kind, limit):
+    where, params = "", [_fts_query(query)]
+    if kind:
+        where, _ = " AND kind = ?", params.append(kind)
+    return [r[0] for r in db.execute(
+        f"""SELECT key FROM e WHERE e MATCH ?{where}
+            ORDER BY bm25(e, 8.0, 1.0, 2.0, 6.0, 1.0) LIMIT ?""",
+        params + [limit]).fetchall()]
+
+
+def _semantic_index():
+    """Lazy-load the shipped vector index; returns (keys, matrix, query_encoder) or None if the
+    `semantic` extra / vectors aren't present — the CLI then degrades to lexical search."""
+    npz = CATALOG / "data" / "entry_vectors.npz"
+    if not npz.exists():
+        return None
+    try:
+        import numpy as np
+        from sentence_transformers import SentenceTransformer
+    except ModuleNotFoundError:
+        return None
+    d = np.load(npz, allow_pickle=True)
+    keys = list(d["keys"])
+    V = d["vecs"].astype("float32")
+    model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code=True)
+
+    def rank(query, kind, limit):
+        import numpy as np
+        q = model.encode(["search_query: " + query], convert_to_numpy=True).astype("float32")[0]
+        q /= np.linalg.norm(q) + 1e-9
+        order = np.argsort(V @ q)[::-1]
+        out = []
+        for i in order:
+            k = keys[i]
+            if kind and not k.startswith(kind + ":"):
+                continue
+            out.append(k.split(":", 1)[1])
+            if len(out) >= limit:
+                break
+        return out
+    return rank
+
+
+def _rrf(*rankings, k=60):
+    """Reciprocal-rank fusion — combine lexical + semantic orderings without score calibration."""
+    score = {}
+    for ranking in rankings:
+        for rank, key in enumerate(ranking):
+            score[key] = score.get(key, 0.0) + 1.0 / (k + rank + 1)
+    return [key for key, _ in sorted(score.items(), key=lambda kv: -kv[1])]
+
+
 def cmd_search(args):
     db = _index()
-    where, params = "", [_fts_query(" ".join(args.query))]
-    if args.kind:
-        where = " AND kind = ?"
-        params.append(args.kind)
-    rows = db.execute(
-        f"""SELECT key, kind, title, path,
-                   snippet(e, 4, '[', ']', ' … ', 14) AS snip,
-                   bm25(e, 8.0, 1.0, 2.0, 6.0, 1.0) AS rank
-            FROM e WHERE e MATCH ?{where} ORDER BY rank LIMIT ?""",
-        params + [args.k],
-    ).fetchall()
-    if not rows:
-        print("no matches — try broader terms")
+    query = " ".join(args.query)
+    fts = _fts_ranked(db, query, args.kind, 40)   # candidate page/id refs, ranked by bm25
+
+    sem = None if args.lexical else _semantic_index()
+    if args.semantic and sem is None:
+        print("semantic search unavailable — run `pip install memoires[semantic]`. Falling back to lexical.")
+    if sem is not None:
+        semantic = sem(query, args.kind, 40)
+        order = semantic if args.semantic else _rrf(fts, semantic)
+        mode = "semantic" if args.semantic else "hybrid (lexical + semantic)"
+    else:
+        order = fts
+        mode = "lexical"
+    order = order[:args.k]
+    if not order:
+        print("no matches — try broader terms" + ("" if sem else " (or install [semantic])"))
         return
-    for key, kind, title, path, snip, _ in rows:
-        src = re.search(r"\]\((https?://[^)]+)\)", open(_resolve(key)[0], encoding="utf-8").read())
+    for ref in order:
+        try:
+            p, kind = _resolve(ref)
+        except SystemExit:
+            continue
+        t = p.read_text(encoding="utf-8")
+        title = t.splitlines()[0].lstrip("# ").strip()
+        src = re.search(r"\]\((https?://[^)]+)\)", t)
         print(f"\n◆ [{kind}] {title[:100]}")
-        print(f"  {re.sub(r'\\s+', ' ', snip)[:180]}")
-        print(f"  ↳ {path}" + (f"  ·  source: {src.group(1)}" if src else ""))
-    print(f"\n({len(rows)} results · `memoires show <page>/<id>` for the full entry, "
-          f"`memoires graph <page>/<id>` for its edges)")
+        print(f"  ↳ {ref}" + (f"  ·  source: {src.group(1)}" if src else ""))
+    print(f"\n({len(order)} results · {mode} · `memoires show <page>/<id>` full entry · "
+          f"`memoires graph <page>/<id>` edges)")
 
 
 def _resolve(ref: str):
@@ -147,10 +207,13 @@ def main(argv=None):
     )
     ap.add_argument("--version", action="version", version=f"memoires {__version__}")
     sub = ap.add_subparsers(required=True)
-    s = sub.add_parser("search", help="full-text search over claims + recs")
+    s = sub.add_parser("search", help="search claims + recs (hybrid lexical+semantic when installed)")
     s.add_argument("query", nargs="+")
     s.add_argument("-k", type=int, default=8, help="max results")
     s.add_argument("--kind", choices=["claim", "rec"])
+    g = s.add_mutually_exclusive_group()
+    g.add_argument("--semantic", "-s", action="store_true", help="pure semantic (needs [semantic] extra)")
+    g.add_argument("--lexical", "-l", action="store_true", help="force lexical FTS5 only")
     s.set_defaults(fn=cmd_search)
     s = sub.add_parser("show", help="print one entry (page/id)")
     s.add_argument("ref")

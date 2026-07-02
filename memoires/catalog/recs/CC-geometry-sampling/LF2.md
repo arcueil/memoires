@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ regression Q1 · for **near-collinear covariates** (e.g. x and x² for uncentered positi](../../recs/regression/Q1.md) `0.88`
-- [✓ regression Q2 · for a **near-collinear (identified) linear predictor** → **centering t](../../recs/regression/Q2.md) `0.87`
-- [✗ regression U10 · for **exact collinearity** (N<M+1, or perfectly correlated components ](../../recs/regression/U10.md) `0.82`
-- [✗ regression DG1 · for **nonlinearly-correlated component covariates** → reading **curvat](../../recs/regression/DG1.md) `0.81`
+- [✗ regression Q1 · for **near-collinear covariates** (e.g. x and x² for uncentered positi](../../recs/regression/Q1.md) `0.94`
+- [✓ regression Q2 · for a **near-collinear (identified) linear predictor** → **centering t](../../recs/regression/Q2.md) `0.89`
+- [regression C3 · Ridges and funnels in the *linear predictor* split into two look-alike](../../claims/regression/C3.md) `0.87`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.85`
 
 
 ## Technique (pymc-labs)

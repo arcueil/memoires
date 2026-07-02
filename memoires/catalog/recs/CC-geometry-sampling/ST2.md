@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-convergence-diagnostics A6 · when a chain is stationary but explores the typical set inefficiently ](../../recs/CC-convergence-diagnostics/A6.md) `0.81`
-- [✗ CC-convergence-diagnostics I2 · when you check only that the IS ratio has finite variance → does **NOT](../../recs/CC-convergence-diagnostics/I2.md) `0.81`
+- [✗ time-series-state-space D3 · for a **log-scale forward algorithm with structural zeros** in the tra](../../recs/time-series-state-space/D3.md) `0.83`
+- [✗ gaussian-process HP11 · for a **GP under cross-validation or sequential data collection** → th](../../recs/gaussian-process/HP11.md) `0.82`
+- [time-series-state-space C3 · Discrete latent states must be marginalized out — then the dominant fa](../../claims/time-series-state-space/C3.md) `0.81`
 - [✗ CC-convergence-diagnostics A4 · when the expectand has undefined mean or infinite variance → a Monte-C](../../recs/CC-convergence-diagnostics/A4.md) `0.81`
-- [✗ ode-dynamical P1 · for a **positive parameter near a boundary** (e.g. drag k with `lower=](../../recs/ode-dynamical/P1.md) `0.81`
 
 
 ## Enrichment (pymc-labs)

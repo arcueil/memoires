@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ hierarchical-multilevel J1 · for **minibatch/stochastic VI** (SVI/ADVI) → treating it like frequent](../../recs/hierarchical-multilevel/J1.md) `0.82`
-- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.81`
-- [✗ CC-convergence-diagnostics F2 · when NaN R̂/n_eff appears for S(0)=1 in a survival display grid → trea](../../recs/CC-convergence-diagnostics/F2.md) `0.80`
-- [✗ CC-convergence-diagnostics J2 · when you take ELBO-convergence as *mean*-convergence for MFVI on an il](../../recs/CC-convergence-diagnostics/J2.md) `0.79`
+- [✓ sparse-shrinkage W6 · for the **same stalled fit** → **diagnosing and fixing the geometry fi](../../recs/sparse-shrinkage/W6.md) `0.80`
+- [✗ hierarchical-multilevel J1 · for **minibatch/stochastic VI** (SVI/ADVI) → treating it like frequent](../../recs/hierarchical-multilevel/J1.md) `0.80`
+- [✗ CC-convergence-diagnostics J1 · when you read an oscillating / spiking ELBO curve as a bug or a bad va](../../recs/CC-convergence-diagnostics/J1.md) `0.80`
+- [✓ spatial-areal Z2 · for the same effects → the **N-corrected soft constraint sum(x) ~ norm](../../recs/spatial-areal/Z2.md) `0.80`

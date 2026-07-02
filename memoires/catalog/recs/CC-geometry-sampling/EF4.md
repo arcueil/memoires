@@ -18,7 +18,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.82`
+- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.86`
+- [✗ gaussian-process E3 · for a **geometric GP pathology** → cranking **adapt_delta / target_acc](../../recs/gaussian-process/E3.md) `0.82`
 - [✓ regression U9 · for the **underdetermined-regression E-BFMI failure** → a **more infor](../../recs/regression/U9.md) `0.81`
-- [✗ CC-convergence-diagnostics C3 · when fewer than 0.001 effective samples per transition → trusting repo](../../recs/CC-convergence-diagnostics/C3.md) `0.80`
-- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.80`
+- [✗ CC-priors-identifiability N2 · when **you use a diffuse-but-proper prior** (Normal(0,1000), U(−1000,1](../../recs/CC-priors-identifiability/N2.md) `0.80`

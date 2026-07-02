@@ -25,6 +25,14 @@ memoires graph hierarchical-multilevel/P4            # ↑ claims · ↔ related
 memoires stats
 ```
 
+**Semantic search** (finds concepts, not just keywords — "sampler slow but no divergences" → the
+geometry-vs-sampler principle):
+```bash
+pip install 'memoires[semantic]'          # adds a frozen embedder; the 768-d index ships in the wheel
+memoires search "my chain won't converge" # hybrid lexical+semantic by default when installed
+memoires search --semantic "funnel neck geometry"
+```
+
 Also browsable entirely on GitHub — every entry is a markdown node with clickable edges.
 
 ## Repository structure

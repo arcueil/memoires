@@ -18,10 +18,10 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-model-evaluation A1 · when **HMC diagnostics are clean** (0 divergences, R̂≈1, adequate ESS,](../../recs/CC-model-evaluation/A1.md) `0.80`
-- [✓ CC-model-evaluation H3 · when **assessing whether an effect is non-negligible** → a **direction](../../recs/CC-model-evaluation/H3.md) `0.80`
-- [✓ CC-model-evaluation F2 · when generating a posterior predictive → **drawing through the observa](../../recs/CC-model-evaluation/F2.md) `0.80`
-- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.80`
+- [✗ mixture D2 · for a **degenerate mixture** → the **standard HMC diagnostics** (diver](../../recs/mixture/D2.md) `0.84`
+- [✗ CC-priors-identifiability W1 · when **M > N** (more covariates than observations) and you **widen the](../../recs/CC-priors-identifiability/W1.md) `0.81`
+- [✓ sparse-shrinkage D5 · for **sparsity samplers** → reading **E-BFMI collapse as a geometry si](../../recs/sparse-shrinkage/D5.md) `0.81`
+- [✗ CC-convergence-diagnostics B7 · when divergences / E-BFMI / tree-depth are clean on a well-separated m](../../recs/CC-convergence-diagnostics/B7.md) `0.80`
 
 
 ## Technique (pymc-labs)

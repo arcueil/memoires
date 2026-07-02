@@ -19,7 +19,7 @@
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ ode-dynamical Q1 · for **supplying a prior scale by pre-fitting the data** (empirical-Bay](../../recs/ode-dynamical/Q1.md) `0.81`
-- [✓ hierarchical-multilevel G3 · for **marginal effects/predictions** from random-slope or correlated-R](../../recs/hierarchical-multilevel/G3.md) `0.80`
-- [✓ time-series-state-space S3 · for **deciding whether a clean fit actually reflects a correct model**](../../recs/time-series-state-space/S3.md) `0.80`
 - [✗ spatial-areal T1 · for a **CAR/GMRF model parameterized through precision Q** → interpret](../../recs/spatial-areal/T1.md) `0.80`
+- [✓ sparse-shrinkage D4 · for **sparse regression** → reading the **σ (noise) posterior as a sen](../../recs/sparse-shrinkage/D4.md) `0.80`
+- [✗ CC-model-evaluation F3 · when computing **predictive RMSE / intervals** → differencing data aga](../../recs/CC-model-evaluation/F3.md) `0.80`
+- [✗ CC-priors-identifiability X3 · when **you place a prior on a GMRF / CAR precision τ as if it were an ](../../recs/CC-priors-identifiability/X3.md) `0.80`

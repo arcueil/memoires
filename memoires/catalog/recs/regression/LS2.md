@@ -19,7 +19,7 @@ correlation** (brms `set_rescor(TRUE)`) does **NOT** work.
 
 *Similar challenges in other model classes / computation areas (embedding neighbors):*
 
-- [✗ CC-priors-identifiability K3 · when **you fix a random-effect correlation to zero** (brms `||`, lkj-a](../../recs/CC-priors-identifiability/K3.md) `0.84`
-- [✗ measurement-error-missing L1 · for a **custom count likelihood in brms/Stan on large-count data** → t](../../recs/measurement-error-missing/L1.md) `0.82`
-- [✗ latent-factor C1 · for **correlated multi-category count/compositional** data → **indepen](../../recs/latent-factor/C1.md) `0.80`
-- [✗ CC-model-evaluation H5 · when **comparing Bayesian R² across likelihood families** (binomial vs](../../recs/CC-model-evaluation/H5.md) `0.80`
+- [✗ CC-priors-identifiability K3 · when **you fix a random-effect correlation to zero** (brms `||`, lkj-a](../../recs/CC-priors-identifiability/K3.md) `0.83`
+- [✗ hierarchical-multilevel G2 · for a **mixed-effects model** → assuming a single **"Bayesian R²"** do](../../recs/hierarchical-multilevel/G2.md) `0.82`
+- [✗ CC-model-evaluation H4 · when reporting a **single "Bayesian R²"** for a mixed model → does **N](../../recs/CC-model-evaluation/H4.md) `0.82`
+- [✗ latent-factor C1 · for **correlated multi-category count/compositional** data → **indepen](../../recs/latent-factor/C1.md) `0.82`
