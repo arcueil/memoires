@@ -1,4 +1,10 @@
-# Bayesian catalog — the guide (3-layer, data-driven) · ✅ ADOPTED 2026-07-01
+# Mémoires
+
+*The [Arcueil](https://github.com/arcueil) catalog of Bayesian craft — curated, evidence-graded,
+contradiction-aware. Named for the* Mémoires de la Société d'Arcueil*, and read by
+[jaynes-robot](https://github.com/arcueil/jaynes-robot). License: CC BY 4.0.*
+
+**The guide (3-layer, data-driven) · ✅ adopted 2026-07-01**
 
 The published corpus. **Apex → claims → practical → moves**, depth measured from embeddings; recs rigorously validated (error-dense class swept); cross-checked against the human-curated **pymc-labs peer-L1** (`pymc_L1/`, gap-fillers merged in).
 
